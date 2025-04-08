@@ -1,0 +1,213 @@
+[
+  {
+    "DriverName": "John Doe",
+    "CarType": "Sedan",
+    "Price": 120,
+    "StarRating": 4,
+    "HotelId": 1
+  },
+  {
+    "DriverName": "Jane Smith",
+    "CarType": "SUV",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 1
+  },
+  {
+    "DriverName": "Alice Johnson",
+    "CarType": "Van",
+    "Price": 100,
+    "StarRating": 3,
+    "HotelId": 1
+  },
+  {
+    "DriverName": "Bob Brown",
+    "CarType": "Pickup",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 2
+  },
+  {
+    "DriverName": "Charlie Davis",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 2
+  },
+  {
+    "DriverName": "David Wilson",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 2
+  },
+  {
+    "DriverName": "Eva White",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 3
+  },
+  {
+    "DriverName": "Frank Clark",
+    "CarType": "SUV",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 3
+  },
+  {
+    "DriverName": "Grace Lee",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 3
+  },
+  {
+    "DriverName": "Hannah King",
+    "CarType": "Pickup",
+    "Price": 120,
+    "StarRating": 3,
+    "HotelId": 4
+  },
+  {
+    "DriverName": "Isaac Scott",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 4,
+    "HotelId": 4
+  },
+  {
+    "DriverName": "Jack Harris",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 4
+  },
+  {
+    "DriverName": "Kathy Adams",
+    "CarType": "Sedan",
+    "Price": 160,
+    "StarRating": 4,
+    "HotelId": 5
+  },
+  {
+    "DriverName": "Liam Carter",
+    "CarType": "SUV",
+    "Price": 170,
+    "StarRating": 5,
+    "HotelId": 5
+  },
+  {
+    "DriverName": "Mona Lewis",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 3,
+    "HotelId": 5
+  },
+  {
+    "DriverName": "Noah Parker",
+    "CarType": "Pickup",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 6
+  },
+  {
+    "DriverName": "Olivia Evans",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 6
+  },
+  {
+    "DriverName": "Paul Taylor",
+    "CarType": "Convertible",
+    "Price": 180,
+    "StarRating": 5,
+    "HotelId": 6
+  },
+  {
+    "DriverName": "Quinn Morgan",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 7
+  },
+  {
+    "DriverName": "Riley Perez",
+    "CarType": "SUV",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 7
+  },
+  {
+    "DriverName": "Sophie Roberts",
+    "CarType": "Van",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 7
+  },
+  {
+    "DriverName": "Thomas Baker",
+    "CarType": "Pickup",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 8
+  },
+  {
+    "DriverName": "Uma Garcia",
+    "CarType": "Coupe",
+    "Price": 120,
+    "StarRating": 4,
+    "HotelId": 8
+  },
+  {
+    "DriverName": "Victor Lewis",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 8
+  },
+  {
+    "DriverName": "William Allen",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 9
+  },
+  {
+    "DriverName": "Xander Hill",
+    "CarType": "SUV",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 9
+  },
+  {
+    "DriverName": "Yara Martin",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 9
+  },
+  {
+    "DriverName": "Zachary Scott",
+    "CarType": "Pickup",
+    "Price": 120,
+    "StarRating": 3,
+    "HotelId": 10
+  },
+  {
+    "DriverName": "Amelia Clark",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 4,
+    "HotelId": 10
+  },
+  {
+    "DriverName": "Ben Harris",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 10
+  }
+ 
+]

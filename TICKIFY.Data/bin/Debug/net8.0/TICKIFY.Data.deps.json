@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TICKIFY.Data/1.0.0": {
+        "runtime": {
+          "TICKIFY.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TICKIFY.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

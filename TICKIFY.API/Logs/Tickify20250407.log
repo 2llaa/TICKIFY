@@ -1,0 +1,394 @@
+2025-04-07 20:48:36.761 +02:00 [ERR] Error during migration/seeding: The ConnectionString property has not been initialized.
+2025-04-07 20:48:36.936 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 20:48:36.939 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 20:48:36.941 +02:00 [INF] Hosting environment: Development
+2025-04-07 20:48:36.942 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:22:17.243 +02:00 [ERR] Error during migration/seeding: The ConnectionString property has not been initialized.
+2025-04-07 21:22:17.419 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 21:22:17.425 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 21:22:17.429 +02:00 [INF] Hosting environment: Development
+2025-04-07 21:22:17.432 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:25:59.496 +02:00 [INF] Application is shutting down...
+2025-04-07 21:27:53.069 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:27:53.185 +02:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:27:53.203 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:27:53.213 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:27:53.231 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-07 21:27:53.256 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-04-07 21:27:53.265 +02:00 [INF] Migrations Applied Successfully.
+2025-04-07 21:27:53.372 +02:00 [ERR] Error during migration/seeding: The JSON value could not be converted to TICKIFY.Data.Enums.HotelName. Path: $[0].Name | LineNumber: 2 | BytePositionInLine: 33.
+2025-04-07 21:27:53.473 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 21:27:53.477 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 21:27:53.480 +02:00 [INF] Hosting environment: Development
+2025-04-07 21:27:53.482 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:36:37.701 +02:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:36:37.820 +02:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:36:37.832 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:36:37.841 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:36:37.861 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-07 21:36:37.884 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-04-07 21:36:37.889 +02:00 [INF] Migrations Applied Successfully.
+2025-04-07 21:36:38.172 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Hotels] AS [h]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:36:38.343 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 200), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 200), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Size = 4000), @p9='?' (Size = 200), @p10='?' (Size = 4000), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (Size = 200), @p14='?' (Size = 4000), @p15='?' (DbType = Int32), @p16='?' (Size = 4000), @p17='?' (Size = 200), @p18='?' (Size = 4000), @p19='?' (DbType = Int32), @p20='?' (Size = 4000), @p21='?' (Size = 200), @p22='?' (Size = 4000), @p23='?' (DbType = Int32), @p24='?' (Size = 4000), @p25='?' (Size = 200), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (Size = 4000), @p29='?' (Size = 200), @p30='?' (Size = 4000), @p31='?' (DbType = Int32), @p32='?' (Size = 4000), @p33='?' (Size = 200), @p34='?' (Size = 4000), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (Size = 200), @p38='?' (Size = 4000), @p39='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Hotels] USING (
+VALUES (@p0, @p1, @p2, @p3, 0),
+(@p4, @p5, @p6, @p7, 1),
+(@p8, @p9, @p10, @p11, 2),
+(@p12, @p13, @p14, @p15, 3),
+(@p16, @p17, @p18, @p19, 4),
+(@p20, @p21, @p22, @p23, 5),
+(@p24, @p25, @p26, @p27, 6),
+(@p28, @p29, @p30, @p31, 7),
+(@p32, @p33, @p34, @p35, 8),
+(@p36, @p37, @p38, @p39, 9)) AS i ([Category], [Location], [Name], [StarRating], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Category], [Location], [Name], [StarRating])
+VALUES (i.[Category], i.[Location], i.[Name], i.[StarRating])
+OUTPUT INSERTED.[HotelId], i._Position;
+2025-04-07 21:36:38.393 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Rooms] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:36:38.495 +02:00 [INF] Executed DbCommand (41ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 100), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32), @p12='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p13='?' (DbType = Int32), @p14='?' (Size = 4000), @p15='?' (Size = 100), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32), @p20='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (Size = 4000), @p23='?' (Size = 100), @p24='?' (DbType = Int32), @p25='?' (DbType = DateTime2), @p26='?' (DbType = DateTime2), @p27='?' (DbType = Int32), @p28='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32), @p30='?' (Size = 4000), @p31='?' (Size = 100), @p32='?' (DbType = Int32), @p33='?' (DbType = DateTime2), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Int32), @p36='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (Size = 4000), @p39='?' (Size = 100), @p40='?' (DbType = Int32), @p41='?' (DbType = DateTime2), @p42='?' (DbType = DateTime2), @p43='?' (DbType = Int32), @p44='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p45='?' (DbType = Int32), @p46='?' (Size = 4000), @p47='?' (Size = 100), @p48='?' (DbType = Int32), @p49='?' (DbType = DateTime2), @p50='?' (DbType = DateTime2), @p51='?' (DbType = Int32), @p52='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p53='?' (DbType = Int32), @p54='?' (Size = 4000), @p55='?' (Size = 100), @p56='?' (DbType = Int32), @p57='?' (DbType = DateTime2), @p58='?' (DbType = DateTime2), @p59='?' (DbType = Int32), @p60='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p61='?' (DbType = Int32), @p62='?' (Size = 4000), @p63='?' (Size = 100), @p64='?' (DbType = Int32), @p65='?' (DbType = DateTime2), @p66='?' (DbType = DateTime2), @p67='?' (DbType = Int32), @p68='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p69='?' (DbType = Int32), @p70='?' (Size = 4000), @p71='?' (Size = 100), @p72='?' (DbType = Int32), @p73='?' (DbType = DateTime2), @p74='?' (DbType = DateTime2), @p75='?' (DbType = Int32), @p76='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p77='?' (DbType = Int32), @p78='?' (Size = 4000), @p79='?' (Size = 100), @p80='?' (DbType = Int32), @p81='?' (DbType = DateTime2), @p82='?' (DbType = DateTime2), @p83='?' (DbType = Int32), @p84='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p85='?' (DbType = Int32), @p86='?' (Size = 4000), @p87='?' (Size = 100), @p88='?' (DbType = Int32), @p89='?' (DbType = DateTime2), @p90='?' (DbType = DateTime2), @p91='?' (DbType = Int32), @p92='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p93='?' (DbType = Int32), @p94='?' (Size = 4000), @p95='?' (Size = 100), @p96='?' (DbType = Int32), @p97='?' (DbType = DateTime2), @p98='?' (DbType = DateTime2), @p99='?' (DbType = Int32), @p100='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p101='?' (DbType = Int32), @p102='?' (Size = 4000), @p103='?' (Size = 100), @p104='?' (DbType = Int32), @p105='?' (DbType = DateTime2), @p106='?' (DbType = DateTime2), @p107='?' (DbType = Int32), @p108='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p109='?' (DbType = Int32), @p110='?' (Size = 4000), @p111='?' (Size = 100), @p112='?' (DbType = Int32), @p113='?' (DbType = DateTime2), @p114='?' (DbType = DateTime2), @p115='?' (DbType = Int32), @p116='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p117='?' (DbType = Int32), @p118='?' (Size = 4000), @p119='?' (Size = 100), @p120='?' (DbType = Int32), @p121='?' (DbType = DateTime2), @p122='?' (DbType = DateTime2), @p123='?' (DbType = Int32), @p124='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p125='?' (DbType = Int32), @p126='?' (Size = 4000), @p127='?' (Size = 100), @p128='?' (DbType = Int32), @p129='?' (DbType = DateTime2), @p130='?' (DbType = DateTime2), @p131='?' (DbType = Int32), @p132='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p133='?' (DbType = Int32), @p134='?' (Size = 4000), @p135='?' (Size = 100), @p136='?' (DbType = Int32), @p137='?' (DbType = DateTime2), @p138='?' (DbType = DateTime2), @p139='?' (DbType = Int32), @p140='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p141='?' (DbType = Int32), @p142='?' (Size = 4000), @p143='?' (Size = 100), @p144='?' (DbType = Int32), @p145='?' (DbType = DateTime2), @p146='?' (DbType = DateTime2), @p147='?' (DbType = Int32), @p148='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p149='?' (DbType = Int32), @p150='?' (Size = 4000), @p151='?' (Size = 100), @p152='?' (DbType = Int32), @p153='?' (DbType = DateTime2), @p154='?' (DbType = DateTime2), @p155='?' (DbType = Int32), @p156='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p157='?' (DbType = Int32), @p158='?' (Size = 4000), @p159='?' (Size = 100), @p160='?' (DbType = Int32), @p161='?' (DbType = DateTime2), @p162='?' (DbType = DateTime2), @p163='?' (DbType = Int32), @p164='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p165='?' (DbType = Int32), @p166='?' (Size = 4000), @p167='?' (Size = 100), @p168='?' (DbType = Int32), @p169='?' (DbType = DateTime2), @p170='?' (DbType = DateTime2), @p171='?' (DbType = Int32), @p172='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p173='?' (DbType = Int32), @p174='?' (Size = 4000), @p175='?' (Size = 100), @p176='?' (DbType = Int32), @p177='?' (DbType = DateTime2), @p178='?' (DbType = DateTime2), @p179='?' (DbType = Int32), @p180='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p181='?' (DbType = Int32), @p182='?' (Size = 4000), @p183='?' (Size = 100), @p184='?' (DbType = Int32), @p185='?' (DbType = DateTime2), @p186='?' (DbType = DateTime2), @p187='?' (DbType = Int32), @p188='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p189='?' (DbType = Int32), @p190='?' (Size = 4000), @p191='?' (Size = 100), @p192='?' (DbType = Int32), @p193='?' (DbType = DateTime2), @p194='?' (DbType = DateTime2), @p195='?' (DbType = Int32), @p196='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p197='?' (DbType = Int32), @p198='?' (Size = 4000), @p199='?' (Size = 100), @p200='?' (DbType = Int32), @p201='?' (DbType = DateTime2), @p202='?' (DbType = DateTime2), @p203='?' (DbType = Int32), @p204='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p205='?' (DbType = Int32), @p206='?' (Size = 4000), @p207='?' (Size = 100), @p208='?' (DbType = Int32), @p209='?' (DbType = DateTime2), @p210='?' (DbType = DateTime2), @p211='?' (DbType = Int32), @p212='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p213='?' (DbType = Int32), @p214='?' (Size = 4000), @p215='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Rooms] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, 0),
+(@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, 1),
+(@p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, 2),
+(@p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, 3),
+(@p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, 4),
+(@p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, 5),
+(@p48, @p49, @p50, @p51, @p52, @p53, @p54, @p55, 6),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62, @p63, 7),
+(@p64, @p65, @p66, @p67, @p68, @p69, @p70, @p71, 8),
+(@p72, @p73, @p74, @p75, @p76, @p77, @p78, @p79, 9),
+(@p80, @p81, @p82, @p83, @p84, @p85, @p86, @p87, 10),
+(@p88, @p89, @p90, @p91, @p92, @p93, @p94, @p95, 11),
+(@p96, @p97, @p98, @p99, @p100, @p101, @p102, @p103, 12),
+(@p104, @p105, @p106, @p107, @p108, @p109, @p110, @p111, 13),
+(@p112, @p113, @p114, @p115, @p116, @p117, @p118, @p119, 14),
+(@p120, @p121, @p122, @p123, @p124, @p125, @p126, @p127, 15),
+(@p128, @p129, @p130, @p131, @p132, @p133, @p134, @p135, 16),
+(@p136, @p137, @p138, @p139, @p140, @p141, @p142, @p143, 17),
+(@p144, @p145, @p146, @p147, @p148, @p149, @p150, @p151, 18),
+(@p152, @p153, @p154, @p155, @p156, @p157, @p158, @p159, 19),
+(@p160, @p161, @p162, @p163, @p164, @p165, @p166, @p167, 20),
+(@p168, @p169, @p170, @p171, @p172, @p173, @p174, @p175, 21),
+(@p176, @p177, @p178, @p179, @p180, @p181, @p182, @p183, 22),
+(@p184, @p185, @p186, @p187, @p188, @p189, @p190, @p191, 23),
+(@p192, @p193, @p194, @p195, @p196, @p197, @p198, @p199, 24),
+(@p200, @p201, @p202, @p203, @p204, @p205, @p206, @p207, 25),
+(@p208, @p209, @p210, @p211, @p212, @p213, @p214, @p215, 26)) AS i ([BedCount], [DateIn], [DateOut], [HotelId], [PricePerNight], [RoomNumber], [Status], [Type], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([BedCount], [DateIn], [DateOut], [HotelId], [PricePerNight], [RoomNumber], [Status], [Type])
+VALUES (i.[BedCount], i.[DateIn], i.[DateOut], i.[HotelId], i.[PricePerNight], i.[RoomNumber], i.[Status], i.[Type])
+OUTPUT INSERTED.[RoomId], i._Position;
+2025-04-07 21:36:38.544 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Drivers] AS [d]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:36:38.620 +02:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 100), @p2='?' (DbType = Int32), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (Size = 50), @p6='?' (Size = 100), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (Size = 100), @p12='?' (DbType = Int32), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p14='?' (DbType = Int32), @p15='?' (Size = 50), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p19='?' (DbType = Int32), @p20='?' (Size = 50), @p21='?' (Size = 100), @p22='?' (DbType = Int32), @p23='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p24='?' (DbType = Int32), @p25='?' (Size = 50), @p26='?' (Size = 100), @p27='?' (DbType = Int32), @p28='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32), @p30='?' (Size = 50), @p31='?' (Size = 100), @p32='?' (DbType = Int32), @p33='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p34='?' (DbType = Int32), @p35='?' (Size = 50), @p36='?' (Size = 100), @p37='?' (DbType = Int32), @p38='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p39='?' (DbType = Int32), @p40='?' (Size = 50), @p41='?' (Size = 100), @p42='?' (DbType = Int32), @p43='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p44='?' (DbType = Int32), @p45='?' (Size = 50), @p46='?' (Size = 100), @p47='?' (DbType = Int32), @p48='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p49='?' (DbType = Int32), @p50='?' (Size = 50), @p51='?' (Size = 100), @p52='?' (DbType = Int32), @p53='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p54='?' (DbType = Int32), @p55='?' (Size = 50), @p56='?' (Size = 100), @p57='?' (DbType = Int32), @p58='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p59='?' (DbType = Int32), @p60='?' (Size = 50), @p61='?' (Size = 100), @p62='?' (DbType = Int32), @p63='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p64='?' (DbType = Int32), @p65='?' (Size = 50), @p66='?' (Size = 100), @p67='?' (DbType = Int32), @p68='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p69='?' (DbType = Int32), @p70='?' (Size = 50), @p71='?' (Size = 100), @p72='?' (DbType = Int32), @p73='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p74='?' (DbType = Int32), @p75='?' (Size = 50), @p76='?' (Size = 100), @p77='?' (DbType = Int32), @p78='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p79='?' (DbType = Int32), @p80='?' (Size = 50), @p81='?' (Size = 100), @p82='?' (DbType = Int32), @p83='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p84='?' (DbType = Int32), @p85='?' (Size = 50), @p86='?' (Size = 100), @p87='?' (DbType = Int32), @p88='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p89='?' (DbType = Int32), @p90='?' (Size = 50), @p91='?' (Size = 100), @p92='?' (DbType = Int32), @p93='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p94='?' (DbType = Int32), @p95='?' (Size = 50), @p96='?' (Size = 100), @p97='?' (DbType = Int32), @p98='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p99='?' (DbType = Int32), @p100='?' (Size = 50), @p101='?' (Size = 100), @p102='?' (DbType = Int32), @p103='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p104='?' (DbType = Int32), @p105='?' (Size = 50), @p106='?' (Size = 100), @p107='?' (DbType = Int32), @p108='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p109='?' (DbType = Int32), @p110='?' (Size = 50), @p111='?' (Size = 100), @p112='?' (DbType = Int32), @p113='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p114='?' (DbType = Int32), @p115='?' (Size = 50), @p116='?' (Size = 100), @p117='?' (DbType = Int32), @p118='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p119='?' (DbType = Int32), @p120='?' (Size = 50), @p121='?' (Size = 100), @p122='?' (DbType = Int32), @p123='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p124='?' (DbType = Int32), @p125='?' (Size = 50), @p126='?' (Size = 100), @p127='?' (DbType = Int32), @p128='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p129='?' (DbType = Int32), @p130='?' (Size = 50), @p131='?' (Size = 100), @p132='?' (DbType = Int32), @p133='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p134='?' (DbType = Int32), @p135='?' (Size = 50), @p136='?' (Size = 100), @p137='?' (DbType = Int32), @p138='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p139='?' (DbType = Int32), @p140='?' (Size = 50), @p141='?' (Size = 100), @p142='?' (DbType = Int32), @p143='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p144='?' (DbType = Int32), @p145='?' (Size = 50), @p146='?' (Size = 100), @p147='?' (DbType = Int32), @p148='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p149='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Drivers] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, 0),
+(@p5, @p6, @p7, @p8, @p9, 1),
+(@p10, @p11, @p12, @p13, @p14, 2),
+(@p15, @p16, @p17, @p18, @p19, 3),
+(@p20, @p21, @p22, @p23, @p24, 4),
+(@p25, @p26, @p27, @p28, @p29, 5),
+(@p30, @p31, @p32, @p33, @p34, 6),
+(@p35, @p36, @p37, @p38, @p39, 7),
+(@p40, @p41, @p42, @p43, @p44, 8),
+(@p45, @p46, @p47, @p48, @p49, 9),
+(@p50, @p51, @p52, @p53, @p54, 10),
+(@p55, @p56, @p57, @p58, @p59, 11),
+(@p60, @p61, @p62, @p63, @p64, 12),
+(@p65, @p66, @p67, @p68, @p69, 13),
+(@p70, @p71, @p72, @p73, @p74, 14),
+(@p75, @p76, @p77, @p78, @p79, 15),
+(@p80, @p81, @p82, @p83, @p84, 16),
+(@p85, @p86, @p87, @p88, @p89, 17),
+(@p90, @p91, @p92, @p93, @p94, 18),
+(@p95, @p96, @p97, @p98, @p99, 19),
+(@p100, @p101, @p102, @p103, @p104, 20),
+(@p105, @p106, @p107, @p108, @p109, 21),
+(@p110, @p111, @p112, @p113, @p114, 22),
+(@p115, @p116, @p117, @p118, @p119, 23),
+(@p120, @p121, @p122, @p123, @p124, 24),
+(@p125, @p126, @p127, @p128, @p129, 25),
+(@p130, @p131, @p132, @p133, @p134, 26),
+(@p135, @p136, @p137, @p138, @p139, 27),
+(@p140, @p141, @p142, @p143, @p144, 28),
+(@p145, @p146, @p147, @p148, @p149, 29)) AS i ([CarType], [DriverName], [HotelId], [Price], [StarRating], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CarType], [DriverName], [HotelId], [Price], [StarRating])
+VALUES (i.[CarType], i.[DriverName], i.[HotelId], i.[Price], i.[StarRating])
+OUTPUT INSERTED.[DriverId], i._Position;
+2025-04-07 21:36:38.640 +02:00 [ERR] Error during migration/seeding: JsonPropertyInfo 'HotelReservation' defined in type 'TICKIFY.Data.Entities.ReservationDetails' is marked required but does not specify a setter.
+2025-04-07 21:36:38.750 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 21:36:38.754 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 21:36:38.757 +02:00 [INF] Hosting environment: Development
+2025-04-07 21:36:38.760 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:48:22.029 +02:00 [INF] Application is shutting down...
+2025-04-07 21:49:59.476 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:49:59.558 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:49:59.567 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:49:59.574 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:49:59.591 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-07 21:49:59.615 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-04-07 21:49:59.621 +02:00 [INF] Migrations Applied Successfully.
+2025-04-07 21:49:59.879 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Hotels] AS [h]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:50:00.058 +02:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 200), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (Size = 200), @p6='?' (Size = 4000), @p7='?' (DbType = Int32), @p8='?' (Size = 4000), @p9='?' (Size = 200), @p10='?' (Size = 4000), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (Size = 200), @p14='?' (Size = 4000), @p15='?' (DbType = Int32), @p16='?' (Size = 4000), @p17='?' (Size = 200), @p18='?' (Size = 4000), @p19='?' (DbType = Int32), @p20='?' (Size = 4000), @p21='?' (Size = 200), @p22='?' (Size = 4000), @p23='?' (DbType = Int32), @p24='?' (Size = 4000), @p25='?' (Size = 200), @p26='?' (Size = 4000), @p27='?' (DbType = Int32), @p28='?' (Size = 4000), @p29='?' (Size = 200), @p30='?' (Size = 4000), @p31='?' (DbType = Int32), @p32='?' (Size = 4000), @p33='?' (Size = 200), @p34='?' (Size = 4000), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (Size = 200), @p38='?' (Size = 4000), @p39='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Hotels] USING (
+VALUES (@p0, @p1, @p2, @p3, 0),
+(@p4, @p5, @p6, @p7, 1),
+(@p8, @p9, @p10, @p11, 2),
+(@p12, @p13, @p14, @p15, 3),
+(@p16, @p17, @p18, @p19, 4),
+(@p20, @p21, @p22, @p23, 5),
+(@p24, @p25, @p26, @p27, 6),
+(@p28, @p29, @p30, @p31, 7),
+(@p32, @p33, @p34, @p35, 8),
+(@p36, @p37, @p38, @p39, 9)) AS i ([Category], [Location], [Name], [StarRating], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Category], [Location], [Name], [StarRating])
+VALUES (i.[Category], i.[Location], i.[Name], i.[StarRating])
+OUTPUT INSERTED.[HotelId], i._Position;
+2025-04-07 21:50:00.109 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Rooms] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:50:00.213 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (DbType = DateTime2), @p3='?' (DbType = Int32), @p4='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (Size = 100), @p8='?' (DbType = Int32), @p9='?' (DbType = DateTime2), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32), @p12='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p13='?' (DbType = Int32), @p14='?' (Size = 4000), @p15='?' (Size = 100), @p16='?' (DbType = Int32), @p17='?' (DbType = DateTime2), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Int32), @p20='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p21='?' (DbType = Int32), @p22='?' (Size = 4000), @p23='?' (Size = 100), @p24='?' (DbType = Int32), @p25='?' (DbType = DateTime2), @p26='?' (DbType = DateTime2), @p27='?' (DbType = Int32), @p28='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32), @p30='?' (Size = 4000), @p31='?' (Size = 100), @p32='?' (DbType = Int32), @p33='?' (DbType = DateTime2), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Int32), @p36='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p37='?' (DbType = Int32), @p38='?' (Size = 4000), @p39='?' (Size = 100), @p40='?' (DbType = Int32), @p41='?' (DbType = DateTime2), @p42='?' (DbType = DateTime2), @p43='?' (DbType = Int32), @p44='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p45='?' (DbType = Int32), @p46='?' (Size = 4000), @p47='?' (Size = 100), @p48='?' (DbType = Int32), @p49='?' (DbType = DateTime2), @p50='?' (DbType = DateTime2), @p51='?' (DbType = Int32), @p52='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p53='?' (DbType = Int32), @p54='?' (Size = 4000), @p55='?' (Size = 100), @p56='?' (DbType = Int32), @p57='?' (DbType = DateTime2), @p58='?' (DbType = DateTime2), @p59='?' (DbType = Int32), @p60='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p61='?' (DbType = Int32), @p62='?' (Size = 4000), @p63='?' (Size = 100), @p64='?' (DbType = Int32), @p65='?' (DbType = DateTime2), @p66='?' (DbType = DateTime2), @p67='?' (DbType = Int32), @p68='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p69='?' (DbType = Int32), @p70='?' (Size = 4000), @p71='?' (Size = 100), @p72='?' (DbType = Int32), @p73='?' (DbType = DateTime2), @p74='?' (DbType = DateTime2), @p75='?' (DbType = Int32), @p76='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p77='?' (DbType = Int32), @p78='?' (Size = 4000), @p79='?' (Size = 100), @p80='?' (DbType = Int32), @p81='?' (DbType = DateTime2), @p82='?' (DbType = DateTime2), @p83='?' (DbType = Int32), @p84='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p85='?' (DbType = Int32), @p86='?' (Size = 4000), @p87='?' (Size = 100), @p88='?' (DbType = Int32), @p89='?' (DbType = DateTime2), @p90='?' (DbType = DateTime2), @p91='?' (DbType = Int32), @p92='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p93='?' (DbType = Int32), @p94='?' (Size = 4000), @p95='?' (Size = 100), @p96='?' (DbType = Int32), @p97='?' (DbType = DateTime2), @p98='?' (DbType = DateTime2), @p99='?' (DbType = Int32), @p100='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p101='?' (DbType = Int32), @p102='?' (Size = 4000), @p103='?' (Size = 100), @p104='?' (DbType = Int32), @p105='?' (DbType = DateTime2), @p106='?' (DbType = DateTime2), @p107='?' (DbType = Int32), @p108='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p109='?' (DbType = Int32), @p110='?' (Size = 4000), @p111='?' (Size = 100), @p112='?' (DbType = Int32), @p113='?' (DbType = DateTime2), @p114='?' (DbType = DateTime2), @p115='?' (DbType = Int32), @p116='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p117='?' (DbType = Int32), @p118='?' (Size = 4000), @p119='?' (Size = 100), @p120='?' (DbType = Int32), @p121='?' (DbType = DateTime2), @p122='?' (DbType = DateTime2), @p123='?' (DbType = Int32), @p124='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p125='?' (DbType = Int32), @p126='?' (Size = 4000), @p127='?' (Size = 100), @p128='?' (DbType = Int32), @p129='?' (DbType = DateTime2), @p130='?' (DbType = DateTime2), @p131='?' (DbType = Int32), @p132='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p133='?' (DbType = Int32), @p134='?' (Size = 4000), @p135='?' (Size = 100), @p136='?' (DbType = Int32), @p137='?' (DbType = DateTime2), @p138='?' (DbType = DateTime2), @p139='?' (DbType = Int32), @p140='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p141='?' (DbType = Int32), @p142='?' (Size = 4000), @p143='?' (Size = 100), @p144='?' (DbType = Int32), @p145='?' (DbType = DateTime2), @p146='?' (DbType = DateTime2), @p147='?' (DbType = Int32), @p148='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p149='?' (DbType = Int32), @p150='?' (Size = 4000), @p151='?' (Size = 100), @p152='?' (DbType = Int32), @p153='?' (DbType = DateTime2), @p154='?' (DbType = DateTime2), @p155='?' (DbType = Int32), @p156='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p157='?' (DbType = Int32), @p158='?' (Size = 4000), @p159='?' (Size = 100), @p160='?' (DbType = Int32), @p161='?' (DbType = DateTime2), @p162='?' (DbType = DateTime2), @p163='?' (DbType = Int32), @p164='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p165='?' (DbType = Int32), @p166='?' (Size = 4000), @p167='?' (Size = 100), @p168='?' (DbType = Int32), @p169='?' (DbType = DateTime2), @p170='?' (DbType = DateTime2), @p171='?' (DbType = Int32), @p172='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p173='?' (DbType = Int32), @p174='?' (Size = 4000), @p175='?' (Size = 100), @p176='?' (DbType = Int32), @p177='?' (DbType = DateTime2), @p178='?' (DbType = DateTime2), @p179='?' (DbType = Int32), @p180='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p181='?' (DbType = Int32), @p182='?' (Size = 4000), @p183='?' (Size = 100), @p184='?' (DbType = Int32), @p185='?' (DbType = DateTime2), @p186='?' (DbType = DateTime2), @p187='?' (DbType = Int32), @p188='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p189='?' (DbType = Int32), @p190='?' (Size = 4000), @p191='?' (Size = 100), @p192='?' (DbType = Int32), @p193='?' (DbType = DateTime2), @p194='?' (DbType = DateTime2), @p195='?' (DbType = Int32), @p196='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p197='?' (DbType = Int32), @p198='?' (Size = 4000), @p199='?' (Size = 100), @p200='?' (DbType = Int32), @p201='?' (DbType = DateTime2), @p202='?' (DbType = DateTime2), @p203='?' (DbType = Int32), @p204='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p205='?' (DbType = Int32), @p206='?' (Size = 4000), @p207='?' (Size = 100), @p208='?' (DbType = Int32), @p209='?' (DbType = DateTime2), @p210='?' (DbType = DateTime2), @p211='?' (DbType = Int32), @p212='?' (Precision = 10) (Scale = 2) (DbType = Decimal), @p213='?' (DbType = Int32), @p214='?' (Size = 4000), @p215='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Rooms] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, 0),
+(@p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, 1),
+(@p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, 2),
+(@p24, @p25, @p26, @p27, @p28, @p29, @p30, @p31, 3),
+(@p32, @p33, @p34, @p35, @p36, @p37, @p38, @p39, 4),
+(@p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, 5),
+(@p48, @p49, @p50, @p51, @p52, @p53, @p54, @p55, 6),
+(@p56, @p57, @p58, @p59, @p60, @p61, @p62, @p63, 7),
+(@p64, @p65, @p66, @p67, @p68, @p69, @p70, @p71, 8),
+(@p72, @p73, @p74, @p75, @p76, @p77, @p78, @p79, 9),
+(@p80, @p81, @p82, @p83, @p84, @p85, @p86, @p87, 10),
+(@p88, @p89, @p90, @p91, @p92, @p93, @p94, @p95, 11),
+(@p96, @p97, @p98, @p99, @p100, @p101, @p102, @p103, 12),
+(@p104, @p105, @p106, @p107, @p108, @p109, @p110, @p111, 13),
+(@p112, @p113, @p114, @p115, @p116, @p117, @p118, @p119, 14),
+(@p120, @p121, @p122, @p123, @p124, @p125, @p126, @p127, 15),
+(@p128, @p129, @p130, @p131, @p132, @p133, @p134, @p135, 16),
+(@p136, @p137, @p138, @p139, @p140, @p141, @p142, @p143, 17),
+(@p144, @p145, @p146, @p147, @p148, @p149, @p150, @p151, 18),
+(@p152, @p153, @p154, @p155, @p156, @p157, @p158, @p159, 19),
+(@p160, @p161, @p162, @p163, @p164, @p165, @p166, @p167, 20),
+(@p168, @p169, @p170, @p171, @p172, @p173, @p174, @p175, 21),
+(@p176, @p177, @p178, @p179, @p180, @p181, @p182, @p183, 22),
+(@p184, @p185, @p186, @p187, @p188, @p189, @p190, @p191, 23),
+(@p192, @p193, @p194, @p195, @p196, @p197, @p198, @p199, 24),
+(@p200, @p201, @p202, @p203, @p204, @p205, @p206, @p207, 25),
+(@p208, @p209, @p210, @p211, @p212, @p213, @p214, @p215, 26)) AS i ([BedCount], [DateIn], [DateOut], [HotelId], [PricePerNight], [RoomNumber], [Status], [Type], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([BedCount], [DateIn], [DateOut], [HotelId], [PricePerNight], [RoomNumber], [Status], [Type])
+VALUES (i.[BedCount], i.[DateIn], i.[DateOut], i.[HotelId], i.[PricePerNight], i.[RoomNumber], i.[Status], i.[Type])
+OUTPUT INSERTED.[RoomId], i._Position;
+2025-04-07 21:50:00.237 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Drivers] AS [d]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:50:00.313 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[@p0='?' (Size = 50), @p1='?' (Size = 100), @p2='?' (DbType = Int32), @p3='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (Size = 50), @p6='?' (Size = 100), @p7='?' (DbType = Int32), @p8='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p9='?' (DbType = Int32), @p10='?' (Size = 50), @p11='?' (Size = 100), @p12='?' (DbType = Int32), @p13='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p14='?' (DbType = Int32), @p15='?' (Size = 50), @p16='?' (Size = 100), @p17='?' (DbType = Int32), @p18='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p19='?' (DbType = Int32), @p20='?' (Size = 50), @p21='?' (Size = 100), @p22='?' (DbType = Int32), @p23='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p24='?' (DbType = Int32), @p25='?' (Size = 50), @p26='?' (Size = 100), @p27='?' (DbType = Int32), @p28='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p29='?' (DbType = Int32), @p30='?' (Size = 50), @p31='?' (Size = 100), @p32='?' (DbType = Int32), @p33='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p34='?' (DbType = Int32), @p35='?' (Size = 50), @p36='?' (Size = 100), @p37='?' (DbType = Int32), @p38='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p39='?' (DbType = Int32), @p40='?' (Size = 50), @p41='?' (Size = 100), @p42='?' (DbType = Int32), @p43='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p44='?' (DbType = Int32), @p45='?' (Size = 50), @p46='?' (Size = 100), @p47='?' (DbType = Int32), @p48='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p49='?' (DbType = Int32), @p50='?' (Size = 50), @p51='?' (Size = 100), @p52='?' (DbType = Int32), @p53='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p54='?' (DbType = Int32), @p55='?' (Size = 50), @p56='?' (Size = 100), @p57='?' (DbType = Int32), @p58='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p59='?' (DbType = Int32), @p60='?' (Size = 50), @p61='?' (Size = 100), @p62='?' (DbType = Int32), @p63='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p64='?' (DbType = Int32), @p65='?' (Size = 50), @p66='?' (Size = 100), @p67='?' (DbType = Int32), @p68='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p69='?' (DbType = Int32), @p70='?' (Size = 50), @p71='?' (Size = 100), @p72='?' (DbType = Int32), @p73='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p74='?' (DbType = Int32), @p75='?' (Size = 50), @p76='?' (Size = 100), @p77='?' (DbType = Int32), @p78='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p79='?' (DbType = Int32), @p80='?' (Size = 50), @p81='?' (Size = 100), @p82='?' (DbType = Int32), @p83='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p84='?' (DbType = Int32), @p85='?' (Size = 50), @p86='?' (Size = 100), @p87='?' (DbType = Int32), @p88='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p89='?' (DbType = Int32), @p90='?' (Size = 50), @p91='?' (Size = 100), @p92='?' (DbType = Int32), @p93='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p94='?' (DbType = Int32), @p95='?' (Size = 50), @p96='?' (Size = 100), @p97='?' (DbType = Int32), @p98='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p99='?' (DbType = Int32), @p100='?' (Size = 50), @p101='?' (Size = 100), @p102='?' (DbType = Int32), @p103='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p104='?' (DbType = Int32), @p105='?' (Size = 50), @p106='?' (Size = 100), @p107='?' (DbType = Int32), @p108='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p109='?' (DbType = Int32), @p110='?' (Size = 50), @p111='?' (Size = 100), @p112='?' (DbType = Int32), @p113='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p114='?' (DbType = Int32), @p115='?' (Size = 50), @p116='?' (Size = 100), @p117='?' (DbType = Int32), @p118='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p119='?' (DbType = Int32), @p120='?' (Size = 50), @p121='?' (Size = 100), @p122='?' (DbType = Int32), @p123='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p124='?' (DbType = Int32), @p125='?' (Size = 50), @p126='?' (Size = 100), @p127='?' (DbType = Int32), @p128='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p129='?' (DbType = Int32), @p130='?' (Size = 50), @p131='?' (Size = 100), @p132='?' (DbType = Int32), @p133='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p134='?' (DbType = Int32), @p135='?' (Size = 50), @p136='?' (Size = 100), @p137='?' (DbType = Int32), @p138='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p139='?' (DbType = Int32), @p140='?' (Size = 50), @p141='?' (Size = 100), @p142='?' (DbType = Int32), @p143='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p144='?' (DbType = Int32), @p145='?' (Size = 50), @p146='?' (Size = 100), @p147='?' (DbType = Int32), @p148='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p149='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [Drivers] USING (
+VALUES (@p0, @p1, @p2, @p3, @p4, 0),
+(@p5, @p6, @p7, @p8, @p9, 1),
+(@p10, @p11, @p12, @p13, @p14, 2),
+(@p15, @p16, @p17, @p18, @p19, 3),
+(@p20, @p21, @p22, @p23, @p24, 4),
+(@p25, @p26, @p27, @p28, @p29, 5),
+(@p30, @p31, @p32, @p33, @p34, 6),
+(@p35, @p36, @p37, @p38, @p39, 7),
+(@p40, @p41, @p42, @p43, @p44, 8),
+(@p45, @p46, @p47, @p48, @p49, 9),
+(@p50, @p51, @p52, @p53, @p54, 10),
+(@p55, @p56, @p57, @p58, @p59, 11),
+(@p60, @p61, @p62, @p63, @p64, 12),
+(@p65, @p66, @p67, @p68, @p69, 13),
+(@p70, @p71, @p72, @p73, @p74, 14),
+(@p75, @p76, @p77, @p78, @p79, 15),
+(@p80, @p81, @p82, @p83, @p84, 16),
+(@p85, @p86, @p87, @p88, @p89, 17),
+(@p90, @p91, @p92, @p93, @p94, 18),
+(@p95, @p96, @p97, @p98, @p99, 19),
+(@p100, @p101, @p102, @p103, @p104, 20),
+(@p105, @p106, @p107, @p108, @p109, 21),
+(@p110, @p111, @p112, @p113, @p114, 22),
+(@p115, @p116, @p117, @p118, @p119, 23),
+(@p120, @p121, @p122, @p123, @p124, 24),
+(@p125, @p126, @p127, @p128, @p129, 25),
+(@p130, @p131, @p132, @p133, @p134, 26),
+(@p135, @p136, @p137, @p138, @p139, 27),
+(@p140, @p141, @p142, @p143, @p144, 28),
+(@p145, @p146, @p147, @p148, @p149, 29)) AS i ([CarType], [DriverName], [HotelId], [Price], [StarRating], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CarType], [DriverName], [HotelId], [Price], [StarRating])
+VALUES (i.[CarType], i.[DriverName], i.[HotelId], i.[Price], i.[StarRating])
+OUTPUT INSERTED.[DriverId], i._Position;
+2025-04-07 21:50:00.341 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [HotelReservations] AS [h]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:50:00.382 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Int32), @p7='?' (Size = 4000), @p8='?' (DbType = DateTime2), @p9='?' (DbType = DateTime2), @p10='?' (DbType = Int32), @p11='?' (Size = 4000), @p12='?' (DbType = DateTime2), @p13='?' (DbType = DateTime2), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (DbType = DateTime2), @p17='?' (DbType = DateTime2), @p18='?' (DbType = Int32), @p19='?' (Size = 4000), @p20='?' (DbType = DateTime2), @p21='?' (DbType = DateTime2), @p22='?' (DbType = Int32), @p23='?' (Size = 4000), @p24='?' (DbType = DateTime2), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Int32), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2), @p29='?' (DbType = DateTime2), @p30='?' (DbType = Int32), @p31='?' (Size = 4000), @p32='?' (DbType = DateTime2), @p33='?' (DbType = DateTime2), @p34='?' (DbType = Int32), @p35='?' (Size = 4000), @p36='?' (DbType = DateTime2), @p37='?' (DbType = DateTime2), @p38='?' (DbType = Int32), @p39='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [HotelReservations] USING (
+VALUES (@p0, @p1, @p2, @p3, 0),
+(@p4, @p5, @p6, @p7, 1),
+(@p8, @p9, @p10, @p11, 2),
+(@p12, @p13, @p14, @p15, 3),
+(@p16, @p17, @p18, @p19, 4),
+(@p20, @p21, @p22, @p23, 5),
+(@p24, @p25, @p26, @p27, 6),
+(@p28, @p29, @p30, @p31, 7),
+(@p32, @p33, @p34, @p35, 8),
+(@p36, @p37, @p38, @p39, 9)) AS i ([CheckInDate], [CheckOutDate], [HotelId], [ReservationStatus], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([CheckInDate], [CheckOutDate], [HotelId], [ReservationStatus])
+VALUES (i.[CheckInDate], i.[CheckOutDate], i.[HotelId], i.[ReservationStatus])
+OUTPUT INSERTED.[HotelReservationId], i._Position;
+2025-04-07 21:50:00.393 +02:00 [INF] Data Seeding Completed Successfully.
+2025-04-07 21:50:00.501 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 21:50:00.504 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 21:50:00.507 +02:00 [INF] Hosting environment: Development
+2025-04-07 21:50:00.511 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:53:28.116 +02:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:53:28.241 +02:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:53:28.251 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-04-07 21:53:28.260 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-04-07 21:53:28.291 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-04-07 21:53:28.320 +02:00 [INF] No migrations were applied. The database is already up to date.
+2025-04-07 21:53:28.327 +02:00 [INF] Migrations Applied Successfully.
+2025-04-07 21:53:28.726 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Hotels] AS [h]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:53:28.782 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Rooms] AS [r]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:53:28.804 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Drivers] AS [d]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:53:28.828 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [HotelReservations] AS [h]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-04-07 21:53:28.836 +02:00 [INF] Data Seeding Completed Successfully.
+2025-04-07 21:53:29.181 +02:00 [INF] Now listening on: http://localhost:5032
+2025-04-07 21:53:29.243 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-07 21:53:29.247 +02:00 [INF] Hosting environment: Development
+2025-04-07 21:53:29.251 +02:00 [INF] Content root path: D:\my programmes\TICKIFY\TICKIFY.API
+2025-04-07 21:53:30.015 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/swagger/index.html - null null
+2025-04-07 21:53:30.394 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/swagger/index.html - 200 null text/html;charset=utf-8 374.1837ms
+2025-04-07 21:53:30.434 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/_vs/browserLink - null null
+2025-04-07 21:53:30.452 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-07 21:53:30.492 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/_framework/aspnetcore-browser-refresh.js - 200 13757 application/javascript; charset=utf-8 40.475ms
+2025-04-07 21:53:31.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/_vs/browserLink - 200 null text/javascript; charset=UTF-8 721.8881ms
+2025-04-07 21:53:31.240 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/swagger/v1/swagger.json - null null
+2025-04-07 21:53:31.365 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 125.7791ms
+2025-04-07 21:53:36.778 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/api/Driver - null null
+2025-04-07 21:53:36.805 +02:00 [INF] Executing endpoint 'TICKIFY.API.Controllers.DriverController.GetAllDrivers (TICKIFY.API)'
+2025-04-07 21:53:36.854 +02:00 [INF] Route matched with {action = "GetAllDrivers", controller = "Driver"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDrivers() on controller TICKIFY.API.Controllers.DriverController (TICKIFY.API).
+2025-04-07 21:53:37.187 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [d].[DriverId], [d].[CarType], [d].[DriverName], [d].[HotelId], [d].[Price], [d].[StarRating], [h].[HotelId], [h].[Category], [h].[Location], [h].[Name], [h].[StarRating]
+FROM [Drivers] AS [d]
+INNER JOIN [Hotels] AS [h] ON [d].[HotelId] = [h].[HotelId]
+2025-04-07 21:53:37.545 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[TICKIFY.Data.Entities.Drivers, TICKIFY.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TICKIFY.API.Contracts.Drivers.DriverRes, TICKIFY.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 21:53:37.578 +02:00 [INF] Executed action TICKIFY.API.Controllers.DriverController.GetAllDrivers (TICKIFY.API) in 706.2477ms
+2025-04-07 21:53:37.587 +02:00 [INF] Executed endpoint 'TICKIFY.API.Controllers.DriverController.GetAllDrivers (TICKIFY.API)'
+2025-04-07 21:53:37.605 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/api/Driver - 200 null application/json; charset=utf-8 826.9277ms
+2025-04-07 21:53:48.675 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:5032/api/Hotel - null null
+2025-04-07 21:53:48.688 +02:00 [INF] Executing endpoint 'TICKIFY.API.Controllers.HotelController.GetAllHotels (TICKIFY.API)'
+2025-04-07 21:53:48.704 +02:00 [INF] Route matched with {action = "GetAllHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllHotels() on controller TICKIFY.API.Controllers.HotelController (TICKIFY.API).
+2025-04-07 21:53:48.863 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [h].[HotelId], [h].[Category], [h].[Location], [h].[Name], [h].[StarRating]
+FROM [Hotels] AS [h]
+2025-04-07 21:53:48.892 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[TICKIFY.Data.Entities.Hotels, TICKIFY.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[TICKIFY.API.Contracts.hotels.HotelRes, TICKIFY.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-04-07 21:53:48.966 +02:00 [INF] Executed action TICKIFY.API.Controllers.HotelController.GetAllHotels (TICKIFY.API) in 252.5493ms
+2025-04-07 21:53:48.972 +02:00 [INF] Executed endpoint 'TICKIFY.API.Controllers.HotelController.GetAllHotels (TICKIFY.API)'
+2025-04-07 21:53:48.979 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:5032/api/Hotel - 200 null application/json; charset=utf-8 303.5657ms

@@ -1,0 +1,290 @@
+[
+  {
+    "DriverName": "John Doe",
+    "CarType": "Sedan",
+    "Price": 120,
+    "StarRating": 4,
+    "HotelId": 1,
+    "Hotel": "TheGrandPalaceCairo"
+  },
+  {
+    "DriverName": "Jane Smith",
+    "CarType": "SUV",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 1,
+    "Hotel": "TheGrandPalaceCairo"
+  },
+  {
+    "DriverName": "Alice Johnson",
+    "CarType": "Van",
+    "Price": 100,
+    "StarRating": 3,
+    "HotelId": 1,
+    "Hotel": "TheGrandPalaceCairo"
+  },
+  {
+    "DriverName": "Bob Brown",
+    "CarType": "Pickup",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 2,
+    "Hotel": "SeasideResortSharmElSheikh"
+  },
+  {
+    "DriverName": "Charlie Davis",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 2,
+    "Hotel": "SeasideResortSharmElSheikh"
+  },
+  {
+    "DriverName": "David Wilson",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 2,
+    "Hotel": "SeasideResortSharmElSheikh"
+  },
+  {
+    "DriverName": "Eva White",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 3,
+    "Hotel": "PyramidsMotelGiza"
+  },
+  {
+    "DriverName": "Frank Clark",
+    "CarType": "SUV",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 3,
+    "Hotel": "PyramidsMotelGiza"
+  },
+  {
+    "DriverName": "Grace Lee",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 3,
+    "Hotel": "PyramidsMotelGiza"
+  },
+  {
+    "DriverName": "Hannah King",
+    "CarType": "Pickup",
+    "Price": 120,
+    "StarRating": 3,
+    "HotelId": 4,
+    "Hotel": "NileViewHotelAswan"
+  },
+  {
+    "DriverName": "Isaac Scott",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 4,
+    "HotelId": 4,
+    "Hotel": "NileViewHotelAswan"
+  },
+  {
+    "DriverName": "Jack Harris",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 4,
+    "Hotel": "NileViewHotelAswan"
+  },
+  {
+    "DriverName": "Kathy Adams",
+    "CarType": "Sedan",
+    "Price": 160,
+    "StarRating": 4,
+    "HotelId": 5,
+    "Hotel": "LuxorBoutiqueHotel"
+  },
+  {
+    "DriverName": "Liam Carter",
+    "CarType": "SUV",
+    "Price": 170,
+    "StarRating": 5,
+    "HotelId": 5,
+    "Hotel": "LuxorBoutiqueHotel"
+  },
+  {
+    "DriverName": "Mona Lewis",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 3,
+    "HotelId": 5,
+    "Hotel": "LuxorBoutiqueHotel"
+  },
+  {
+    "DriverName": "Noah Parker",
+    "CarType": "Pickup",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 6,
+    "Hotel": "BurjAlArabDubai"
+  },
+  {
+    "DriverName": "Olivia Evans",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 6,
+    "Hotel": "BurjAlArabDubai"
+  },
+  {
+    "DriverName": "Paul Taylor",
+    "CarType": "Convertible",
+    "Price": 180,
+    "StarRating": 5,
+    "HotelId": 6,
+    "Hotel": "BurjAlArabDubai"
+  },
+  {
+    "DriverName": "Quinn Morgan",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 7,
+    "Hotel": "AtlantisThePalmDubai"
+  },
+  {
+    "DriverName": "Riley Perez",
+    "CarType": "SUV",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 7,
+    "Hotel": "AtlantisThePalmDubai"
+  },
+  {
+    "DriverName": "Sophie Roberts",
+    "CarType": "Van",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 7,
+    "Hotel": "AtlantisThePalmDubai"
+  },
+  {
+    "DriverName": "Thomas Baker",
+    "CarType": "Pickup",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 8,
+    "Hotel": "JumeirahBeachHotelDubai"
+  },
+  {
+    "DriverName": "Uma Garcia",
+    "CarType": "Coupe",
+    "Price": 120,
+    "StarRating": 4,
+    "HotelId": 8,
+    "Hotel": "JumeirahBeachHotelDubai"
+  },
+  {
+    "DriverName": "Victor Lewis",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 8,
+    "Hotel": "JumeirahBeachHotelDubai"
+  },
+  {
+    "DriverName": "William Allen",
+    "CarType": "Sedan",
+    "Price": 110,
+    "StarRating": 3,
+    "HotelId": 9,
+    "Hotel": "TheRitzParis"
+  },
+  {
+    "DriverName": "Xander Hill",
+    "CarType": "SUV",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 9,
+    "Hotel": "TheRitzParis"
+  },
+  {
+    "DriverName": "Yara Martin",
+    "CarType": "Van",
+    "Price": 150,
+    "StarRating": 5,
+    "HotelId": 9,
+    "Hotel": "TheRitzParis"
+  },
+  {
+    "DriverName": "Zachary Scott",
+    "CarType": "Pickup",
+    "Price": 120,
+    "StarRating": 3,
+    "HotelId": 10,
+    "Hotel": "LeMeuriceParis"
+  },
+  {
+    "DriverName": "Amelia Clark",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 4,
+    "HotelId": 10,
+    "Hotel": "LeMeuriceParis"
+  },
+  {
+    "DriverName": "Ben Harris",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 10,
+    "Hotel": "LeMeuriceParis"
+  },
+  {
+    "DriverName": "Chris Owens",
+    "CarType": "Sedan",
+    "Price": 150,
+    "StarRating": 4,
+    "HotelId": 11,
+    "Hotel": "HotelDeCrillonParis"
+  },
+  {
+    "DriverName": "Diana Scott",
+    "CarType": "SUV",
+    "Price": 170,
+    "StarRating": 5,
+    "HotelId": 11,
+    "Hotel": "HotelDeCrillonParis"
+  },
+  {
+    "DriverName": "Eva Williams",
+    "CarType": "Van",
+    "Price": 160,
+    "StarRating": 4,
+    "HotelId": 11,
+    "Hotel": "HotelDeCrillonParis"
+  },
+  {
+    "DriverName": "Francis Lee",
+    "CarType": "Pickup",
+    "Price": 140,
+    "StarRating": 4,
+    "HotelId": 12,
+    "Hotel": "SofitelNice"
+  },
+  {
+    "DriverName": "Gina Brown",
+    "CarType": "Coupe",
+    "Price": 130,
+    "StarRating": 3,
+    "HotelId": 12,
+    "Hotel": "SofitelNice"
+  },
+  {
+    "DriverName": "Hank White",
+    "CarType": "Convertible",
+    "Price": 160,
+    "StarRating": 5,
+    "HotelId": 12,
+    "Hotel": "SofitelNice"
+  }
+]

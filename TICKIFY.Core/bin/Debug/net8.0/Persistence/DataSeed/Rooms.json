@@ -1,0 +1,245 @@
+[
+  {
+    "Type": "Single",
+    "RoomNumber": 101,
+    "BedCount": 1,
+    "PricePerNight": 150.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 1
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 102,
+    "BedCount": 2,
+    "PricePerNight": 200.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 1
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 201,
+    "BedCount": 2,
+    "PricePerNight": 350.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 2
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 103,
+    "BedCount": 1,
+    "PricePerNight": 130.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 2
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 104,
+    "BedCount": 2,
+    "PricePerNight": 180.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 3
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 202,
+    "BedCount": 3,
+    "PricePerNight": 400.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 3
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 105,
+    "BedCount": 1,
+    "PricePerNight": 140.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 4
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 106,
+    "BedCount": 2,
+    "PricePerNight": 210.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 4
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 203,
+    "BedCount": 3,
+    "PricePerNight": 450.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 4
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 107,
+    "BedCount": 1,
+    "PricePerNight": 160.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 5
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 108,
+    "BedCount": 2,
+    "PricePerNight": 220.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 5
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 204,
+    "BedCount": 3,
+    "PricePerNight": 470.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 5
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 109,
+    "BedCount": 1,
+    "PricePerNight": 170.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 6
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 110,
+    "BedCount": 2,
+    "PricePerNight": 230.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 6
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 205,
+    "BedCount": 3,
+    "PricePerNight": 500.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 6
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 111,
+    "BedCount": 1,
+    "PricePerNight": 180.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 7
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 112,
+    "BedCount": 2,
+    "PricePerNight": 240.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 7
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 206,
+    "BedCount": 3,
+    "PricePerNight": 530.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 7
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 113,
+    "BedCount": 1,
+    "PricePerNight": 190.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 8
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 114,
+    "BedCount": 2,
+    "PricePerNight": 250.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 8
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 207,
+    "BedCount": 3,
+    "PricePerNight": 550.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 8
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 115,
+    "BedCount": 1,
+    "PricePerNight": 200.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 9
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 116,
+    "BedCount": 2,
+    "PricePerNight": 270.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 9
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 208,
+    "BedCount": 3,
+    "PricePerNight": 580.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 9
+  },
+  {
+    "Type": "Single",
+    "RoomNumber": 117,
+    "BedCount": 1,
+    "PricePerNight": 210.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 10
+  },
+  {
+    "Type": "Double",
+    "RoomNumber": 118,
+    "BedCount": 2,
+    "PricePerNight": 280.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 10
+  },
+  {
+    "Type": "Suite",
+    "RoomNumber": 209,
+    "BedCount": 3,
+    "PricePerNight": 600.00,
+    "DateIn": "2025-04-07T14:00:00",
+    "DateOut": "2025-04-08T11:00:00",
+    "HotelId": 10
+  }
+]

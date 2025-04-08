@@ -1,0 +1,74 @@
+[
+  {
+    "CheckInDate": "2025-05-01T14:00:00",
+    "CheckOutDate": "2025-05-05T12:00:00",
+    "HotelId": 1,
+
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-02T15:00:00",
+    "CheckOutDate": "2025-05-06T12:00:00",
+    "HotelId": 2,
+   
+
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-03T16:00:00",
+    "CheckOutDate": "2025-05-07T12:00:00",
+    "HotelId": 3,
+   
+
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-04T17:00:00",
+    "CheckOutDate": "2025-05-08T12:00:00",
+    "HotelId": 4,
+
+    "ReservationStatus": "Pending"
+  },
+  {
+    "CheckInDate": "2025-05-05T14:00:00",
+    "CheckOutDate": "2025-05-09T12:00:00",
+    "HotelId": 5,
+  
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-06T16:00:00",
+    "CheckOutDate": "2025-05-10T12:00:00",
+    "HotelId": 6,
+   
+    "ReservationStatus": "Pending"
+  },
+  {
+    "CheckInDate": "2025-05-07T18:00:00",
+    "CheckOutDate": "2025-05-11T12:00:00",
+    "HotelId": 7,
+  
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-08T14:00:00",
+    "CheckOutDate": "2025-05-12T12:00:00",
+    "HotelId": 8,
+   
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-09T16:00:00",
+    "CheckOutDate": "2025-05-13T12:00:00",
+    "HotelId": 9,
+   
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "CheckInDate": "2025-05-10T14:00:00",
+    "CheckOutDate": "2025-05-14T12:00:00",
+    "HotelId": 10,
+  
+    "ReservationStatus": "Confirmed"
+  }
+]

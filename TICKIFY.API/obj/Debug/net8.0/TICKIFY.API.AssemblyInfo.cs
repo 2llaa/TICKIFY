@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TICKIFY.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1543877a1adbbd9c4f0157ad35abe312e8d9a1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TICKIFY.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TICKIFY.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

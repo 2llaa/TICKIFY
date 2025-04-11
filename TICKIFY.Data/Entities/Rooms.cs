@@ -8,7 +8,7 @@ namespace TICKIFY.Data.Entities
         public int RoomId { get; set; }
 
         public RoomType Type { get; set; }
-        public RoomStatus Status { get; set; } = RoomStatus.Available;
+        public string Status { get; set; } =string.Empty; // حالة الغرفة (متاحة، محجوزة، إلخ)
         public int RoomNumber { get; set; }
         public int BedCount { get; set; }
         public decimal PricePerNight { get; set; }
@@ -21,5 +21,7 @@ namespace TICKIFY.Data.Entities
         public Hotels Hotel { get; set; }
         [JsonIgnore]
         public List<ReservationDetails> ReservationDetails { get; set; } = [];
+        [JsonIgnore]
+        public List<HotelReservations> HotelReservations { get; set; } = [];
     }
 }

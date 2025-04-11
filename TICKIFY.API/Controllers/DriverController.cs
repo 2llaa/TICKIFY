@@ -16,40 +16,16 @@ public class DriverController : ControllerBase
         _driverServices = driverServices;
     }
 
-    /// <summary>Get all drivers</summary>
-    [HttpGet]
-    [ProducesResponseType(typeof(IEnumerable<DriverRes>), StatusCodes.Status200OK)]
-    public async Task<IActionResult> GetAllDrivers(CancellationToken cancellationToken)
-    {
-        var result = await _driverServices.GetAllDriversAsync(cancellationToken);
-        return result.IsSuccess ? Ok(result.Value) : Problem(result.Errorr.Message);
-    }
-
-    /// <summary>Get a driver by ID</summary>
+    //Get a driver by Id
     [HttpGet("{id}")]
-    [ProducesResponseType(typeof(DriverRes), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetDriverById(int id, CancellationToken cancellationToken)
     {
         var result = await _driverServices.GetDriverByIdAsync(id, cancellationToken);
         return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr);
     }
 
-    /// <summary>Get all drivers for a specific hotel</summary>
-    [HttpGet("hotel/{hotelId}")]
-    [ProducesResponseType(typeof(IEnumerable<DriverRes>), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<IActionResult> GetDriversByHotelId(int hotelId)
-    {
-        var result = await _driverServices.GetDriversByHotelIdAsync(hotelId);
-        return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr);
-    }
-
-    /// <summary>Create a new driver</summary>
+    //Create a new driver (for Admin)
     [HttpPost]
-    [ProducesResponseType(typeof(DriverRes), StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> CreateDriver([FromBody] DriverReq driverReq, CancellationToken cancellationToken)
     {
         if (driverReq is null)
@@ -62,11 +38,8 @@ public class DriverController : ControllerBase
             : Problem(result.Errorr.Message);
     }
 
-    /// <summary>Update an existing driver</summary>
+    //Update an existing driver (for Admin)
     [HttpPut("{id}")]
-    [ProducesResponseType(typeof(DriverRes), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public async Task<IActionResult> UpdateDriver(int id, [FromBody] DriverReq driverReq, CancellationToken cancellationToken)
     {
         var result = await _driverServices.UpdateDriverAsync(id, driverReq, cancellationToken);
@@ -76,10 +49,8 @@ public class DriverController : ControllerBase
             : NotFound(result.Errorr);
     }
 
-    /// <summary>Delete a driver</summary>
+    //Delete a driver  (for Admin)
     [HttpDelete("{id}")]
-    [ProducesResponseType(StatusCodes.Status204NoContent)]
-    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> DeleteDriver(int id, CancellationToken cancellationToken)
     {
         var result = await _driverServices.GetDriverByIdAsync(id, cancellationToken);
@@ -89,8 +60,4 @@ public class DriverController : ControllerBase
         return NoContent();
     }
 }
-//get drivers by hotel id
-//create driver
-//update driver
-//delete driver
-//get driver by id
+

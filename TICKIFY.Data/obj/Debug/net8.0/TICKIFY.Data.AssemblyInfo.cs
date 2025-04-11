@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TICKIFY.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1543877a1adbbd9c4f0157ad35abe312e8d9a1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18bce0d5823f8301b946ce9f22f7a19c476a8587")]
 [assembly: System.Reflection.AssemblyProductAttribute("TICKIFY.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TICKIFY.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,7 +25,7 @@ namespace TICKIFY.API.Services.Implementations
             _mapper = mapper;
         }
 
-        public async Task<Result<IEnumerable<HotelReservationRes>>> GetAllReservationsAsync(CancellationToken cancellationToken)
+        public async Task<Result<IEnumerable<ReservationRes>>> GetAllReservationsAsync(CancellationToken cancellationToken)
         {
             var reservations = await _context.HotelReservations
                 .Include(r => r.Hotel)
@@ -34,13 +34,14 @@ namespace TICKIFY.API.Services.Implementations
                 .ToListAsync(cancellationToken);
 
             if (!reservations.Any())
-                return Result.Failure<IEnumerable<HotelReservationRes>>(HotelReservationErrors.ReservationNotFound);
+                return Result.Failure<IEnumerable<ReservationRes>>(HotelReservationErrors.ReservationNotFound);
 
-            var reservationResList = reservations.Adapt<IEnumerable<HotelReservationRes>>();
+            var reservationResList = reservations.Adapt<IEnumerable<ReservationRes>>();
             return Result.Success(reservationResList);
         }
 
-        public async Task<Result<HotelReservationRes>> GetReservationByIdAsync(int id, CancellationToken cancellationToken)
+
+        public async Task<Result<ReservationRes>> GetReservationByIdAsync(int id, CancellationToken cancellationToken)
         {
             var reservation = await _context.HotelReservations
                 .Include(r => r.Hotel)
@@ -49,48 +50,120 @@ namespace TICKIFY.API.Services.Implementations
                 .FirstOrDefaultAsync(r => r.HotelReservationId == id, cancellationToken);
 
             if (reservation == null)
-                return Result.Failure<HotelReservationRes>(HotelReservationErrors.ReservationNotFound);
+                return Result.Failure<ReservationRes>(HotelReservationErrors.ReservationNotFound);
 
-            var result = reservation.Adapt<HotelReservationRes>();
+            var result = reservation.Adapt<ReservationRes>();
             return Result.Success(result);
         }
 
-        public async Task<Result<HotelReservationRes>> CreateReservationAsync(HotelReservationReq reservationReq, CancellationToken cancellationToken)
+        public async Task<Result<ReservationRes>> CreateReservationAsync(ReservationReq reservationReq, CancellationToken cancellationToken)
         {
-            var hotelExists = await _context.Hotels.AnyAsync(h => h.HotelId == reservationReq.HotelId, cancellationToken);
+            var hotel = await _context.Hotels
+                .Include(h => h.Drivers)
+                .FirstOrDefaultAsync(h => h.HotelId == reservationReq.HotelId, cancellationToken);
 
-            if (!hotelExists)
-                return Result.Failure<HotelReservationRes>(HotelErrors.HotelNotFound);
+            if (hotel == null)
+                return Result.Failure<ReservationRes>(HotelErrors.HotelNotFound);
+            if (!hotel.Drivers.Any(d => d.DriverId == reservationReq.DriverId))
+                return Result.Failure<ReservationRes>(HotelErrors.NoDriversForHotel);
+
+            var room = await _context.Rooms
+                .FirstOrDefaultAsync(r => r.RoomId == reservationReq.RoomId && r.Status == "Available", cancellationToken);
+
+            if (room == null)
+                return Result.Failure<ReservationRes>(HotelReservationErrors.ReservationNotFound);
+
+            var existingReservation = await _context.HotelReservations
+                .Where(r => r.RoomId == reservationReq.RoomId)
+                .Where(r => r.CheckInDate < reservationReq.CheckOutData && r.CheckOutDate > reservationReq.CheckInDate)
+                .FirstOrDefaultAsync(cancellationToken);
+
+            if (existingReservation != null)
+                return Result.Failure<ReservationRes>(HotelReservationErrors.ReservationNotFound);
 
             var reservation = new HotelReservations
             {
-                CheckInDate = reservationReq.CheckInDate,
-                CheckOutDate = reservationReq.CheckOutDate,
+                GuestName = reservationReq.GuestName,
+                Email = reservationReq.Email,
+                Phone = reservationReq.Phone,
+                RoomId = reservationReq.RoomId,
                 HotelId = reservationReq.HotelId,
-               // UserId = reservationReq.UserId // Assuming user ID is part of the request
+                CheckInDate = reservationReq.CheckInDate.ToUniversalTime(),
+                CheckOutDate = reservationReq.CheckOutData.ToUniversalTime(),
+                Status = "Confirmed",
             };
 
             _context.HotelReservations.Add(reservation);
+
+            room.Status = "Booked";
+            room.DateOut = reservationReq.CheckOutData;
+            _context.Rooms.Update(room);
+
             await _context.SaveChangesAsync(cancellationToken);
 
-            return Result.Success(reservation.Adapt<HotelReservationRes>());
+            var response = new ReservationRes
+            {
+                ReservationId = reservation.HotelReservationId,
+                GuestName = reservation.GuestName,
+                Email = reservation.Email,
+                Phone = reservation.Phone,
+                HotelId = reservation.HotelId,
+                HotelName = reservationReq.HotelName,
+                RoomId = reservation.RoomId,
+                DriverId = reservationReq.DriverId, 
+                CheckInDate = reservation.CheckInDate,
+                CheckOutDate = reservation.CheckOutDate,
+                Status = reservation.Status
+            };
+
+            return Result.Success(response);
         }
 
-        public async Task<Result<HotelReservationRes>> UpdateReservationAsync(int id, HotelReservationReq reservationReq, HotelReservations reservation, CancellationToken cancellationToken)
+
+
+        public async Task<Result<ReservationRes>> UpdateReservationAsync(int id, HotelReservationReq reservationReq, CancellationToken cancellationToken)
         {
             var existing = await _context.HotelReservations
-                .FirstOrDefaultAsync(r => r.HotelReservationId == id, cancellationToken);
+                .Include(r => r.Room)
+                .Include(r => r.Hotel)  
+                .ThenInclude(h => h.Drivers)
+               .FirstOrDefaultAsync(r => r.HotelReservationId == id, cancellationToken);
 
-            if (existing is null)
-                return Result.Failure<HotelReservationRes>(HotelReservationErrors.ReservationNotFound);
+            if (existing == null)
+                return Result.Failure<ReservationRes>(HotelReservationErrors.ReservationNotFound);
 
-            reservation.Adapt(existing);
+            existing.GuestName = reservationReq.GuestName;
+            existing.Email = reservationReq.Email;
+            existing.Phone = reservationReq.Phone;
+            existing.CheckOutDate = reservationReq.CheckOutData.ToUniversalTime();  
+            existing.RoomId = reservationReq.RoomId;
 
             _context.HotelReservations.Update(existing);
+
             await _context.SaveChangesAsync(cancellationToken);
 
-            return Result.Success(existing.Adapt<HotelReservationRes>());
+            var reservationRes = new ReservationRes
+            {
+                ReservationId = existing.HotelReservationId,
+                GuestName = existing.GuestName,
+                Email = existing.Email,
+                Phone = existing.Phone,
+                HotelId = existing.HotelId, 
+                HotelName = existing.Hotel.Name, 
+                RoomId = existing.RoomId,
+                DriverId = existing.Hotel.Drivers?.FirstOrDefault()?.DriverId ?? 0, 
+                CheckInDate = existing.CheckInDate,
+                CheckOutDate = existing.CheckOutDate,
+                Status = existing.Status
+            };
+
+            return Result.Success(reservationRes);
         }
+
+
+
+
+
 
         public async Task<Result> DeleteReservationAsync(int id, CancellationToken cancellationToken)
         {
@@ -137,5 +210,7 @@ namespace TICKIFY.API.Services.Implementations
         //    var result = reservations.Adapt<IEnumerable<HotelReservationRes>>();
         //    return Result.Success(result);
         //}
+
+
     }
 }

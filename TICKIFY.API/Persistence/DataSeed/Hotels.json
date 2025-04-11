@@ -1,61 +1,52 @@
 [
   {
     "Name": "TheGrandPalaceCairo",
-    "Category": "Luxury",
     "Location": "Cairo, Egypt",
     "StarRating": 5
   },
   {
     "Name": "BurjAlArabDubai",
-    "Category": "Resort",
     "Location": "Dubai, UAE",
     "StarRating": 4
   },
   {
     "Name": "TheRitzParis",
-    "Category": "Motel",
     "Location": "Paris, France",
     "StarRating": 3
   },
   {
     "Name": "ThePlazaNewYork",
-    "Category": "Luxury",
     "Location": "New York, USA",
     "StarRating": 5
   },
   {
     "Name": "HotelDanieliVenice",
-    "Category": "Boutique",
     "Location": "Venice, Italy",
     "StarRating": 4
   },
   {
     "Name": "TheSavoyLondon",
-    "Category": "Luxury",
     "Location": "London, UK",
     "StarRating": 5
   },
   {
     "Name": "TheTokyoHotel",
-    "Category": "Resort",
     "Location": "Tokyo, Japan",
     "StarRating": 5
+
   },
   {
     "Name": "TheLanghamMelbourne",
-    "Category": "Resort",
     "Location": "Melbourne, Australia",
     "StarRating": 4
   },
   {
     "Name": "FairmontBanffSprings",
-    "Category": "Luxury",
     "Location": "Banff, Canada",
     "StarRating": 5
   },
   {
     "Name": "HotelArtsBarcelona",
-    "Category": "Luxury",
     "Location": "Barcelona, Spain",
     "StarRating": 5
   }

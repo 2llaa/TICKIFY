@@ -6,8 +6,7 @@ namespace TICKIFY.Data.Entities
     public class Hotels
     {
         public int HotelId { get; set; }
-        public HotelName Name { get; set; }
-        public HotelCategory Category { get; set; }
+        public string Name { get; set; }
         public string Location { get; set; } = string.Empty;
         public int StarRating { get; set; }
         [JsonIgnore]

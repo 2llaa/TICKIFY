@@ -16,9 +16,7 @@ namespace TICKIFY.API.Persistence.Data
         {
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
 
-            modelBuilder.Entity<Rooms>()
-            .Property(r => r.Status)
-            .HasConversion<string>();
+
             modelBuilder.Entity<Rooms>()
             .Property(r => r.Type)
             .HasConversion<string>();
@@ -27,17 +25,9 @@ namespace TICKIFY.API.Persistence.Data
             .Property(d => d.CarType)
             .HasConversion<string>();
 
-            modelBuilder.Entity<Hotels>()
-            .Property(h => h.Name)
-            .HasConversion<string>();
 
-            modelBuilder.Entity<Hotels>()
-            .Property(h => h.Category)
-            .HasConversion<string>();
 
-            modelBuilder.Entity<HotelReservations>()
-           .Property(h => h.ReservationStatus)
-           .HasConversion<string>();
+
 
         }
     }

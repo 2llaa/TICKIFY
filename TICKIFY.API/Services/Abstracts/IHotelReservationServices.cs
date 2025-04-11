@@ -8,13 +8,12 @@ namespace TICKIFY.API.Services.Abstracts
 {
     public interface IHotelReservationServices
     {
-        Task<Result<IEnumerable<HotelReservationRes>>> GetAllReservationsAsync(CancellationToken cancellationToken);
+        Task<Result<IEnumerable<ReservationRes>>> GetAllReservationsAsync(CancellationToken cancellationToken);
         Task<Result<IEnumerable<HotelReservationRes>>> GetReservationsByHotelIdAsync(int hotelId, CancellationToken cancellationToken);
-       // Task<Result<IEnumerable<HotelReservationRes>>> GetReservationsByUserIdAsync(int userId, CancellationToken cancellationToken);
-
-        Task<Result<HotelReservationRes>> GetReservationByIdAsync(int id, CancellationToken cancellationToken);
-        Task<Result<HotelReservationRes>> CreateReservationAsync(HotelReservationReq reservationReq, CancellationToken cancellationToken);
-        Task<Result<HotelReservationRes>> UpdateReservationAsync(int id, HotelReservationReq reservationReq, HotelReservations reservation, CancellationToken cancellationToken);
+        // Task<Result<IEnumerable<HotelReservationRes>>> GetReservationsByUserIdAsync(int userId, CancellationToken cancellationToken);
+        Task<Result<ReservationRes>> CreateReservationAsync(ReservationReq reservationReq, CancellationToken cancellationToken);
+        Task<Result<ReservationRes>> GetReservationByIdAsync(int id, CancellationToken cancellationToken);
+        Task<Result<ReservationRes>> UpdateReservationAsync(int id, HotelReservationReq reservationReq, CancellationToken cancellationToken);
         Task<Result> DeleteReservationAsync(int id, CancellationToken cancellationToken);
     }
 }

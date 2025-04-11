@@ -72,16 +72,36 @@ namespace TICKIFY.Infrastracture.Migrations
                     b.Property<DateTime>("CheckOutDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("GuestName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
                     b.Property<int>("HotelId")
                         .HasColumnType("int");
 
-                    b.Property<string>("ReservationStatus")
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("HotelReservationId");
 
                     b.HasIndex("HotelId");
+
+                    b.HasIndex("RoomId");
 
                     b.ToTable("HotelReservations");
                 });
@@ -93,10 +113,6 @@ namespace TICKIFY.Infrastracture.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HotelId"));
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Location")
                         .IsRequired()
@@ -199,7 +215,15 @@ namespace TICKIFY.Infrastracture.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("TICKIFY.Data.Entities.Rooms", "Room")
+                        .WithMany("HotelReservations")
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Hotel");
+
+                    b.Navigation("Room");
                 });
 
             modelBuilder.Entity("TICKIFY.Data.Entities.ReservationDetails", b =>
@@ -207,7 +231,7 @@ namespace TICKIFY.Infrastracture.Migrations
                     b.HasOne("TICKIFY.Data.Entities.HotelReservations", "HotelReservation")
                         .WithMany("ReservationDetails")
                         .HasForeignKey("HotelReservationId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("TICKIFY.Data.Entities.Rooms", "Room")
@@ -248,6 +272,8 @@ namespace TICKIFY.Infrastracture.Migrations
 
             modelBuilder.Entity("TICKIFY.Data.Entities.Rooms", b =>
                 {
+                    b.Navigation("HotelReservations");
+
                     b.Navigation("ReservationDetails");
                 });
 #pragma warning restore 612, 618

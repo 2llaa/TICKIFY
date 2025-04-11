@@ -4,6 +4,7 @@ using TICKIFY.API.Services.Abstracts;
 using System.Threading;
 using System.Threading.Tasks;
 using TICKIFY.Data.Enums;
+using TICKIFY.API.Services.Implementations;
 
 namespace TICKIFY.API.Controllers
 {
@@ -18,74 +19,50 @@ namespace TICKIFY.API.Controllers
             _roomServices = roomServices;
         }
 
-        /// <summary>Get all rooms</summary>
-        [HttpGet]
-        [ProducesResponseType(typeof(IEnumerable<RoomRes>), StatusCodes.Status200OK)]
-        public async Task<IActionResult> GetAllRooms(CancellationToken cancellationToken)
-        {
-            var result = await _roomServices.GetAllRoomsAsync(cancellationToken);
-            return result.IsSuccess ? Ok(result.Value) : Problem(result.Errorr.Message);
-        }
-
-        /// <summary>Get rooms by hotel ID</summary>
-        [HttpGet("hotel/{hotelId}")]
-        [ProducesResponseType(typeof(IEnumerable<RoomRes>), StatusCodes.Status200OK)]
-        public async Task<IActionResult> GetRoomsByHotel(int hotelId, CancellationToken cancellationToken)
-        {
-            var result = await _roomServices.GetRoomsByHotelAsync(hotelId, cancellationToken);
-            return result.IsSuccess ? Ok(result.Value) : Problem(result.Errorr.Message);
-        }
-
-        /// <summary>Get room by ID</summary>
+        //Get room by ID
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(RoomRes), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetRoomById(int id, CancellationToken cancellationToken)
         {
             var result = await _roomServices.GetRoomByIdAsync(id, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr.Message);
         }
 
-        /// <summary>Get room price by ID</summary>
+        //Get room price by ID
         [HttpGet("{id}/price")]
-        [ProducesResponseType(typeof(decimal), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetRoomPrice(int id, CancellationToken cancellationToken)
         {
             var result = await _roomServices.GetRoomPriceByIdAsync(id, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr.Message);
         }
 
-        /// <summary>Get room status by ID</summary>
-        [HttpGet("{id}/status")]
-        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
-        public async Task<IActionResult> GetRoomStatus(int id, [FromQuery] string status, CancellationToken cancellationToken)
+        //Get rooms by type
+        [HttpGet("type/{type}")]
+        public async Task<IActionResult> GetRoomsByType(string type, CancellationToken cancellationToken)
         {
-            // Convert the string status to enum
-            if (Enum.TryParse<RoomStatus>(status, true, out var roomStatus))
-            {
-                var result = await _roomServices.GetRoomsByStatusAsync(roomStatus, cancellationToken);
-                return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr.Message);
-            }
-            else
-            {
-                return BadRequest("Invalid room status provided.");
-            }
+            var result = await _roomServices.GetRoomsByTypeAsync(type, cancellationToken);
+            return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr.Message);
         }
 
-        /// <summary>Get room by hotel and room ID</summary>
+        //Get available rooms by date and hotel ID
+        [HttpPost("available-rooms")]
+        public async Task<IActionResult> GetAvailableRooms([FromBody] RoomAvailabilityRequest request)
+        {
+            var result = await _roomServices.GetAvailableRoomsAsync(request);
+            return result.IsSuccess ? Ok(result.Value) : BadRequest(result.Errorr);
+        }
+
+        //Get room by hotel and room ID
         [HttpGet("hotel/{hotelId}/room/{roomId}")]
-        [ProducesResponseType(typeof(RoomRes), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetRoomByHotelAndRoomId(int hotelId, int roomId, CancellationToken cancellationToken)
         {
             var result = await _roomServices.GetRoomByHotelAsync(hotelId, roomId, cancellationToken);
             return result.IsSuccess ? Ok(result.Value) : NotFound(result.Errorr.Message);
         }
 
-        /// <summary>Create a new room</summary>
+        //Create a new room (for admin)
         [HttpPost]
-        [ProducesResponseType(typeof(RoomRes), StatusCodes.Status201Created)]
         public async Task<IActionResult> CreateRoom([FromBody] RoomReq roomReq, CancellationToken cancellationToken)
         {
-            // Ensure the request body is valid
             if (roomReq == null)
             {
                 return BadRequest("Room data is required.");
@@ -98,9 +75,8 @@ namespace TICKIFY.API.Controllers
                 : Problem(result.Errorr.Message);
         }
 
-        /// <summary>Update a room by ID</summary>
+        //Update a room by ID
         [HttpPut("{id}")]
-
         public async Task<IActionResult> UpdateRoom(int id, [FromBody] RoomReq roomReq, CancellationToken cancellationToken)
         {
             if (roomReq == null)
@@ -111,17 +87,13 @@ namespace TICKIFY.API.Controllers
             return result.IsSuccess ? Ok(result.Value) : Problem(result.Errorr.Message);
         }
 
-        /// <summary>Delete a room by ID</summary>
+        //Delete a room by ID
         [HttpDelete("{id}")]
-        [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> DeleteRoom(int id, CancellationToken cancellationToken)
         {
             var result = await _roomServices.DeleteRoomAsync(id, cancellationToken);
             return result.IsSuccess ? NoContent() : NotFound(result.Errorr.Message);
         }
+
     }
 }
-//get rooms by hotel id statue
-//make mapping to statue
-//spicific room statue
-//fix find room by price

@@ -8,16 +8,20 @@ using TICKIFY.API.Errors;
 using TICKIFY.API.Contracts.Rooms;
 using TICKIFY.API.Abstracts;
 using TICKIFY.API.Errors.Room;
+using MapsterMapper;
 
 namespace TICKIFY.API.Services.Implementations
 {
     public class RoomServices : IRoomServices
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
 
-        public RoomServices(ApplicationDbContext context)
+        public RoomServices(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
+
         }
 
         public async Task<Result<IEnumerable<RoomRes>>> GetAllRoomsAsync(CancellationToken cancellationToken)
@@ -48,6 +52,7 @@ namespace TICKIFY.API.Services.Implementations
                 : Result.Success(room.PricePerNight);
         }
 
+        // Get a specific room by hotel and room ID
         public async Task<Result<RoomRes>> GetRoomByHotelAsync(int hotelId, int roomId, CancellationToken cancellationToken)
         {
             var room = await _context.Rooms.FirstOrDefaultAsync(r => r.HotelId == hotelId && r.RoomId == roomId, cancellationToken);
@@ -56,32 +61,92 @@ namespace TICKIFY.API.Services.Implementations
                 : Result.Success(room.Adapt<RoomRes>());
         }
 
-        public async Task<Result<IEnumerable<HotelRoomsRes>>> GetRoomsByStatusAsync(RoomStatus status, CancellationToken cancellationToken)
+        // Get hotel room status for a specific date and time 
+        public async Task<Result<string>> GetRoomStatusAtTimeAsync(int roomId, DateTime dateTime, CancellationToken cancellationToken)
         {
-            var rooms = await _context.Rooms
-                .Where(r => r.Status == status)
-                .ToListAsync(cancellationToken);
+            var room = await _context.Rooms
+                .Include(r => r.HotelReservations)
+                .FirstOrDefaultAsync(r => r.RoomId == roomId, cancellationToken);
 
-            if (!rooms.Any())
+            if (room == null)
             {
-                return Result.Failure<IEnumerable<HotelRoomsRes>>(RoomErrors.RoomStatusNotFound);
+                return Result.Failure<string>(RoomErrors.RoomNotFound);
+            }
+            var reservation = room.HotelReservations.FirstOrDefault(r => r.CheckInDate <= dateTime && r.CheckOutDate >= dateTime);
+
+            if (reservation != null)
+            {
+                return Result.Success(reservation.Status); 
             }
 
-            var result = rooms.Adapt<IEnumerable<HotelRoomsRes>>()
-                .Select(r =>
-                {
-                    // Convert enum to string using Enum.GetName
-                    r.Status = Enum.GetName(typeof(RoomStatus), r.Status);
-                    return r;
-                })
+            return Result.Success("Available"); 
+        }
+        // Get available rooms for a specific date
+
+        public async Task<Result<IEnumerable<RoomRes>>> GetAvailableRoomsForDateAsync(DateTime dateTime, int hotelId, CancellationToken cancellationToken)
+        {
+            var targetDate = dateTime;
+
+            var rooms = await _context.Rooms
+                .Where(r => r.Status == "Available" && r.HotelId == hotelId)
+                .ToListAsync(cancellationToken);
+
+            Console.WriteLine("Rooms with status 'Available': " + rooms.Count);
+
+            var reservations = await _context.HotelReservations
+                .Where(res => res.HotelId == hotelId && res.Status == "Booked")
+                .ToListAsync(cancellationToken);
+
+            foreach (var res in reservations)
+            {
+                Console.WriteLine($"Reservation ID: {res.HotelReservationId}, Room ID: {res.RoomId}, From: {res.CheckInDate}, To: {res.CheckOutDate}");
+            }
+
+            var unavailableRoomIds = reservations
+                .Where(res =>
+                    (targetDate >= res.CheckInDate && targetDate < res.CheckOutDate) ||
+                    (targetDate < res.CheckOutDate && targetDate.AddHours(1) > res.CheckInDate)
+                )
+                .Select(res => res.RoomId)
+                .Distinct()
                 .ToList();
 
-            return Result.Success<IEnumerable<HotelRoomsRes>>(result);
+            Console.WriteLine("Unavailable room IDs: " + string.Join(", ", unavailableRoomIds));
+
+            var availableRooms = rooms
+                .Where(r => !unavailableRoomIds.Contains(r.RoomId))
+                .ToList();
+
+            Console.WriteLine("Available rooms after filtering: " + availableRooms.Count);
+
+            if (availableRooms.Any())
+            {
+                var result = availableRooms.Adapt<IEnumerable<RoomRes>>();
+                return Result.Success(result);
+            }
+
+            return Result.Failure<IEnumerable<RoomRes>>(RoomErrors.RoomNotFound);
         }
 
-        public async Task<Result<IEnumerable<RoomRes>>> GetRoomsByTypeAsync(RoomType type, CancellationToken cancellationToken)
+
+
+
+
+
+
+
+
+
+
+
+        public async Task<Result<IEnumerable<RoomRes>>> GetRoomsByTypeAsync(string type, CancellationToken cancellationToken)
         {
-            var rooms = await _context.Rooms.Where(r => r.Type == type).ToListAsync();
+            if (!Enum.TryParse<RoomType>(type, true, out var parsedType))
+                return Result.Failure<IEnumerable<RoomRes>>(RoomErrors.RoomTypeNotFound); // or whatever error you're using
+
+            var rooms = await _context.Rooms
+                .Where(r => r.Type == parsedType)
+                .ToListAsync();
             return !rooms.Any()
                 ? Result.Failure<IEnumerable<RoomRes>>(RoomErrors.RoomTypeNotFound)
                 : Result.Success(rooms.Adapt<IEnumerable<RoomRes>>());
@@ -98,25 +163,70 @@ namespace TICKIFY.API.Services.Implementations
                 : Result.Success(rooms.Adapt<IEnumerable<RoomRes>>());
         }
 
-        public async Task<Result<RoomRes>> CreateRoomAsync(RoomReq roomReq, CancellationToken cancellationToken)
+        public async Task<Result<HotelRoomsRes>> CreateRoomAsync(RoomReq roomReq, CancellationToken cancellationToken)
         {
             var room = roomReq.Adapt<Rooms>();
+            // Ensure Status is not null or empty, set to "Available" as default if missing
+            if (string.IsNullOrEmpty(room.Status))
+            {
+                room.Status = "Available";
+            }
+
             _context.Rooms.Add(room);
             await _context.SaveChangesAsync(cancellationToken);
-            return Result.Success(room.Adapt<RoomRes>());
+            var result = room.Adapt<HotelRoomsRes>();
+            return Result.Success(result);
+        }
+
+
+        public async Task<Result<IEnumerable<RoomDto>>> GetAvailableRoomsAsync(RoomAvailabilityRequest request)
+        {
+            var availableRooms = await _context.Rooms
+               .Where(r => r.HotelId == request.HotelId)
+               .Where(r => !_context.HotelReservations.Any(res =>
+                   res.RoomId == r.RoomId &&
+                   request.CheckInDate < res.CheckOutDate &&
+                   request.CheckOutDate > res.CheckInDate))
+               .ToListAsync();
+            var roomDtos = availableRooms.Adapt<IEnumerable<RoomDto>>(); // تحويل إلى IEnumerable
+
+            return roomDtos.Any()
+                ? Result.Success(roomDtos)
+                : Result.Failure<IEnumerable<RoomDto>>(RoomErrors.NoRoomsForHotel);
         }
 
         public async Task<Result<RoomRes>> UpdateRoomAsync(int id, RoomReq roomToUpdate, CancellationToken cancellationToken)
         {
+            // استرجاع الغرفة الموجودة في قاعدة البيانات
             var existingRoom = await _context.Rooms.FirstOrDefaultAsync(r => r.RoomId == id, cancellationToken);
+
             if (existingRoom == null)
                 return Result.Failure<RoomRes>(RoomErrors.RoomNotFound);
 
-            roomToUpdate.Adapt(existingRoom); 
+            // **الخطوة 1**: تحويل الـ string إلى الـ enum إذا كانت الخاصية Type هي string في RoomReq
+            if (Enum.TryParse(roomToUpdate.Type, true, out RoomType parsedType))
+            {
+                existingRoom.Type = parsedType;  // تعيين القيمة المحولة إلى الـ enum
+            }
+            else
+            {
+                return Result.Failure<RoomRes>(RoomErrors.RoomTypeNotFound); // إذا فشل التحويل، إرجاع خطأ
+            }
+
+            // **الخطوة 2**: استخدام Mapster لتحديث باقي الحقول (باستثناء الـ Type الذي تم تعيينه يدويًا)
+            roomToUpdate.Adapt(existingRoom);
+
+            // **الخطوة 3**: حفظ التغييرات في قاعدة البيانات
             _context.Rooms.Update(existingRoom);
             await _context.SaveChangesAsync(cancellationToken);
+
+            // **الخطوة 4**: إرجاع الغرفة المحدثة كنتيجة
             return Result.Success(existingRoom.Adapt<RoomRes>());
         }
+
+
+
+
 
         public async Task<Result<bool>> DeleteRoomAsync(int id, CancellationToken cancellationToken)
         {

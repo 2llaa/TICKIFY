@@ -9,6 +9,7 @@ using TICKIFY.API.Services.Abstracts;
 using TICKIFY.Data.Entities;
 using Mapster;
 using MapsterMapper;
+using TICKIFY.Data.Enums;
 
 namespace TICKIFY.API.Services.Implementations;
 
@@ -16,16 +17,6 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
 {
     private readonly ApplicationDbContext _context = context;
     private readonly IMapper _mapper = mapper;
-
-    public async Task<Result<IEnumerable<DriverRes>>> GetAllDriversAsync(CancellationToken cancellationToken)
-    {
-        var drivers = await _context.Drivers
-            .Include(d => d.Hotel)
-            .ToListAsync(cancellationToken);
-
-        var response = drivers.Adapt<IEnumerable<DriverRes>>();
-        return Result.Success(response);
-    }
 
     public async Task<Result<DriverRes>> GetDriverByIdAsync(int id, CancellationToken cancellationToken)
     {
@@ -39,24 +30,6 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
         return Result.Success(driver.Adapt<DriverRes>());
     }
 
-    public async Task<Result<IEnumerable<DriverRes>>> GetDriversByHotelIdAsync(int hotelId)
-    {
-        var hotelExists = await _context.Hotels
-            .AnyAsync(h => h.HotelId == hotelId);
-
-        if (!hotelExists)
-            return Result.Failure<IEnumerable<DriverRes>>(HotelErrors.HotelNotFound);
-
-        var drivers = await _context.Drivers
-            .Where(d => d.HotelId == hotelId)
-            .Include(d => d.Hotel)
-            .ToListAsync();
-
-        if (!drivers.Any())
-            return Result.Failure<IEnumerable<DriverRes>>(DriverErrors.NoDriversForHotel);
-
-        return Result.Success(drivers.Adapt<IEnumerable<DriverRes>>());
-    }
 
     public async Task<Result<DriverRes>> CreateDriverAsync(DriverReq driverReq, CancellationToken cancellationToken)
     {
@@ -65,14 +38,22 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
 
         if (!hotelExists)
             return Result.Failure<DriverRes>(HotelErrors.HotelNotFound);
+        if (!Enum.TryParse<DriverCarType>(driverReq.CarType, true, out var carType))
+        {
+            return Result.Failure<DriverRes>(DriverErrors.DriverNotFound);
+        }
 
         var driver = driverReq.Adapt<Drivers>();
+        driver.CarType = carType;  // Set the CarType enum value after parsing
 
         await _context.Drivers.AddAsync(driver, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);
 
+        // Return the result
         return Result.Success(driver.Adapt<DriverRes>());
     }
+
+
 
     public async Task<Result<DriverRes>> UpdateDriverAsync(int id, DriverReq driverReq, CancellationToken cancellationToken)
     {
@@ -82,7 +63,7 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
         if (driver is null)
             return Result.Failure<DriverRes>(DriverErrors.DriverNotFound);
 
-        _mapper.Map(driverReq, driver); // Updates the existing driver
+        _mapper.Map(driverReq, driver); 
 
         await _context.SaveChangesAsync(cancellationToken);
 

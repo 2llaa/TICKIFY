@@ -11,11 +11,9 @@ namespace TICKIFY.API.Validators.Rooms
             RuleFor(x => x.RoomId)
                 .GreaterThan(0).WithMessage("RoomId must be a positive integer.");
 
-            RuleFor(x => x.Status)
-                .IsInEnum().WithMessage("Invalid room status.");
-
             RuleFor(x => x.Type)
-                .IsInEnum().WithMessage("Invalid room type.");
+              .Must(value => Enum.TryParse<RoomType>(value, true, out _))
+              .WithMessage("Invalid room type.");
 
             RuleFor(x => x.RoomNumber)
                 .GreaterThan(0).WithMessage("Room number must be greater than 0.");

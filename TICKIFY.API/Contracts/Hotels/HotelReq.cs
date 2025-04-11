@@ -8,7 +8,6 @@ namespace TICKIFY.API.Contracts.Requests
         public string Name { get; set; }
         public string Location { get; set; }
         public int StarRating { get; set; }
-        public HotelCategory Category { get; set; }
 
     }
 }

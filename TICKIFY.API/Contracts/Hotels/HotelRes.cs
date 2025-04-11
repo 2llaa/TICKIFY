@@ -5,16 +5,14 @@ namespace TICKIFY.API.Contracts.hotels
 {
     public class HotelRes
     {
-        public int HotelId { get; set; } // معرّف الفندق
+        public int HotelId { get; set; } 
 
-        public string Name { get; set; } = string.Empty; // اسم الفندق
+        public string Name { get; set; } = string.Empty; 
 
-        public HotelCategory Category { get; set; } // الفئة (مثل فاخر، اقتصادي، إلخ)
+        public string Location { get; set; } = string.Empty; 
 
-        public string Location { get; set; } = string.Empty; // موقع الفندق (المدينة، الدولة)
+        public int StarRating { get; set; } 
 
-        public int StarRating { get; set; } // تصنيف النجوم (من 1 إلى 5)
-
-        public List<DriverRes> Drivers { get; set; } = new List<DriverRes>();
+        public List<HotelDriversRes> Drivers { get; set; } = new List<HotelDriversRes>();
     }
 }

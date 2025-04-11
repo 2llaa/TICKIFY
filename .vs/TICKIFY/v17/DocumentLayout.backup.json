@@ -3,24 +3,88 @@
   "WorkspaceRootPath": "D:\\my programmes\\TICKIFY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\dataseed\\rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\dataseed\\rooms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\reservationdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\reservationdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\dataseed\\hotels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\dataseed\\hotels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\dataseed\\hotelreservations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\dataseed\\hotelreservations.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\hotels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\hotels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\dataseed\\drivers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\dataseed\\drivers.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\hotelreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\hotelreservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\apidependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\apidependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\roomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\roomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\reservationstatusupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\reservationstatusupdaterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\hotelreservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\hotelreservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\driverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\driverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\abstracts\\iroomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\abstracts\\iroomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\abstracts\\ihotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\abstracts\\ihotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\abstracts\\ihotelreservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\abstracts\\ihotelreservationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\abstracts\\idriverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\abstracts\\idriverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\entitiesconfiguration\\roomconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\entitiesconfiguration\\roomconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\entitiesconfiguration\\reservationdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\entitiesconfiguration\\reservationdetailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\entitiesconfiguration\\hotelreservationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\entitiesconfiguration\\hotelreservationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\entitiesconfiguration\\hotelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\entitiesconfiguration\\hotelconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\entitiesconfiguration\\driverconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\entitiesconfiguration\\driverconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\persistence\\dataseed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,72 +95,32 @@
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\persistence\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\driver\\drivermappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\driver\\drivermappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\room\\roommappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\room\\roommappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\reservationdetails\\reservationdetailres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\reservationdetails\\reservationdetailres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\reservationdetail\\detailsmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\reservationdetail\\detailsmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hotelreservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hotelreservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hoteldriverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hoteldriverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\hoteldriversres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\hoteldriversres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\driverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\driverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\driverreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\driverreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\hotelreservation\\reservationmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\hotelreservation\\reservationmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\hotel\\hotelmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\hotel\\hotelmappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\room\\roommappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\room\\roommappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\roomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\roomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\hotelroomsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\hotelroomsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\hotelroomsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\hotelroomsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\mapping\\driver\\drivermappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\mapping\\driver\\drivermappingconfgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\hotelservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\controllers\\reservationdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\controllers\\reservationdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\controllers\\hotelreservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,28 +131,120 @@
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\abstracts\\iroomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\abstracts\\iroomservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\controllers\\drivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomdto2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomdto2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomavailabilityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomavailabilityrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\hotelroomsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\hotelroomsvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\hotelroomsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\hotelroomsres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\hotelbyidroomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\hotelbyidroomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\reservationdetails\\reservationdetailres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\reservationdetails\\reservationdetailres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\reservationdetails\\reservationdetailreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\reservationdetails\\reservationdetailreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\searchhotelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\searchhotelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\searchhotelres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\searchhotelres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\searchhotelreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\searchhotelreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\hotelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\hotelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\hotelres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\hotelres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\hotelreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\hotelreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotels\\hotelbyidres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotels\\hotelbyidres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\reservationres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\reservationres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\reservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\reservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hotelreservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hotelreservationvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hotelreservationres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hotelreservationres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hotelreservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hotelreservationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\hotelreservations\\hoteldriverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\hotelreservations\\hoteldriverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\driverreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\driverreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\driverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\driverres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\drivervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\drivervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\services\\implementations\\driverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\services\\implementations\\driverservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|d:\\my programmes\\tickify\\tickify.data\\entities\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47E5A888-7991-479D-AC26-A40D3D48FAEB}|TICKIFY.Data\\TICKIFY.Data.csproj|solutionrelative:tickify.data\\entities\\drivers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\rooms\\roomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\rooms\\roomres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|d:\\my programmes\\tickify\\tickify.api\\contracts\\drivers\\hoteldriversres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85F30B1D-7634-40C0-8AD2-35CC081656DD}|TICKIFY.API\\TICKIFY.API.csproj|solutionrelative:tickify.api\\contracts\\drivers\\hoteldriversres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,288 +254,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rooms.json",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Rooms.json",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\Rooms.json",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Rooms.json",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\Rooms.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T19:46:34.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Hotels.json",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Hotels.json",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\Hotels.json",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Hotels.json",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\Hotels.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T19:45:57.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HotelReservations.json",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\HotelReservations.json",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\HotelReservations.json",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\HotelReservations.json",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\HotelReservations.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T19:42:29.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Drivers.json",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Drivers.json",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\Drivers.json",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\Drivers.json",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\Drivers.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T19:42:24.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDriverServices.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
-              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:42:18.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:41:46.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:41:06.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DriverMappingConfgs.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
-              "RelativeToolTip": "TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:38:18.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReservationDetailRes.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:37:30.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HotelReservationReq.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:37:01.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HotelDriverRes.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:36:33.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HotelDriversRes.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T19:36:15.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Enums\\RoomType.cs",
-              "RelativeDocumentMoniker": "TICKIFY.Data\\Enums\\RoomType.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Enums\\RoomType.cs",
-              "RelativeToolTip": "TICKIFY.Data\\Enums\\RoomType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:47:47.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RoomStatus.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Enums\\RoomStatus.cs",
-              "RelativeDocumentMoniker": "TICKIFY.Data\\Enums\\RoomStatus.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Enums\\RoomStatus.cs",
-              "RelativeToolTip": "TICKIFY.Data\\Enums\\RoomStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:34:03.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Program.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Program.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Program.cs",
-              "RelativeToolTip": "TICKIFY.API\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAGEAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:14:47.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IRoomServices.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
-              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:10:25.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RoomServices.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
-              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAtwEsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:02:05.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HotelRoomsRes.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:00:30.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HotelRoomsValidator.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T18:00:22.046Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DriverValidator.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:59:41.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DriverReq.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
-              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:59:35.85Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "DriverServices.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
-              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:58:48.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "Rooms.cs",
               "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\Rooms.cs",
               "RelativeDocumentMoniker": "TICKIFY.Data\\Entities\\Rooms.cs",
@@ -427,11 +266,51 @@
               "RelativeToolTip": "TICKIFY.Data\\Entities\\Rooms.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:54:06.938Z"
+              "WhenOpened": "2025-04-11T17:23:22.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 0,
+              "Title": "ReservationDetails.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\ReservationDetails.cs",
+              "RelativeDocumentMoniker": "TICKIFY.Data\\Entities\\ReservationDetails.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\ReservationDetails.cs",
+              "RelativeToolTip": "TICKIFY.Data\\Entities\\ReservationDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:21.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hotels.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\Hotels.cs",
+              "RelativeDocumentMoniker": "TICKIFY.Data\\Entities\\Hotels.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\Hotels.cs",
+              "RelativeToolTip": "TICKIFY.Data\\Entities\\Hotels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelReservations.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\HotelReservations.cs",
+              "RelativeDocumentMoniker": "TICKIFY.Data\\Entities\\HotelReservations.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\HotelReservations.cs",
+              "RelativeToolTip": "TICKIFY.Data\\Entities\\HotelReservations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:16.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Drivers.cs",
               "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.Data\\Entities\\Drivers.cs",
               "RelativeDocumentMoniker": "TICKIFY.Data\\Entities\\Drivers.cs",
@@ -439,35 +318,727 @@
               "RelativeToolTip": "TICKIFY.Data\\Entities\\Drivers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:54:01.305Z"
+              "WhenOpened": "2025-04-11T17:23:14.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\ApplicationDbContextFactory.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "TICKIFY.API\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiDependencyInjection.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\ApiDependencyInjection.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\ApiDependencyInjection.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\ApiDependencyInjection.cs",
+              "RelativeToolTip": "TICKIFY.API\\ApiDependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:23:08.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoomServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\RoomServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:22:04.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationStatusUpdaterService.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\ReservationStatusUpdaterService.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\ReservationStatusUpdaterService.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\ReservationStatusUpdaterService.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\ReservationStatusUpdaterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:21:22.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HotelServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwHEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:20:57.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HotelReservationServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelReservationServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\HotelReservationServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelReservationServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\HotelReservationServices.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAkwJkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:28.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DriverServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\DriverServices.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwC4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRoomServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IRoomServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:18.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IHotelServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IHotelServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IHotelServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IHotelServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IHotelServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:15.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IHotelReservationServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IHotelReservationServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IHotelReservationServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IHotelReservationServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IHotelReservationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:10.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "IDriverServices.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
+              "RelativeToolTip": "TICKIFY.API\\Services\\Abstracts\\IDriverServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:19:08.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoomConfig.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\RoomConfig.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\RoomConfig.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\RoomConfig.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\RoomConfig.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:55.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReservationDetailConfig.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\ReservationDetailConfig.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\ReservationDetailConfig.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\ReservationDetailConfig.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\ReservationDetailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:53.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HotelReservationConfig.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelReservationConfig.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelReservationConfig.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelReservationConfig.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelReservationConfig.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:15.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HotelConfig.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelConfig.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelConfig.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelConfig.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\HotelConfig.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:13.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DriverConfig.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\DriverConfig.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\DriverConfig.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\EntitiesConfiguration\\DriverConfig.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\EntitiesConfiguration\\DriverConfig.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:10.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\DataSeed\\DataSeeder.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:18:02.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TICKIFY.API\\Persistence\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:17:56.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "RoomMappingConfgs.cs",
               "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Room\\RoomMappingConfgs.cs",
               "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\Room\\RoomMappingConfgs.cs",
               "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Room\\RoomMappingConfgs.cs",
               "RelativeToolTip": "TICKIFY.API\\Mapping\\Room\\RoomMappingConfgs.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:53:25.69Z"
+              "WhenOpened": "2025-04-11T17:15:35.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DetailsMappingConfgs.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\ReservationDetail\\DetailsMappingConfgs.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\ReservationDetail\\DetailsMappingConfgs.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\ReservationDetail\\DetailsMappingConfgs.cs",
+              "RelativeToolTip": "TICKIFY.API\\Mapping\\ReservationDetail\\DetailsMappingConfgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:15:32.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReservationMappingConfgs.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\HotelReservation\\ReservationMappingConfgs.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\HotelReservation\\ReservationMappingConfgs.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\HotelReservation\\ReservationMappingConfgs.cs",
+              "RelativeToolTip": "TICKIFY.API\\Mapping\\HotelReservation\\ReservationMappingConfgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:15:25.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HotelMappingConfgs.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
+              "RelativeToolTip": "TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:15:10.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DriverMappingConfgs.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
+              "RelativeToolTip": "TICKIFY.API\\Mapping\\Driver\\DriverMappingConfgs.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwBwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:14:47.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "TICKIFY.API\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:14:28.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReservationDetailsController.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\ReservationDetailsController.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\ReservationDetailsController.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\ReservationDetailsController.cs",
+              "RelativeToolTip": "TICKIFY.API\\Controllers\\ReservationDetailsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:14:25.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "HotelReservationController.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelReservationController.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\HotelReservationController.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelReservationController.cs",
+              "RelativeToolTip": "TICKIFY.API\\Controllers\\HotelReservationController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:14:18.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\HotelController.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "TICKIFY.API\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAADwvy8AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:52.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DriverController.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\DriverController.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\DriverController.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\DriverController.cs",
+              "RelativeToolTip": "TICKIFY.API\\Controllers\\DriverController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:48.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoomValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:40.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "RoomRes.cs",
               "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomRes.cs",
               "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomRes.cs",
               "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomRes.cs",
               "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomRes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:51:34.965Z"
+              "WhenOpened": "2025-04-11T17:13:34.149Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 35,
+              "Title": "RoomReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:32.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RoomDto2.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomDto2.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomDto2.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomDto2.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomDto2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:30.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomDto.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomDto.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomDto.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:29.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RoomAvailabilityRequest.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomAvailabilityRequest.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\RoomAvailabilityRequest.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\RoomAvailabilityRequest.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\RoomAvailabilityRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:25.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HotelRoomsValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:14.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HotelRoomsRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\HotelRoomsRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:10.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HotelByIdRoomRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelByIdRoomRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Rooms\\HotelByIdRoomRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Rooms\\HotelByIdRoomRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Rooms\\HotelByIdRoomRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:13:03.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReservationDetailRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:12:58.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ReservationDetailReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\ReservationDetails\\ReservationDetailReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:12:57.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SearchHotelValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:12:51.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "SearchHotelRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:12:10.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SearchHotelReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\SearchHotelReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\SearchHotelReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:12:08.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "HotelValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\HotelValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\HotelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:11:19.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HotelRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\HotelRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\HotelRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:52.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HotelReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\HotelReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\HotelReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:46.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HotelByIdRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelByIdRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Hotels\\HotelByIdRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Hotels\\HotelByIdRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Hotels\\HotelByIdRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:11.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ReservationRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\ReservationRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\ReservationRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\ReservationRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\ReservationRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:05.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ReservationReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\ReservationReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\ReservationReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\ReservationReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\ReservationReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:03.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HotelReservationValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:10:00.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HotelReservationRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:58.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HotelReservationReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelReservationReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:57.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HotelDriverRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\HotelReservations\\HotelDriverRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:55.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HotelDriversRes.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\HotelDriversRes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:45.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DriverValidator.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\DriverValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:31.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DriverReq.cs",
+              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
+              "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
+              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
+              "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\DriverReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:09:29.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
               "Title": "DriverRes.cs",
               "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Contracts\\Drivers\\DriverRes.cs",
               "RelativeDocumentMoniker": "TICKIFY.API\\Contracts\\Drivers\\DriverRes.cs",
@@ -475,69 +1046,8 @@
               "RelativeToolTip": "TICKIFY.API\\Contracts\\Drivers\\DriverRes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:51:25.45Z",
+              "WhenOpened": "2025-04-11T17:09:28.046Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HotelMappingConfgs.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
-              "RelativeToolTip": "TICKIFY.API\\Mapping\\Hotel\\HotelMappingConfgs.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwFEAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:48:28.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HotelServices.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
-              "RelativeToolTip": "TICKIFY.API\\Services\\Implementations\\HotelServices.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowDoAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T17:46:04.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\HotelController.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "TICKIFY.API\\Controllers\\HotelController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAADIAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:50:36.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "HotelReservationController.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelReservationController.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\HotelReservationController.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\HotelReservationController.cs",
-              "RelativeToolTip": "TICKIFY.API\\Controllers\\HotelReservationController.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T14:50:24.685Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "TICKIFY.API\\Controllers\\RoomController.cs",
-              "ToolTip": "D:\\my programmes\\TICKIFY\\TICKIFY.API\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "TICKIFY.API\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T13:44:20.406Z"
             }
           ]
         }

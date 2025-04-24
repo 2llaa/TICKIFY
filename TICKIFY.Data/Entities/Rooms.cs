@@ -8,13 +8,15 @@ namespace TICKIFY.Data.Entities
         public int RoomId { get; set; }
 
         public RoomType Type { get; set; }
-        public string Status { get; set; } =string.Empty; // حالة الغرفة (متاحة، محجوزة، إلخ)
+        public string Status { get; set; } = string.Empty;
         public int RoomNumber { get; set; }
         public int BedCount { get; set; }
         public decimal PricePerNight { get; set; }
         public DateTime DateIn { get; set; }
         public DateTime DateOut { get; set; }
         public int HotelId { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
 
         // public bool IsAvailable { get; set; }
         [JsonIgnore]

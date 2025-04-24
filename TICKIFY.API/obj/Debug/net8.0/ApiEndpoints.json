@@ -1,8 +1,56 @@
 [
   {
-    "ContainingType": "TICKIFY.API.Controllers.DriverController",
+    "ContainingType": "TICKIFY.API.Controllers.AccountController",
+    "Method": "AddRoleAsync",
+    "RelativePath": "api/Account/assign-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TICKIFY.API.Contracts.Logging.AssignRoleReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.AccountController",
+    "Method": "GetTokenAsync",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TICKIFY.API.Contracts.Logging.LoginReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.AccountController",
+    "Method": "RegisterAsync",
+    "RelativePath": "api/Account/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TICKIFY.API.Contracts.Logging.RegisterReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.DriverController",
     "Method": "CreateDriver",
-    "RelativePath": "api/Driver",
+    "RelativePath": "api/Admin/Driver",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -16,9 +64,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TICKIFY.API.Controllers.DriverController",
+    "ContainingType": "TICKIFY.API.Controllers.Admin.DriverController",
     "Method": "GetDriverById",
-    "RelativePath": "api/Driver/{id}",
+    "RelativePath": "api/Admin/Driver/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -32,9 +80,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TICKIFY.API.Controllers.DriverController",
+    "ContainingType": "TICKIFY.API.Controllers.Admin.DriverController",
     "Method": "UpdateDriver",
-    "RelativePath": "api/Driver/{id}",
+    "RelativePath": "api/Admin/Driver/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -53,10 +101,449 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TICKIFY.API.Controllers.DriverController",
+    "ContainingType": "TICKIFY.API.Controllers.Admin.DriverController",
     "Method": "DeleteDriver",
-    "RelativePath": "api/Driver/{id}",
+    "RelativePath": "api/Admin/Driver/{id}",
     "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.DriverController",
+    "Method": "SoftDeleteDriver",
+    "RelativePath": "api/Admin/Driver/soft/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetAllHotels",
+    "RelativePath": "api/Admin/Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "CreateHotel",
+    "RelativePath": "api/Admin/Hotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelReq",
+        "Type": "TICKIFY.API.Contracts.Requests.HotelReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetHotelById",
+    "RelativePath": "api/Admin/Hotel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "UpdateHotel",
+    "RelativePath": "api/Admin/Hotel/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "hotelReq",
+        "Type": "TICKIFY.API.Contracts.Requests.HotelReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "DeleteHotel",
+    "RelativePath": "api/Admin/Hotel/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetHotelDrivers",
+    "RelativePath": "api/Admin/Hotel/{id}/drivers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetHotelRooms",
+    "RelativePath": "api/Admin/Hotel/{id}/rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetHotelsByLocationAndRating",
+    "RelativePath": "api/Admin/Hotel/search/by-location-rating",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "starRating",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "GetHotelsByName",
+    "RelativePath": "api/Admin/Hotel/search/by-name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelController",
+    "Method": "SoftDeleteHotel",
+    "RelativePath": "api/Admin/Hotel/soft/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "GetReservationById",
+    "RelativePath": "api/Admin/HotelReservation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "UpdateReservation",
+    "RelativePath": "api/Admin/HotelReservation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reservationReq",
+        "Type": "TICKIFY.API.Contracts.HotelReservations.ReservationReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/Admin/HotelReservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "CheckExpiredReservations",
+    "RelativePath": "api/Admin/HotelReservation/check-expired",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "GetAllReservations",
+    "RelativePath": "api/Admin/HotelReservation/get-all-reservations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.HotelReservationController",
+    "Method": "CreateReservation",
+    "RelativePath": "api/Admin/HotelReservation/reserve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TICKIFY.API.Contracts.HotelReservations.ReservationReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "CreateRoom",
+    "RelativePath": "api/Admin/Room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomReq",
+        "Type": "TICKIFY.API.Contracts.Rooms.RoomReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "GetRoomById",
+    "RelativePath": "api/Admin/Room/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "UpdateRoom",
+    "RelativePath": "api/Admin/Room/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roomReq",
+        "Type": "TICKIFY.API.Contracts.Rooms.RoomReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "DeleteRoom",
+    "RelativePath": "api/Admin/Room/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "GetRoomPrice",
+    "RelativePath": "api/Admin/Room/{id}/price",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "GetAvailableRooms",
+    "RelativePath": "api/Admin/Room/available-rooms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TICKIFY.API.Contracts.Rooms.RoomAvailabilityRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "GetRoomByHotelAndRoomId",
+    "RelativePath": "api/Admin/Room/hotel/{hotelId}/room/{roomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "SoftDeleteRoom",
+    "RelativePath": "api/Admin/Room/soft/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.Admin.RoomController",
+    "Method": "GetRoomsByType",
+    "RelativePath": "api/Admin/Room/type/{type}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TICKIFY.API.Controllers.DriverController",
+    "Method": "GetDriverById",
+    "RelativePath": "api/Driver/{id}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -80,62 +567,9 @@
   },
   {
     "ContainingType": "TICKIFY.API.Controllers.HotelController",
-    "Method": "CreateHotel",
-    "RelativePath": "api/Hotel",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "hotelReq",
-        "Type": "TICKIFY.API.Contracts.Requests.HotelReq",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelController",
     "Method": "GetHotelById",
     "RelativePath": "api/Hotel/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelController",
-    "Method": "UpdateHotel",
-    "RelativePath": "api/Hotel/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "hotelReq",
-        "Type": "TICKIFY.API.Contracts.Requests.HotelReq",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelController",
-    "Method": "DeleteHotel",
-    "RelativePath": "api/Hotel/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -194,7 +628,7 @@
       },
       {
         "Name": "starRating",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],
@@ -234,53 +668,6 @@
   },
   {
     "ContainingType": "TICKIFY.API.Controllers.HotelReservationController",
-    "Method": "UpdateReservation",
-    "RelativePath": "api/HotelReservation/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "reservationReq",
-        "Type": "TICKIFY.API.Contracts.HotelReservations.HotelReservationReq",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelReservationController",
-    "Method": "DeleteReservation",
-    "RelativePath": "api/HotelReservation/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelReservationController",
-    "Method": "GetAllReservations",
-    "RelativePath": "api/HotelReservation/get-all-reservations",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.HotelReservationController",
     "Method": "CreateReservation",
     "RelativePath": "api/HotelReservation/reserve",
     "HttpMethod": "POST",
@@ -297,62 +684,9 @@
   },
   {
     "ContainingType": "TICKIFY.API.Controllers.RoomController",
-    "Method": "CreateRoom",
-    "RelativePath": "api/Room",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "roomReq",
-        "Type": "TICKIFY.API.Contracts.Rooms.RoomReq",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.RoomController",
     "Method": "GetRoomById",
     "RelativePath": "api/Room/{id}",
     "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.RoomController",
-    "Method": "UpdateRoom",
-    "RelativePath": "api/Room/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "roomReq",
-        "Type": "TICKIFY.API.Contracts.Rooms.RoomReq",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TICKIFY.API.Controllers.RoomController",
-    "Method": "DeleteRoom",
-    "RelativePath": "api/Room/{id}",
-    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

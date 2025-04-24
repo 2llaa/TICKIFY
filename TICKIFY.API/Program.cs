@@ -1,54 +1,91 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
+using System.Text;
 using TICKIFY.API.Persistence.Data;
 using TICKIFY.API.Persistence.DataSeed;
+using TICKIFY.API.Services.Abstracts;
+using TICKIFY.API.Services.Implementations;
+using TICKIFY.API.Services.Background;
+using TICKIFY.Data.Entities;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Mapster;
 using MapsterMapper;
 using System.Reflection;
-using TICKIFY.API.Services.Abstracts;
-using TICKIFY.API.Services.Implementations;
+using Microsoft.Extensions.Options;
+using TICKIFY.API.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//   Configure Serilog
+// ----------------- Logging -----------------
 builder.Host.UseSerilog((context, config) =>
 {
     config.WriteTo.Console()
           .WriteTo.File("Logs/Tickify.log", rollingInterval: RollingInterval.Day);
 });
 
-//  Load connection string
+// ----------------- Configuration -----------------
 var connectionString = builder.Configuration.GetConnectionString("TickifyDbConnection");
 
-//  Register DbContext
+// ----------------- DbContext -----------------
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-//  Register Controllers
-builder.Services.AddControllers();
+// ----------------- Identity -----------------
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-//  Register Swagger
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// ----------------- JWT Configuration -----------------
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
 
-//   Register FluentValidation
+var jwtSettings = builder.Configuration.GetSection("JwtSettings").Get<JwtSettings>();
+if (jwtSettings == null || string.IsNullOrEmpty(jwtSettings.SecretKey))
+{
+    throw new InvalidOperationException("JWT configuration is missing or invalid in appsettings.json");
+}
+
+// ----------------- JWT Authentication -----------------
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = jwtSettings.Issuer,
+        ValidAudience = jwtSettings.Audience,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey))
+    };
+});
+
+// ----------------- FluentValidation -----------------
 builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 builder.Services.AddFluentValidationAutoValidation();
 
-//  Register Mapster
+// ----------------- Mapster -----------------
 var mapsterConfig = TypeAdapterConfig.GlobalSettings;
 mapsterConfig.Scan(Assembly.GetExecutingAssembly());
 builder.Services.AddSingleton<IMapper>(new Mapper(mapsterConfig));
 
-//  Register Services
+// ----------------- Application Services -----------------
+builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IDriverServices, DriverServices>();
 builder.Services.AddTransient<IRoomServices, RoomServices>();
 builder.Services.AddTransient<IHotelReservationServices, HotelReservationServices>();
 builder.Services.AddTransient<IHotelServices, HotelServices>();
+builder.Services.AddHostedService<ReservationExpiryService>();
 
-//   Register CORS policy
+// ----------------- CORS -----------------
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -59,9 +96,14 @@ builder.Services.AddCors(options =>
     });
 });
 
+// ----------------- Controllers & Swagger -----------------
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
-//  Apply migrations and seed data
+// ----------------- Apply Migrations & Seed -----------------
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -74,6 +116,7 @@ using (var scope = app.Services.CreateScope())
         logger.LogInformation("Migrations Applied Successfully.");
 
         await DataSeeder.SeedAsync(dbContext);
+        await SeedRoles.SeedRolesAsync(scope.ServiceProvider);
         logger.LogInformation("Data Seeding Completed Successfully.");
     }
     catch (Exception ex)
@@ -82,17 +125,17 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-//   Enable Swagger in Development
+// ----------------- Middleware -----------------
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-//   Middleware
 app.UseCors("AllowAll");
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 
-//  Run the app
 await app.RunAsync();

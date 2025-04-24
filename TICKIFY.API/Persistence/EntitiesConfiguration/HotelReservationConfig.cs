@@ -19,38 +19,41 @@ namespace TICKIFY.Infrastructure.Persistence.EntitiesConfiguration
             builder.Property(hr => hr.Status)
                 .IsRequired();
 
-            builder.Property(hr => hr.GuestName)
-                .IsRequired()
-                .HasMaxLength(255); 
-
-            builder.Property(hr => hr.Email)
-                .IsRequired()
-                .HasMaxLength(255); 
-
-            builder.Property(hr => hr.Phone)
-                .IsRequired()
-                .HasMaxLength(20); 
-
             builder.Property(hr => hr.HotelId)
                 .IsRequired();
 
-            builder.HasOne(hr => hr.Hotel)
-                .WithMany(h => h.HotelReservations)
-                .HasForeignKey(hr => hr.HotelId)
-                .OnDelete(DeleteBehavior.Cascade);
+            builder.Property(hr => hr.DriverId)
+                .IsRequired();
 
             builder.Property(hr => hr.RoomId)
                 .IsRequired();
 
+            // Relationships
+            builder.HasOne(hr => hr.Driver)
+                .WithMany(h => h.HotelReservations)
+                .HasForeignKey(hr => hr.DriverId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasOne(hr => hr.Hotel)
+                .WithMany(h => h.HotelReservations)
+                .HasForeignKey(hr => hr.HotelId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             builder.HasOne(hr => hr.Room)
                 .WithMany(r => r.HotelReservations)
                 .HasForeignKey(hr => hr.RoomId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                .OnDelete(DeleteBehavior.Restrict);
 
+            // Updated to match ReservationDetails configuration
             builder.HasMany(hr => hr.ReservationDetails)
-                .WithOne(rd => rd.HotelReservation)
-                .HasForeignKey(rd => rd.HotelReservationId)
-                .OnDelete(DeleteBehavior.Cascade); 
+                 .WithOne(rd => rd.HotelReservation)
+                 .HasForeignKey(rd => rd.HotelReservationId)
+                 .IsRequired()
+                 .OnDelete(DeleteBehavior.Restrict); // Changed to Restrict
+
+
+            // Soft delete filter
+            builder.HasQueryFilter(r => !r.IsDeleted);
         }
     }
 }

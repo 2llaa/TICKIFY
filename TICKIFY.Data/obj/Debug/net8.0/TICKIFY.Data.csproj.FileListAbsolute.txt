@@ -1,6 +1,8 @@
 D:\my programmes\TICKIFY\TICKIFY.Data\bin\Debug\net8.0\TICKIFY.Data.deps.json
+D:\my programmes\TICKIFY\TICKIFY.Data\bin\Debug\net8.0\TICKIFY.Data.runtimeconfig.json
 D:\my programmes\TICKIFY\TICKIFY.Data\bin\Debug\net8.0\TICKIFY.Data.dll
 D:\my programmes\TICKIFY\TICKIFY.Data\bin\Debug\net8.0\TICKIFY.Data.pdb
+D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.csproj.AssemblyReference.cache
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.AssemblyInfoInputs.cache
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.AssemblyInfo.cs
@@ -9,4 +11,5 @@ D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.sourcelink.j
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.dll
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\refint\TICKIFY.Data.dll
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.pdb
+D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\TICKIFY.Data.genruntimeconfig.cache
 D:\my programmes\TICKIFY\TICKIFY.Data\obj\Debug\net8.0\ref\TICKIFY.Data.dll

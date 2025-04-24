@@ -6,14 +6,16 @@ namespace TICKIFY.Data.Entities
     {
         public int ReservationDetailsId { get; set; }
         public int RoomId { get; set; }
-        [JsonIgnore]
 
+        [JsonIgnore]
         public Rooms Room { get; set; }
 
-        public int HotelReservationId { get; set; }
+        public int HotelReservationId { get; set; } 
+
         [JsonIgnore]
-        public  HotelReservations HotelReservation { get; set; }
+        public HotelReservations HotelReservation { get; set; }
 
-
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
     }
 }

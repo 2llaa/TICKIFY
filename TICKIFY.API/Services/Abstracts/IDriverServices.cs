@@ -13,5 +13,6 @@ namespace TICKIFY.API.Services.Abstracts
          Task<Result<DriverRes>> CreateDriverAsync(DriverReq driverReq, CancellationToken cancellationToken);
           Task<Result<DriverRes>> UpdateDriverAsync(int id, DriverReq driverReq, CancellationToken cancellationToken);
         Task DeleteDriverAsync(int id, CancellationToken cancellationToken);
+        Task<Result> SoftDeleteDriverAsync(int id, CancellationToken cancellationToken);
     }
 }

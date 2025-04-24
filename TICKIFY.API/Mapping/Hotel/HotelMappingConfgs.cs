@@ -15,26 +15,12 @@ namespace TICKIFY.API.Mapping.Hotel
         {
 
 
-            #region  HotelReq to Hotels 
-
-
-            config.NewConfig<HotelReq, Hotels>()
-               // .Map(dest => dest.Name, src => src.Name)
-               // .Map(dest => dest.Category, src => src.Category)
-                .Map(dest => dest.Location, src => src.Location)
-                .Map(dest => dest.StarRating, src => src.StarRating);
-
-            #endregion
+ 
 
 
             #region Hotel to HotelRes
 
             config.NewConfig<Hotels, HotelRes>()
-                .Map(dest => dest.HotelId, src => src.HotelId)
-               // .Map(dest => dest.Name, src => src.Name)
-               // .Map(dest => dest.Category, src => src.Category)
-                .Map(dest => dest.Location, src => src.Location)
-                .Map(dest => dest.StarRating, src => src.StarRating)
                  .Map(dest => dest.Drivers, src => src.Drivers.Select(d => new DriverRes
                   {
                      DriverId = d.DriverId,
@@ -48,25 +34,10 @@ namespace TICKIFY.API.Mapping.Hotel
             #endregion
 
 
-            #region searchHotelReq to Hotels 
-
-            config.NewConfig<SearchHotelReq, Hotels>()
-               // .Map(dest => dest.Name, src => Enum.GetName(typeof(HotelName), src.Name))  // تحويل enum إلى string
-                .Map(dest => dest.Location, src => src.Location)
-                .Map(dest => dest.StarRating, src => src.StarRating);
-
-            #endregion
-
-
 
             #region hotels to SearchHotelRes
 
             config.NewConfig<Hotels, SearchHotelRes>()
-               .Map(dest => dest.HotelId, src => src.HotelId)
-              //  .Map(dest => dest.Name, src => Enum.GetName(typeof(HotelName), src.Name))  // تحويل enum إلى string
-              //  .Map(dest => dest.Category, src => src.Category)
-                .Map(dest => dest.Location, src => src.Location)
-                .Map(dest => dest.StarRating, src => src.StarRating)
 
                 .Map(dest => dest.Drivers, src => src.Drivers.Select(d => new HotelDriversRes
                 {

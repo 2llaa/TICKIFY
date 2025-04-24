@@ -19,6 +19,7 @@ namespace TICKIFY.API.Services.Abstracts
         Task<Result<IEnumerable<RoomRes>>> GetRoomsByHotelAsync(int hotelId, CancellationToken cancellationToken);
         Task<Result<HotelRoomsRes>> CreateRoomAsync(RoomReq roomReq, CancellationToken cancellationToken);
         Task<Result<RoomRes>> UpdateRoomAsync(int id, RoomReq roomToUpdate, CancellationToken cancellationToken);
+        Task<Result> SoftDeleteRoomAsync(int id, CancellationToken cancellationToken);
         Task<Result<bool>> DeleteRoomAsync(int id, CancellationToken cancellationToken);
     }
 }

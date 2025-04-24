@@ -10,7 +10,6 @@ namespace TICKIFY.API
         {
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-            // حطي هنا نفس الكونكشن سترينج اللي في appsettings.json
             var connectionString = "Server=.;Database=TickifyDb;Trusted_Connection=True;TrustServerCertificate=True;";
             optionsBuilder.UseSqlServer(connectionString);
 

@@ -14,6 +14,10 @@ namespace TICKIFY.Data.Entities
         public int HotelId { get; set; }
         public Hotels Hotel { get; set; }
 
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
 
+        public List<HotelReservations> HotelReservations { get; set; } = [];
+        public string Status { get; set; }
     }
 }

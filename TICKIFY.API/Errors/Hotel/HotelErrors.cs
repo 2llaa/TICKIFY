@@ -18,5 +18,7 @@ namespace TICKIFY.API.Errors.Hotel
         
         public static readonly Error NoDriversForHotel = new("NO_DRIVERS_FOR_HOTEL", "This hotel does not have any assigned drivers.");
 
+        public static Error RatingNotFound =
+            new("RATING_NOT_FOUND", "The specified rating could not be found.");
     }
 }

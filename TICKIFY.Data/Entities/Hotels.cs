@@ -9,6 +9,8 @@ namespace TICKIFY.Data.Entities
         public string Name { get; set; }
         public string Location { get; set; } = string.Empty;
         public int StarRating { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
         [JsonIgnore]
         public List<HotelReservations> HotelReservations { get; set; } = [];
 
@@ -16,5 +18,6 @@ namespace TICKIFY.Data.Entities
         [JsonIgnore]
 
         public List<Rooms> Rooms { get; set; } = [];
+        public string Status { get; set; }
     }
 }

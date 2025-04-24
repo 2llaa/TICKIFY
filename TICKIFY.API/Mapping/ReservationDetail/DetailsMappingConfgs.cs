@@ -8,18 +8,11 @@ namespace TICKIFY.API.Mapping.ReservationDetail
     {
         public void Register(TypeAdapterConfig config)
         {
-            // ReservationDetailReq to ReservationDetail
-            config.NewConfig<ReservationDetailReq, ReservationDetails>()
-                .Map(dest => dest.RoomId, src => src.RoomId)
 
-                .Map(dest => dest.HotelReservationId, src => src.HotelReservationId);
 
             // ReservationDetail to ReservationDetailRes 
             config.NewConfig<ReservationDetails, ReservationDetailRes>()
-                .Map(dest => dest.Id, src => src.ReservationDetailsId)
-                .Map(dest => dest.RoomId, src => src.RoomId)
-
-                .Map(dest => dest.HotelReservationId, src => src.HotelReservationId);
+                .Map(dest => dest.Id, src => src.ReservationDetailsId);
         }
     }
 }

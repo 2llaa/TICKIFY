@@ -10,6 +10,7 @@ using TICKIFY.Data.Entities;
 using Mapster;
 using MapsterMapper;
 using TICKIFY.Data.Enums;
+using TICKIFY.API.Errors.Reservation;
 
 namespace TICKIFY.API.Services.Implementations;
 
@@ -22,13 +23,14 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
     {
         var driver = await _context.Drivers
             .Include(d => d.Hotel)
-            .FirstOrDefaultAsync(d => d.DriverId == id, cancellationToken);
+            .FirstOrDefaultAsync(d => d.DriverId == id && !d.IsDeleted, cancellationToken);
 
         if (driver is null)
-            return Result.Failure<DriverRes>(DriverErrors.DriverNotFound);
+            return Result.Failure<DriverRes>(DriverErrors.DriverNotFound); 
 
         return Result.Success(driver.Adapt<DriverRes>());
     }
+
 
 
     public async Task<Result<DriverRes>> CreateDriverAsync(DriverReq driverReq, CancellationToken cancellationToken)
@@ -44,12 +46,11 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
         }
 
         var driver = driverReq.Adapt<Drivers>();
-        driver.CarType = carType;  // Set the CarType enum value after parsing
+        driver.CarType = carType;  
 
         await _context.Drivers.AddAsync(driver, cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);
 
-        // Return the result
         return Result.Success(driver.Adapt<DriverRes>());
     }
 
@@ -58,7 +59,7 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
     public async Task<Result<DriverRes>> UpdateDriverAsync(int id, DriverReq driverReq, CancellationToken cancellationToken)
     {
         var driver = await _context.Drivers
-            .FirstOrDefaultAsync(d => d.DriverId == id, cancellationToken);
+            .FirstOrDefaultAsync(d => d.DriverId == id && !d.IsDeleted, cancellationToken);
 
         if (driver is null)
             return Result.Failure<DriverRes>(DriverErrors.DriverNotFound);
@@ -80,6 +81,21 @@ public class DriverServices(ApplicationDbContext context, IMapper mapper) : IDri
             _context.Drivers.Remove(driver);
             await _context.SaveChangesAsync(cancellationToken);
         }
+    }
+
+    public async Task<Result> SoftDeleteDriverAsync(int id, CancellationToken cancellationToken)
+    {
+        var driver = await _context.Drivers
+     .FirstOrDefaultAsync(r => r.DriverId == id, cancellationToken);
+
+        if (driver == null)
+            return Result.Failure(DriverErrors.DriverNotFound);
+        driver.IsDeleted = true;
+        driver.DeletedAt = DateTime.UtcNow;
+        driver.Status = "Cancelled";
+
+        await _context.SaveChangesAsync(cancellationToken);
+        return Result.Success();
     }
 }
 

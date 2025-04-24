@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using TICKIFY.API.Persistence.Data;
@@ -109,6 +110,7 @@ namespace TICKIFY.API.Persistence.DataSeed
                 throw;
             }
         }
+
 
         private static string GetFilePath(string fileName)
         {

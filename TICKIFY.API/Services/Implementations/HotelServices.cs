@@ -14,6 +14,7 @@ using TICKIFY.Data.Entities;
 using TICKIFY.Data.Enums;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using Serilog;
+using System.Globalization;
 
 public class HotelServices : IHotelServices
 {
@@ -32,7 +33,7 @@ public class HotelServices : IHotelServices
         var hotel = await _context.Hotels
             .Include(h => h.Drivers)
             .Include(h => h.Rooms)
-            .FirstOrDefaultAsync(h => h.HotelId == id, cancellationToken);
+            .FirstOrDefaultAsync(h => h.HotelId == id && !h.IsDeleted, cancellationToken);
 
         return hotel == null
             ? Result.Failure<HotelByIdRes>(HotelErrors.HotelNotFound)
@@ -47,7 +48,7 @@ public class HotelServices : IHotelServices
         {
             var normalizedSearchTerm = NormalizeHotelName(name);
 
-            query = query.Where(h => EF.Functions.Like(h.Name.ToLower(), "%" + normalizedSearchTerm.ToLower() + "%"));
+            query = query.Where(h => EF.Functions.Like(h.Name.ToLower(), "%" + normalizedSearchTerm.ToLower() + "%") && !h.IsDeleted);  // إضافة شرط IsDeleted
         }
 
         var hotels = await query
@@ -71,14 +72,17 @@ public class HotelServices : IHotelServices
     }
 
 
+
     public async Task<Result<IEnumerable<HotelByIdRoomRes>>> GetHotelRoomsAsync(int hotelId, CancellationToken cancellationToken)
     {
-        var hotelExists = await _context.Hotels.AnyAsync(h => h.HotelId == hotelId, cancellationToken);
+        var hotelExists = await _context.Hotels
+            .AnyAsync(h => h.HotelId == hotelId && !h.IsDeleted, cancellationToken); 
+
         if (!hotelExists)
             return Result.Failure<IEnumerable<HotelByIdRoomRes>>(HotelErrors.HotelNotFound);
 
         var rooms = await _context.Rooms
-            .Where(r => r.HotelId == hotelId)
+            .Where(r => r.HotelId == hotelId && !r.IsDeleted) 
             .ToListAsync(cancellationToken);
 
         return rooms.Any()
@@ -86,38 +90,7 @@ public class HotelServices : IHotelServices
             : Result.Failure<IEnumerable<HotelByIdRoomRes>>(HotelErrors.NoRoomsForHotel);
     }
 
-    public async Task<Result<IEnumerable<HotelRes>>> GetHotelsByLocationAsync(string location, CancellationToken cancellationToken)
-    {
-        var normalizedInput = NormalizeText(location);
 
-        var hotels = await _context.Hotels
-            .Include(h => h.Drivers)
-            .ToListAsync(cancellationToken);
-
-        var matchedHotels = hotels
-            .Where(h => NormalizeText(h.Location).Contains(normalizedInput))
-            .ToList();
-
-        return matchedHotels.Any()
-            ? Result.Success(matchedHotels.Adapt<IEnumerable<HotelRes>>())
-            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.HotelNotFound);
-    }
-
-
-
-
-
-    public async Task<Result<IEnumerable<HotelRes>>> GetHotelsByStarRatingAsync(int stars, CancellationToken cancellationToken)
-    {
-        var hotels = await _context.Hotels
-            .Where(h => h.StarRating == stars)
-            .Include(h => h.Drivers) 
-            .ToListAsync(cancellationToken);
-
-        return hotels.Any()
-            ? Result.Success(hotels.Adapt<IEnumerable<HotelRes>>())
-            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.HotelNotFound);
-    }
 
     public async Task<Result<IEnumerable<HotelRes>>> GetHotelsByLocationAndStarRatingAsync(string location, int? starRating, CancellationToken cancellationToken)
     {
@@ -126,6 +99,7 @@ public class HotelServices : IHotelServices
         var hotels = await _context.Hotels
             .Include(h => h.Drivers)
             .Include(h => h.Rooms)
+            .Where(h => !h.IsDeleted) 
             .ToListAsync(cancellationToken);
 
         var matchedHotels = hotels
@@ -135,27 +109,68 @@ public class HotelServices : IHotelServices
 
         return matchedHotels.Any()
             ? Result.Success(matchedHotels.Adapt<IEnumerable<HotelRes>>())
-            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.HotelNotFound);
+            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.NoHotelsFound);
     }
+
+    public async Task<Result<IEnumerable<HotelRes>>> GetHotelsByLocationAsync(string location, CancellationToken cancellationToken)
+    {
+        var normalizedInput = NormalizeText(location);
+
+        var hotels = await _context.Hotels
+            .Include(h => h.Drivers)
+            .Include(h => h.Rooms)
+            .Where(h => !h.IsDeleted) 
+            .ToListAsync(cancellationToken);
+
+        var matchedHotels = hotels
+            .Where(h => NormalizeText(h.Location).Contains(normalizedInput))
+            .ToList();
+
+        return matchedHotels.Any()
+            ? Result.Success(matchedHotels.Adapt<IEnumerable<HotelRes>>())
+            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.NoHotelsFound);
+    }
+
+    public async Task<Result<IEnumerable<HotelRes>>> GetHotelsByStarRatingAsync(int starRating, CancellationToken cancellationToken)
+    {
+        var hotels = await _context.Hotels
+            .Include(h => h.Drivers)
+            .Include(h => h.Rooms)
+            .Where(h => h.StarRating == starRating && !h.IsDeleted) 
+            .ToListAsync(cancellationToken);
+
+        return hotels.Any()
+            ? Result.Success(hotels.Adapt<IEnumerable<HotelRes>>())
+            : Result.Failure<IEnumerable<HotelRes>>(HotelErrors.NoHotelsFound);
+    }
+
 
     public async Task<Result<HotelRes>> CreateHotelAsync(HotelReq hotelReq, CancellationToken cancellationToken)
     {
         if (hotelReq is null)
             return Result.Failure<HotelRes>(HotelErrors.HotelNotFound);
-
         var exists = await _context.Hotels
-            .AnyAsync(h => h.Name.Equals(hotelReq.Name, StringComparison.OrdinalIgnoreCase), cancellationToken);
+            .AnyAsync(h => h.Name.ToLower() == hotelReq.Name.ToLower(), cancellationToken);
 
         if (exists)
             return Result.Failure<HotelRes>(HotelErrors.DuplicateHotel);
+        hotelReq.Name = CapitalizeName(hotelReq.Name);
+
         var hotel = _mapper.Map<Hotels>(hotelReq);
         _context.Hotels.Add(hotel);
         await _context.SaveChangesAsync(cancellationToken);
 
-        var response = hotel.Adapt<HotelRes>();
-        return Result.Success(response);
+        return Result.Success(hotel.Adapt<HotelRes>());
     }
 
+    private static string CapitalizeName(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            return name;
+
+        TextInfo textInfo = CultureInfo.CurrentCulture.TextInfo;
+        return textInfo.ToTitleCase(name.ToLower());
+    }
 
 
 
@@ -174,7 +189,9 @@ public class HotelServices : IHotelServices
 
     public async Task<Result<HotelRes>> UpdateHotelAsync(int id, HotelReq hotelReq, CancellationToken cancellationToken)
     {
-        var existing = await _context.Hotels.FirstOrDefaultAsync(h => h.HotelId == id, cancellationToken);
+        var existing = await _context.Hotels
+            .FirstOrDefaultAsync(h => h.HotelId == id && !h.IsDeleted, cancellationToken); 
+
         if (existing == null)
             return Result.Failure<HotelRes>(HotelErrors.HotelNotFound);
 
@@ -184,6 +201,7 @@ public class HotelServices : IHotelServices
 
         return Result.Success(existing.Adapt<HotelRes>());
     }
+
 
     public async Task<Result<bool>> DeleteHotelAsync(int id, CancellationToken cancellationToken)
     {
@@ -199,12 +217,12 @@ public class HotelServices : IHotelServices
 
     public async Task<Result<IEnumerable<DriverRes>>> GetHotelDriversAsync(int hotelId, CancellationToken cancellationToken)
     {
-        var exists = await _context.Hotels.AnyAsync(h => h.HotelId == hotelId, cancellationToken);
+        var exists = await _context.Hotels.AnyAsync(h => h.HotelId == hotelId && !h.IsDeleted, cancellationToken);
         if (!exists)
             return Result.Failure<IEnumerable<DriverRes>>(HotelErrors.HotelNotFound);
 
         var drivers = await _context.Drivers
-            .Where(d => d.HotelId == hotelId)
+            .Where(d => d.HotelId == hotelId && !d.IsDeleted) 
             .ToListAsync(cancellationToken);
 
         return drivers.Any()
@@ -212,6 +230,20 @@ public class HotelServices : IHotelServices
             : Result.Failure<IEnumerable<DriverRes>>(HotelErrors.NoDriversForHotel);
     }
 
+    public async Task<Result> SoftDeleteHotelAsync(int id, CancellationToken cancellationToken)
+    {
+        var hotel = await _context.Hotels
+     .FirstOrDefaultAsync(r => r.HotelId == id, cancellationToken);
+
+        if (hotel == null)
+            return Result.Failure(DriverErrors.DriverNotFound);
+        hotel.IsDeleted = true;
+        hotel.DeletedAt = DateTime.UtcNow;
+        hotel.Status = "Cancelled";
+
+        await _context.SaveChangesAsync(cancellationToken);
+        return Result.Success();
+    }
 
     public string NormalizeHotelName(string input)
     {

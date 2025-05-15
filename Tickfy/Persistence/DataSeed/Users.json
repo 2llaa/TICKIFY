@@ -1,0 +1,67 @@
+﻿[
+  {
+    "Id": "9b44e0f4-be5e-43ba-802b-39f2bd959e59",
+    "FirstName": "karim",
+    "LastName": "fathi",
+    "NormalizedUserName": "KARIM5@TEST.COM",
+    "Email": "karim5@test.com",
+    "NormalizedEmail": "KARIM5@TEST.COM",
+    "PasswordHash": "AQAAAAIAAYagAAAAEGgJM0OnNoOWxQyEzi1e/rQd4wav0zbBo5BBBfcxhjohFK+0JE7EYrUFRhDZtL7eoA==",
+    "SecurityStamp": "6LJMHGN45QHMN5X7AR4HWDDRLLQC4OMI",
+    "ConcurrencyStamp": "7e7188ea-5267-47f8-adcd-da1d38fc2627",
+    "PhoneNumber": "++2001288510520",
+    "LockoutEnabled": true
+  },
+  {
+    "Id": "b6e4d8f1-2c3d-5e96-9f21-6g3456e78901",
+    "FirstName": "Sara",
+    "LastName": "Mahmoud",
+    "NormalizedUserName": "SARA2@TEST.COM",
+    "Email": "sara2@test.com",
+    "NormalizedEmail": "SARA2@TEST.COM",
+    "PasswordHash": "AQAAAAIAAYagAAAAEGgJM0OnNoOWxQyEzi1e/rQd4wav0zbBo5BBBfcxhjohFK+0JE7EYrUFRhDZtL7eoA==",
+    "SecurityStamp": "2B3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q",
+    "ConcurrencyStamp": "ae2dfc58-4e3a-4fdf-a443-4a6becc0cc11",
+    "PhoneNumber": "+2011288510502",
+    "LockoutEnabled": true
+  },
+  {
+    "Id": "c7f5e9a2-3d4e-6fa7-0g32-7h4567f89012",
+    "FirstName": "Omar",
+    "LastName": "Nasr",
+    "NormalizedUserName": "OMAR3@TEST.COM",
+    "Email": "omar3@test.com",
+    "NormalizedEmail": "OMAR3@TEST.COM",
+    "PasswordHash": "AQAAAAIAAYagAAAAEGgJM0OnNoOWxQyEzi1e/rQd4wav0zbBo5BBBfcxhjohFK+0JE7EYrUFRhDZtL7eoA==",
+    "SecurityStamp": "3C4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R",
+    "ConcurrencyStamp": "dd20ebcd-5a32-4fa0-b23c-7c7cf09d92ab",
+    "PhoneNumber": "+2011288510503",
+    "LockoutEnabled": true
+  },
+  {
+    "Id": "d8a6fab3-4e5f-70b8-1h43-8i567801a123",
+    "FirstName": "Laila",
+    "LastName": "Hassan",
+    "NormalizedUserName": "LAILA4@TEST.COM",
+    "Email": "laila4@test.com",
+    "NormalizedEmail": "LAILA4@TEST.COM",
+    "PasswordHash": "AQAAAAIAAYagAAAAEGgJM0OnNoOWxQyEzi1e/rQd4wav0zbBo5BBBfcxhjohFK+0JE7EYrUFRhDZtL7eoA==",
+    "SecurityStamp": "4D5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S",
+    "ConcurrencyStamp": "cbd921aa-6d44-4c6d-aaa0-80bbfda72e6a",
+    "PhoneNumber": "+2011288510504",
+    "LockoutEnabled": true
+  },
+  {
+    "Id": "e9b7gac4-5f60-81c9-2i54-9j678912b234",
+    "FirstName": "Youssef",
+    "LastName": "Gamal",
+    "NormalizedUserName": "YOUSSEF5@TEST.COM",
+    "Email": "youssef5@test.com",
+    "NormalizedEmail": "YOUSSEF5@TEST.COM",
+    "PasswordHash": "AQAAAAIAAYagAAAAEGgJM0OnNoOWxQyEzi1e/rQd4wav0zbBo5BBBfcxhjohFK+0JE7EYrUFRhDZtL7eoA==",
+    "SecurityStamp": "5E6F7G8H9I0J1K2L3M4N5O6P7Q8R9S0T",
+    "ConcurrencyStamp": "f2bc7688-9a68-4a58-b15d-89d48f21d498",
+    "PhoneNumber": "+2011288510505",
+    "LockoutEnabled": true
+  }
+]

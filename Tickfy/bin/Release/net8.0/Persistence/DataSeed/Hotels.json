@@ -1,0 +1,302 @@
+﻿[
+  {
+    "StarRating": 5,
+    "Name": "Royal Palace",
+    "Location": "Cairo",
+    "Description": "Description for Royal Palace"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Sunset Inn",
+    "Location": "Alexandria",
+    "Description": "Description for Sunset Inn"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Budget Stay",
+    "Location": "Giza",
+    "Description": "Description for Budget Stay"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Elite Grand",
+    "Location": "Luxor",
+    "Description": "Description for Elite Grand"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Happy Nights",
+    "Location": "Hurghada",
+    "Description": "Description for Happy Nights"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Desert Breeze",
+    "Location": "Siwa",
+    "Description": "Description for Desert Breeze"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Green Valley",
+    "Location": "Aswan",
+    "Description": "Description for Green Valley"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Quick Sleep",
+    "Location": "Tanta",
+    "Description": "Description for Quick Sleep"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Urban Hub",
+    "Location": "Mansoura",
+    "Description": "Description for Urban Hub"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Nile View",
+    "Location": "Cairo",
+    "Description": "Description for Nile View"
+  },
+  {
+    "StarRating": 5,
+    "Name": "City Center Hotel",
+    "Location": "Alexandria",
+    "Description": "Description for City Center Hotel"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Pearl Resort",
+    "Location": "Sharm El Sheikh",
+    "Description": "Description for Pearl Resort"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Sleep Easy",
+    "Location": "Minya",
+    "Description": "Description for Sleep Easy"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Palm Haven",
+    "Location": "Dahab",
+    "Description": "Description for Palm Haven"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Blue Horizon",
+    "Location": "Hurghada",
+    "Description": "Description for Blue Horizon"
+  },
+  {
+    "StarRating": 4,
+    "Name": "The Nest",
+    "Location": "Zagazig",
+    "Description": "Description for The Nest"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Grand Lotus",
+    "Location": "Cairo",
+    "Description": "Description for Grand Lotus"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Transit Hotel",
+    "Location": "Asyut",
+    "Description": "Description for Transit Hotel"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Sands Bay",
+    "Location": "Marsa Alam",
+    "Description": "Description for Sands Bay"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Old Town Inn",
+    "Location": "Fayoum",
+    "Description": "Description for Old Town Inn"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Coral Reef",
+    "Location": "Red Sea",
+    "Description": "Description for Coral Reef"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Moonlight Stay",
+    "Location": "Suez",
+    "Description": "Description for Moonlight Stay"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Coastal Resort",
+    "Location": "Port Said",
+    "Description": "Description for Coastal Resort"
+  },
+  {
+    "StarRating": 2,
+    "Name": "City Lights",
+    "Location": "Dahab",
+    "Description": "Description for City Lights"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Mountain View",
+    "Location": "Taba",
+    "Description": "Description for Mountain View"
+  },
+  {
+    "StarRating": 4,
+    "Name": "River Breeze",
+    "Location": "Sharm El Sheikh",
+    "Description": "Description for River Breeze"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Golden Sands",
+    "Location": "Marsa Matruh",
+    "Description": "Description for Golden Sands"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Beachfront Inn",
+    "Location": "Gouna",
+    "Description": "Description for Beachfront Inn"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Peaceful Retreat",
+    "Location": "Sohag",
+    "Description": "Description for Peaceful Retreat"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Grand Horizon",
+    "Location": "Cairo",
+    "Description": "Description for Grand Horizon"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Skyline Heights",
+    "Location": "Damietta",
+    "Description": "Description for Skyline Heights"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Cedar Valley",
+    "Location": "Ismailia",
+    "Description": "Description for Cedar Valley"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Lakeside Paradise",
+    "Location": "Mersa Alam",
+    "Description": "Description for Lakeside Paradise"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Royal Garden",
+    "Location": "El Minya",
+    "Description": "Description for Royal Garden"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Crystal Springs",
+    "Location": "Tanta",
+    "Description": "Description for Crystal Springs"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Sunrise Oasis",
+    "Location": "Beni Suef",
+    "Description": "Description for Sunrise Oasis"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Blue Lagoon",
+    "Location": "Beheira",
+    "Description": "Description for Blue Lagoon"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Golden Oak",
+    "Location": "Matruh",
+    "Description": "Description for Golden Oak"
+  },
+  {
+    "StarRating": 2,
+    "Name": "The Grand Mansion",
+    "Location": "Shoubra",
+    "Description": "Description for The Grand Mansion"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Waveside Lodge",
+    "Location": "Maadi",
+    "Description": "Description for Waveside Lodge"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Silver Palace",
+    "Location": "New Cairo",
+    "Description": "Description for Silver Palace"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Aqua Resort",
+    "Location": "El Mahalla",
+    "Description": "Description for Aqua Resort"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Sunset Bay",
+    "Location": "Luxor",
+    "Description": "Description for Sunset Bay"
+  },
+  {
+    "StarRating": 3,
+    "Name": "Desert Mirage",
+    "Location": "El-Gharbia",
+    "Description": "Description for Desert Mirage"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Majestic Shores",
+    "Location": "Mansoura",
+    "Description": "Description for Majestic Shores"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Woodland Heights",
+    "Location": "Marsa Alam",
+    "Description": "Description for Woodland Heights"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Seashells Inn",
+    "Location": "Port Said",
+    "Description": "Description for Seashells Inn"
+  },
+  {
+    "StarRating": 4,
+    "Name": "Dream Palace",
+    "Location": "El-Borg",
+    "Description": "Description for Dream Palace"
+  },
+  {
+    "StarRating": 2,
+    "Name": "Cozy Haven",
+    "Location": "El-Qalyubia",
+    "Description": "Description for Cozy Haven"
+  },
+  {
+    "StarRating": 5,
+    "Name": "Majestic Towers",
+    "Location": "Cairo",
+    "Description": "Description for Majestic Towers"
+  }
+]

@@ -1,0 +1,5002 @@
+﻿[
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 303.06,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 141.02,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 328.79,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 397.94,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 134.58,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 271.65,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 302.8,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 199.23,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 188.05,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 214.11,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 391.73,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 55.44,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 318.52,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 346.98,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 122.0,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 167.48,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 311.84,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 140.68,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 258.18,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 240.33,
+    "HotelId": 1
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 98.19,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 342.22,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 234.52,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 373.74,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 142.45,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 234.05,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 346.15,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 265.84,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 360.8,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 170.51,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 307.08,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 120.46,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 359.55,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 343.56,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 259.34,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 128.61,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 67.46,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 302.11,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 220.43,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 120.71,
+    "HotelId": 2
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 207.41,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 213.34,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 241.6,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 206.37,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 335.55,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 343.58,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 383.66,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 195.14,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 112.34,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 83.07,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 345.29,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 381.99,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 115.58,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 54.57,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 393.97,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 224.79,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 378.78,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 163.47,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 153.28,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 385.66,
+    "HotelId": 3
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 304.99,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 261.09,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 366.76,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 208.94,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 230.7,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 170.53,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 348.55,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 130.47,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 303.14,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 358.34,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 299.17,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 329.84,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 197.45,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 171.55,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 320.93,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 139.26,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 215.94,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 230.58,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 325.36,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 348.22,
+    "HotelId": 4
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 266.48,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 322.68,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 150.99,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 235.14,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 227.87,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 297.22,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 335.24,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 289.74,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 202.52,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 76.45,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 383.72,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 102.69,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 296.95,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 200.51,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 392.44,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 259.63,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 362.34,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 369.14,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 256.01,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 213.25,
+    "HotelId": 5
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 272.93,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 105.7,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 185.79,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 95.41,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 103.04,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 187.11,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 185.45,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 355.31,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 307.39,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 241.53,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 225.55,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 208.37,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 283.19,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 235.23,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 123.82,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 252.6,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 175.48,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 175.15,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 333.86,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 182.44,
+    "HotelId": 6
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 293.23,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 264.97,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 165.62,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 86.29,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 65.2,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 141.16,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 278.0,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 269.06,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 369.77,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 173.46,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 364.46,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 255.85,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 157.31,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 148.17,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 325.98,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 272.01,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 206.12,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 102.11,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 60.88,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 173.42,
+    "HotelId": 7
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 195.83,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 136.88,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 133.88,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 366.48,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 206.39,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 290.91,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 368.87,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 61.47,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 103.24,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 333.7,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 97.23,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 306.14,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 379.49,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 267.82,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 179.46,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 365.97,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 107.38,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 209.35,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 54.38,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 251.29,
+    "HotelId": 8
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 131.52,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 228.18,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 183.61,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 232.52,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 117.35,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 376.89,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 149.18,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 116.79,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 166.77,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 215.22,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 232.71,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 361.92,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 308.0,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 252.39,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 227.56,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 274.14,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 339.29,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 276.11,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 261.32,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 172.91,
+    "HotelId": 9
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 375.24,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 188.16,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 304.06,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 124.94,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 60.23,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 346.46,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 291.91,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 198.37,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 102.7,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 137.33,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 264.77,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 50.5,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 364.76,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 274.28,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 102.43,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 216.63,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 182.12,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 391.82,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 242.93,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 97.15,
+    "HotelId": 10
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 129.46,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 244.92,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 281.45,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 388.63,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 171.28,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 51.0,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 55.75,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 110.09,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 384.06,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 190.99,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 148.32,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 314.44,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 326.06,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 291.23,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 202.05,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 65.88,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 279.16,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 311.14,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 296.51,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 302.58,
+    "HotelId": 11
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 329.75,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 101.89,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 137.64,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 322.16,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 142.53,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 184.72,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 373.18,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 315.97,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 214.03,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 53.53,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 339.72,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 280.97,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 183.9,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 373.36,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 276.43,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 118.34,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 325.18,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 71.16,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 363.57,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 393.08,
+    "HotelId": 12
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 398.49,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 321.28,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 291.14,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 231.9,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 129.58,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 380.34,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 351.5,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 104.67,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 190.53,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 295.06,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 145.45,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 397.44,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 142.39,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 310.47,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 103.14,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 389.59,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 288.65,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 318.67,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 309.54,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 131.79,
+    "HotelId": 13
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 160.01,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 399.68,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 326.01,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 282.77,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 206.2,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 331.73,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 78.14,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 369.71,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 284.83,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 165.22,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 359.93,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 320.14,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 372.04,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 209.27,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 306.24,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 188.58,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 367.28,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 315.44,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 62.03,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 344.93,
+    "HotelId": 14
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 200.8,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 338.78,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 102.41,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 180.3,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 228.98,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 57.37,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 287.13,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 309.55,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 302.22,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 327.92,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 75.27,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 217.72,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 118.71,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 128.14,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 68.51,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 187.26,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 243.42,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 183.57,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 189.78,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 286.15,
+    "HotelId": 15
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 171.69,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 235.32,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 89.3,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 208.48,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 309.25,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 137.14,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 224.48,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 57.16,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 173.58,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 129.16,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 138.99,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 152.35,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 353.43,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 368.94,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 108.43,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 225.2,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 126.6,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 241.45,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 368.07,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 96.78,
+    "HotelId": 16
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 59.18,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 97.14,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 236.18,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 313.97,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 314.61,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 246.81,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 97.06,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 53.52,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 293.73,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 163.74,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 379.15,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 184.51,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 184.47,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 355.81,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 240.64,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 219.98,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 259.57,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 326.26,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 382.4,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 374.12,
+    "HotelId": 17
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 176.09,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 78.93,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 133.97,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 111.79,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 77.44,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 275.49,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 222.22,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 221.68,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 96.31,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 291.98,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 67.17,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 181.69,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 255.4,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 322.91,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 328.48,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 269.63,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 147.0,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 67.52,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 72.83,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 383.57,
+    "HotelId": 18
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 250.97,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 365.38,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 267.91,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 293.13,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 190.79,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 324.55,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 346.21,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 184.32,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 265.68,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 368.17,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 152.94,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 389.19,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 324.64,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 303.54,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 262.03,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 161.43,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 100.8,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 232.74,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 335.82,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 71.7,
+    "HotelId": 19
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 206.07,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 112.68,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 180.97,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 191.16,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 170.3,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 333.6,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 145.86,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 170.16,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 99.78,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 257.04,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 393.5,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 138.83,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 168.07,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 118.41,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 110.19,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 293.74,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 168.07,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 120.98,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 96.93,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 223.51,
+    "HotelId": 20
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 52.77,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 242.33,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 142.42,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 180.44,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 297.95,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 372.69,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 316.48,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 297.54,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 331.59,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 74.88,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 365.84,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 315.81,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 263.44,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 353.39,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 367.56,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 178.09,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 210.41,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 157.75,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 222.82,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 64.89,
+    "HotelId": 21
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 330.83,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 118.27,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 168.21,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 150.34,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 298.72,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 301.59,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 79.39,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 383.97,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 59.63,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 322.03,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 236.33,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 356.12,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 188.94,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 141.94,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 59.2,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 312.0,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 347.56,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 362.69,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 214.13,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 119.24,
+    "HotelId": 22
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 248.02,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 173.23,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 206.69,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 337.54,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 332.76,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 108.88,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 367.85,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 88.16,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 65.84,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 290.62,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 203.24,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 250.02,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 304.19,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 214.21,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 358.95,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 310.97,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 348.77,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 118.88,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 132.3,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 284.3,
+    "HotelId": 23
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 193.79,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 67.24,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 112.33,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 51.03,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 128.65,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 130.66,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 279.52,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 133.91,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 303.23,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 221.88,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 175.83,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 59.76,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 216.72,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 334.52,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 207.13,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 219.22,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 345.32,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 186.25,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 319.4,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 55.55,
+    "HotelId": 24
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 52.82,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 255.47,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 270.87,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 105.4,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 137.07,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 196.9,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 173.35,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 120.69,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 371.54,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 167.27,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 376.38,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 399.61,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 224.0,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 338.03,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 69.24,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 68.75,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 233.11,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 176.82,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 366.87,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 119.05,
+    "HotelId": 25
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 352.72,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 266.34,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 264.44,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 347.0,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 393.15,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 168.34,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 398.98,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 339.82,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 327.43,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 215.44,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 308.96,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 162.79,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 147.47,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 360.58,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 220.71,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 266.61,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 237.06,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 89.31,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 65.81,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 312.64,
+    "HotelId": 26
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 283.08,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 324.01,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 98.82,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 68.26,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 127.43,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 73.02,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 55.16,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 78.33,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 260.93,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 83.18,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 110.42,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 64.92,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 189.46,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 398.91,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 223.69,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 356.41,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 153.54,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 50.76,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 253.62,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 95.78,
+    "HotelId": 27
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 255.17,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 121.34,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 264.26,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 366.5,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 118.42,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 398.0,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 245.07,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 218.87,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 225.69,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 355.78,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 169.65,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 199.28,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 230.59,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 387.47,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 86.7,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 110.59,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 396.81,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 341.51,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 197.94,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 114.8,
+    "HotelId": 28
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 121.47,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 348.26,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 184.27,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 79.84,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 351.79,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 298.48,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 320.68,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 339.09,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 302.18,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 156.61,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 236.99,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 252.24,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 200.49,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 288.06,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 295.09,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 261.98,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 363.54,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 283.25,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 255.77,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 347.64,
+    "HotelId": 29
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 184.73,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 60.39,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 57.17,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 79.88,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 326.01,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 111.56,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 243.63,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 116.18,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 266.41,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 264.96,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 129.4,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 215.96,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 273.59,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 240.65,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 331.05,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 221.13,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 383.17,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 356.47,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 187.1,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 139.86,
+    "HotelId": 30
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 210.64,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 90.81,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 341.33,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 128.3,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 228.91,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 373.85,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 132.55,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 161.99,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 96.68,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 72.06,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 187.22,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 217.15,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 106.69,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 325.42,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 103.95,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 277.14,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 302.55,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 291.19,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 165.75,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 59.31,
+    "HotelId": 31
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 319.31,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 250.52,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 160.55,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 182.29,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 233.59,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 288.89,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 174.31,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 81.26,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 284.08,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 101.69,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 377.36,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 361.78,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 323.51,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 172.69,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 371.96,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 265.41,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 183.99,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 170.12,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 393.43,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 255.33,
+    "HotelId": 32
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 119.14,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 253.87,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 314.5,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 145.84,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 174.92,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 317.9,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 332.7,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 106.61,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 111.58,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 164.34,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 106.5,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 388.3,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 201.85,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 265.56,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 220.05,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 108.15,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 312.08,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 145.69,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 397.41,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 164.42,
+    "HotelId": 33
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 236.86,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 167.79,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 389.31,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 313.83,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 137.36,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 252.78,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 318.88,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 179.28,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 391.7,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 142.07,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 369.18,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 207.04,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 387.47,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 385.76,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 167.15,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 227.29,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 68.77,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 94.6,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 87.61,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 386.79,
+    "HotelId": 34
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 262.29,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 222.05,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 194.27,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 269.94,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 342.23,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 183.35,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 362.82,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 76.86,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 371.26,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 213.62,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 396.78,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 139.79,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 133.1,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 146.25,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 199.66,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 389.57,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 178.11,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 223.52,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 346.24,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 108.45,
+    "HotelId": 35
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 293.29,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 238.61,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 96.31,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 174.72,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 124.78,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 276.47,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 356.08,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 71.73,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 196.3,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 221.12,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 360.13,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 158.6,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 303.6,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 335.57,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 124.09,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 284.76,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 261.69,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 310.19,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 377.11,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 134.47,
+    "HotelId": 36
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 78.4,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 145.68,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 229.79,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 101.35,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 141.6,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 272.46,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 66.94,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 66.99,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 397.06,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 101.72,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 189.14,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 62.53,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 163.18,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 162.91,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 70.41,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 214.69,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 389.53,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 319.13,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 394.46,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 310.92,
+    "HotelId": 37
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 335.66,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 285.31,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 245.31,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 114.37,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 234.32,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 171.18,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 173.19,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 235.95,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 201.97,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 394.97,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 239.45,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 193.71,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 168.58,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 316.43,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 97.87,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 129.71,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 275.52,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 175.75,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 295.28,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 96.16,
+    "HotelId": 38
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 124.14,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 117.49,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 244.3,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 157.97,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 61.68,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 388.49,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 145.39,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 139.31,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 384.71,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 90.84,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 162.18,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 93.49,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 221.55,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 305.26,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 114.8,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 175.27,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 285.44,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 355.15,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 143.03,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 275.7,
+    "HotelId": 39
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 114.1,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 218.23,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 111.38,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 79.09,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 381.46,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 358.34,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 74.58,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 292.47,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 279.62,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 137.62,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 132.79,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 368.79,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 305.71,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 231.14,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 137.67,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 67.89,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 162.11,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 321.5,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 391.12,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 92.72,
+    "HotelId": 40
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 254.54,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 196.1,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 69.46,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 146.45,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 243.06,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 316.59,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 107.6,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 347.65,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 119.3,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 225.53,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 117.31,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 304.67,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 108.97,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 384.25,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 324.09,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 355.89,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 149.81,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 222.68,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 74.0,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 320.01,
+    "HotelId": 41
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 293.54,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 89.08,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 249.28,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 75.23,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 250.97,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 237.68,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 228.83,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 392.86,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 307.9,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 90.89,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 179.41,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 61.65,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 81.74,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 301.8,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 327.02,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 299.67,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 242.22,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 163.29,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 340.55,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 96.9,
+    "HotelId": 42
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 221.18,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 391.43,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 359.28,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 223.41,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 366.74,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 331.14,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 390.99,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 390.13,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 116.22,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 227.57,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 320.31,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 79.21,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 361.97,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 95.52,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 169.59,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 282.61,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 308.01,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 308.59,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 370.75,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 274.25,
+    "HotelId": 43
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 90.21,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 369.24,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 181.05,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 283.55,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 310.53,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 333.54,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 367.35,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 168.77,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 233.16,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 300.43,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 101.23,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 141.52,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 360.53,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 80.67,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 122.56,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 102.7,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 254.73,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 139.87,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 97.08,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 91.39,
+    "HotelId": 44
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 285.96,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 192.88,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 284.85,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 383.04,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 302.26,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 235.3,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 185.69,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 204.08,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 313.88,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 92.48,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 393.11,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 93.41,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 204.48,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 70.77,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 174.08,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 174.29,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 303.21,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 129.79,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 347.54,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 286.44,
+    "HotelId": 45
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 122.21,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 327.63,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 124.5,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 161.09,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 397.84,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 265.64,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 78.52,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 219.35,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 327.32,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 377.54,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 235.7,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 397.01,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 283.65,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 326.19,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 380.14,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 301.09,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 295.87,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 372.2,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 215.95,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 354.84,
+    "HotelId": 46
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 176.38,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 98.03,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 338.53,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 188.74,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 124.92,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 89.12,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 397.75,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 112.97,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 106.23,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 192.3,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 187.09,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 77.39,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 77.54,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 105.17,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 174.61,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 61.09,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 146.93,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 137.0,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 196.61,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 143.04,
+    "HotelId": 47
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 388.13,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 346.33,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 309.85,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 204.68,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 112.7,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 285.23,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 141.21,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 170.17,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 220.18,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 183.26,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 115.03,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 94.68,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 267.84,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 88.87,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 252.85,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 334.42,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 364.28,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 341.78,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 66.7,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 326.83,
+    "HotelId": 48
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 171.31,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 53.17,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 143.66,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 311.92,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 258.29,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 103.27,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 123.08,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 175.89,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 142.05,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 258.86,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 119.53,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 279.79,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 134.66,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 64.3,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 189.47,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 360.72,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Single",
+    "PricePerNight": 152.59,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 109.06,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 334.67,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 255.96,
+    "HotelId": 49
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 163.86,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 192.04,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 96.6,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 67.02,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 129.14,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 330.9,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 324.38,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 315.71,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 54.21,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 185.57,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 231.27,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 382.69,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 76.08,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 278.84,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 161.23,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Suite",
+    "PricePerNight": 59.23,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Family",
+    "PricePerNight": 191.35,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Double",
+    "PricePerNight": 305.53,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Twin",
+    "PricePerNight": 396.0,
+    "HotelId": 50
+  },
+  {
+    "RoomType": "Deluxe",
+    "PricePerNight": 207.2,
+    "HotelId": 50
+  }
+]

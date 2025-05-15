@@ -1,0 +1,322 @@
+﻿[
+  {
+    "DepartureDate": "2025-11-02T17:10:01.748177",
+    "ArrivalDate": "2025-11-02T20:10:01.748177",
+    "DepartureAirport": "Cairo International",
+    "ArrivalAirport": "Sharm El Sheikh",
+    "Airport": "Cairo International to Sharm El Sheikh",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-17T03:10:01.748177",
+    "ArrivalDate": "2025-10-17T11:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Taba",
+    "Airport": "Alexandria Borg El Arab to Taba",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-19T16:10:01.748177",
+    "ArrivalDate": "2025-10-20T00:10:01.748177",
+    "DepartureAirport": "Hurghada International",
+    "ArrivalAirport": "Marsa Alam",
+    "Airport": "Hurghada International to Marsa Alam",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-09T07:10:01.748177",
+    "ArrivalDate": "2025-11-09T12:10:01.748177",
+    "DepartureAirport": "Cairo International",
+    "ArrivalAirport": "Sharm El Sheikh",
+    "Airport": "Cairo International to Sharm El Sheikh",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-24T18:10:01.748177",
+    "ArrivalDate": "2025-10-24T23:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Hurghada International",
+    "Airport": "Marsa Alam to Hurghada International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-06T11:10:01.748177",
+    "ArrivalDate": "2025-11-06T19:10:01.748177",
+    "DepartureAirport": "Aswan International",
+    "ArrivalAirport": "Sphinx Airport",
+    "Airport": "Aswan International to Sphinx Airport",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-23T19:10:01.748177",
+    "ArrivalDate": "2025-10-24T03:10:01.748177",
+    "DepartureAirport": "Sharm El Sheikh",
+    "ArrivalAirport": "Sohag",
+    "Airport": "Sharm El Sheikh to Sohag",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-25T15:10:01.748177",
+    "ArrivalDate": "2025-10-26T01:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Alexandria Borg El Arab",
+    "Airport": "Sphinx Airport to Alexandria Borg El Arab",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-26T01:10:01.748177",
+    "ArrivalDate": "2025-10-26T05:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Hurghada International",
+    "Airport": "Sphinx Airport to Hurghada International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-13T04:10:01.748177",
+    "ArrivalDate": "2025-11-13T09:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Cairo International",
+    "Airport": "Marsa Alam to Cairo International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-25T04:10:01.748177",
+    "ArrivalDate": "2025-10-25T13:10:01.748177",
+    "DepartureAirport": "Cairo International",
+    "ArrivalAirport": "Luxor International",
+    "Airport": "Cairo International to Luxor International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-26T16:10:01.748177",
+    "ArrivalDate": "2025-10-26T23:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Sphinx Airport",
+    "Airport": "Marsa Alam to Sphinx Airport",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-11T04:10:01.748177",
+    "ArrivalDate": "2025-11-11T10:10:01.748177",
+    "DepartureAirport": "Luxor International",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Luxor International to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-05T12:10:01.748177",
+    "ArrivalDate": "2025-11-05T16:10:01.748177",
+    "DepartureAirport": "Taba",
+    "ArrivalAirport": "Alexandria Borg El Arab",
+    "Airport": "Taba to Alexandria Borg El Arab",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-25T09:10:01.748177",
+    "ArrivalDate": "2025-10-25T11:10:01.748177",
+    "DepartureAirport": "Taba",
+    "ArrivalAirport": "Luxor International",
+    "Airport": "Taba to Luxor International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-05T06:10:01.748177",
+    "ArrivalDate": "2025-11-05T15:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Sphinx Airport",
+    "Airport": "Alexandria Borg El Arab to Sphinx Airport",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-08T10:10:01.748177",
+    "ArrivalDate": "2025-11-08T18:10:01.748177",
+    "DepartureAirport": "Cairo International",
+    "ArrivalAirport": "Hurghada International",
+    "Airport": "Cairo International to Hurghada International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-26T01:10:01.748177",
+    "ArrivalDate": "2025-10-26T11:10:01.748177",
+    "DepartureAirport": "Luxor International",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Luxor International to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-07T08:10:01.748177",
+    "ArrivalDate": "2025-11-07T14:10:01.748177",
+    "DepartureAirport": "Luxor International",
+    "ArrivalAirport": "Sohag",
+    "Airport": "Luxor International to Sohag",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-16T17:10:01.748177",
+    "ArrivalDate": "2025-10-17T02:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Marsa Alam to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-04T02:10:01.748177",
+    "ArrivalDate": "2025-11-04T07:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Alexandria Borg El Arab",
+    "Airport": "Sphinx Airport to Alexandria Borg El Arab",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-13T06:10:01.748177",
+    "ArrivalDate": "2025-11-13T15:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Sharm El Sheikh",
+    "Airport": "Marsa Alam to Sharm El Sheikh",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-15T18:10:01.748177",
+    "ArrivalDate": "2025-10-15T21:10:01.748177",
+    "DepartureAirport": "Taba",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Taba to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-02T15:10:01.748177",
+    "ArrivalDate": "2025-11-02T18:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Sphinx Airport to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-24T00:10:01.748177",
+    "ArrivalDate": "2025-10-24T05:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Sphinx Airport to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-22T06:10:01.748177",
+    "ArrivalDate": "2025-10-22T16:10:01.748177",
+    "DepartureAirport": "Aswan International",
+    "ArrivalAirport": "Cairo International",
+    "Airport": "Aswan International to Cairo International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-30T14:10:01.748177",
+    "ArrivalDate": "2025-10-30T18:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Taba",
+    "Airport": "Alexandria Borg El Arab to Taba",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-31T17:10:01.748177",
+    "ArrivalDate": "2025-10-31T23:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Marsa Alam",
+    "Airport": "Alexandria Borg El Arab to Marsa Alam",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-21T06:10:01.748177",
+    "ArrivalDate": "2025-10-21T14:10:01.748177",
+    "DepartureAirport": "Aswan International",
+    "ArrivalAirport": "Hurghada International",
+    "Airport": "Aswan International to Hurghada International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-26T23:10:01.748177",
+    "ArrivalDate": "2025-10-27T01:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Marsa Alam",
+    "Airport": "Alexandria Borg El Arab to Marsa Alam",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-08T04:10:01.748177",
+    "ArrivalDate": "2025-11-08T07:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Luxor International",
+    "Airport": "Sphinx Airport to Luxor International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-23T15:10:01.748177",
+    "ArrivalDate": "2025-10-24T00:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Alexandria Borg El Arab",
+    "Airport": "Sphinx Airport to Alexandria Borg El Arab",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-30T10:10:01.748177",
+    "ArrivalDate": "2025-10-30T15:10:01.748177",
+    "DepartureAirport": "Alexandria Borg El Arab",
+    "ArrivalAirport": "Luxor International",
+    "Airport": "Alexandria Borg El Arab to Luxor International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-22T12:10:01.748177",
+    "ArrivalDate": "2025-10-22T21:10:01.748177",
+    "DepartureAirport": "Sharm El Sheikh",
+    "ArrivalAirport": "Alexandria Borg El Arab",
+    "Airport": "Sharm El Sheikh to Alexandria Borg El Arab",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-15T02:10:01.748177",
+    "ArrivalDate": "2025-10-15T12:10:01.748177",
+    "DepartureAirport": "Marsa Alam",
+    "ArrivalAirport": "Sohag",
+    "Airport": "Marsa Alam to Sohag",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-31T12:10:01.748177",
+    "ArrivalDate": "2025-10-31T14:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Taba",
+    "Airport": "Sphinx Airport to Taba",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-30T15:10:01.748177",
+    "ArrivalDate": "2025-10-30T23:10:01.748177",
+    "DepartureAirport": "Hurghada International",
+    "ArrivalAirport": "Sphinx Airport",
+    "Airport": "Hurghada International to Sphinx Airport",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-11-04T00:10:01.748177",
+    "ArrivalDate": "2025-11-04T05:10:01.748177",
+    "DepartureAirport": "Taba",
+    "ArrivalAirport": "Aswan International",
+    "Airport": "Taba to Aswan International",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-15T09:10:01.748177",
+    "ArrivalDate": "2025-10-15T11:10:01.748177",
+    "DepartureAirport": "Sohag",
+    "ArrivalAirport": "Taba",
+    "Airport": "Sohag to Taba",
+    "IsActive": true
+  },
+  {
+    "DepartureDate": "2025-10-26T02:10:01.748177",
+    "ArrivalDate": "2025-10-26T12:10:01.748177",
+    "DepartureAirport": "Sphinx Airport",
+    "ArrivalAirport": "Sohag",
+    "Airport": "Sphinx Airport to Sohag",
+    "IsActive": true
+  }
+]

@@ -1,0 +1,395 @@
+[
+  {
+    "ContainingType": "Tickfy.Controllers.FlightReservationsController",
+    "Method": "Get",
+    "RelativePath": "api/{flightID}/{classId}/FlightReservations/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "flightID",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "classId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightReservationsController",
+    "Method": "Add",
+    "RelativePath": "api/{flightID}/{classId}/FlightReservations/Reserve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flightId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "classId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.DriverController",
+    "Method": "GetDriversByPriceAscending",
+    "RelativePath": "api/Driver/by-price",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.DriverController",
+    "Method": "GetDriversByStarRatingDescending",
+    "RelativePath": "api/Driver/by-star",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Flights",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightsController",
+    "Method": "Add",
+    "RelativePath": "api/Flights",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flightRequest",
+        "Type": "Tickfy.Contracts.Flights.CreateFlightRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.ClassesController",
+    "Method": "Add",
+    "RelativePath": "api/Flights/{flightId}/Classes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flightId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "classRequest",
+        "Type": "Tickfy.Contracts.Classes.CreateClassRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.ClassesController",
+    "Method": "Get",
+    "RelativePath": "api/Flights/{flightId}/Classes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flightId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.ClassesController",
+    "Method": "GetClassTypes",
+    "RelativePath": "api/Flights/{flightId}/Classes/Types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flightId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightsController",
+    "Method": "Get",
+    "RelativePath": "api/Flights/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightsController",
+    "Method": "Update",
+    "RelativePath": "api/Flights/{id}/UpdateDate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "flightRequest",
+        "Type": "Tickfy.Contracts.Flights.UpdateDateFlightRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.FlightsController",
+    "Method": "SearchFlight",
+    "RelativePath": "api/Flights/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DepartureDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArrivalDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepartureAirport",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArrivalAirport",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.HotelController",
+    "Method": "GetFilteredHotels",
+    "RelativePath": "api/Hotel/filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ratings",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.HotelReservationController",
+    "Method": "Get",
+    "RelativePath": "api/HotelReservation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.HotelReservationController",
+    "Method": "Reserve",
+    "RelativePath": "api/HotelReservation/Reserve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tickfy.Contracts.HotelReservations.HotelReservationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.RoomsController",
+    "Method": "GetRoomReservationsDates",
+    "RelativePath": "api/Hotels/{HotelId}/Rooms/RoomReservationsDates,{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.RoomsController",
+    "Method": "SelectRoom",
+    "RelativePath": "api/Hotels/{HotelId}/Rooms/select",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BedType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "OpptionalBedType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CheckInDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "CheckOutDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "HotelId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.AuthController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "Auth/confirm-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tickfy.Contracts.Authentication.ConfirmEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.AuthController",
+    "Method": "LogIn",
+    "RelativePath": "Auth/LogIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "logInRequest",
+        "Type": "Tickfy.Contracts.Authentication.LogInRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "Auth/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tickfy.Contracts.Authentication.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tickfy.Controllers.AuthController",
+    "Method": "ResendConfirmationEmail",
+    "RelativePath": "Auth/resend-confirmation-email",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tickfy.Contracts.Authentication.ResendConfirmationEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

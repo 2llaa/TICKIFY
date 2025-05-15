@@ -1,0 +1,982 @@
+﻿[
+  {
+    "className": "Business",
+    "Price": 541.41,
+    "Capacity": 20,
+    "AvailableSeats": 5,
+    "FlightId": 1
+  },
+  {
+    "className": "FirstClass",
+    "Price": 808.05,
+    "Capacity": 100,
+    "AvailableSeats": 71,
+    "FlightId": 1
+  },
+  {
+    "className": "Economy",
+    "Price": 885.75,
+    "Capacity": 88,
+    "AvailableSeats": 81,
+    "FlightId": 1
+  },
+  {
+    "className": "VIP",
+    "Price": 610.96,
+    "Capacity": 30,
+    "AvailableSeats": 26,
+    "FlightId": 1
+  },
+  {
+    "className": "VIP",
+    "Price": 456.93,
+    "Capacity": 75,
+    "AvailableSeats": 42,
+    "FlightId": 2
+  },
+  {
+    "className": "FirstClass",
+    "Price": 720.86,
+    "Capacity": 95,
+    "AvailableSeats": 19,
+    "FlightId": 2
+  },
+  {
+    "className": "Economy",
+    "Price": 266.51,
+    "Capacity": 70,
+    "AvailableSeats": 33,
+    "FlightId": 2
+  },
+  {
+    "className": "VIP",
+    "Price": 907.56,
+    "Capacity": 58,
+    "AvailableSeats": 47,
+    "FlightId": 3
+  },
+  {
+    "className": "Economy",
+    "Price": 741.65,
+    "Capacity": 45,
+    "AvailableSeats": 18,
+    "FlightId": 3
+  },
+  {
+    "className": "FirstClass",
+    "Price": 202.43,
+    "Capacity": 42,
+    "AvailableSeats": 6,
+    "FlightId": 3
+  },
+  {
+    "className": "Business",
+    "Price": 760.34,
+    "Capacity": 79,
+    "AvailableSeats": 49,
+    "FlightId": 3
+  },
+  {
+    "className": "Business",
+    "Price": 798.95,
+    "Capacity": 76,
+    "AvailableSeats": 31,
+    "FlightId": 4
+  },
+  {
+    "className": "FirstClass",
+    "Price": 160.96,
+    "Capacity": 29,
+    "AvailableSeats": 12,
+    "FlightId": 4
+  },
+  {
+    "className": "Economy",
+    "Price": 783.71,
+    "Capacity": 45,
+    "AvailableSeats": 6,
+    "FlightId": 4
+  },
+  {
+    "className": "Economy",
+    "Price": 866.81,
+    "Capacity": 28,
+    "AvailableSeats": 1,
+    "FlightId": 5
+  },
+  {
+    "className": "Business",
+    "Price": 964.15,
+    "Capacity": 50,
+    "AvailableSeats": 20,
+    "FlightId": 5
+  },
+  {
+    "className": "VIP",
+    "Price": 816.06,
+    "Capacity": 47,
+    "AvailableSeats": 1,
+    "FlightId": 5
+  },
+  {
+    "className": "VIP",
+    "Price": 381.82,
+    "Capacity": 64,
+    "AvailableSeats": 40,
+    "FlightId": 6
+  },
+  {
+    "className": "Business",
+    "Price": 624.43,
+    "Capacity": 68,
+    "AvailableSeats": 48,
+    "FlightId": 6
+  },
+  {
+    "className": "FirstClass",
+    "Price": 421.73,
+    "Capacity": 27,
+    "AvailableSeats": 2,
+    "FlightId": 6
+  },
+  {
+    "className": "Business",
+    "Price": 952.12,
+    "Capacity": 63,
+    "AvailableSeats": 28,
+    "FlightId": 7
+  },
+  {
+    "className": "FirstClass",
+    "Price": 354.57,
+    "Capacity": 17,
+    "AvailableSeats": 1,
+    "FlightId": 7
+  },
+  {
+    "className": "VIP",
+    "Price": 619.76,
+    "Capacity": 66,
+    "AvailableSeats": 32,
+    "FlightId": 7
+  },
+  {
+    "className": "Economy",
+    "Price": 898.42,
+    "Capacity": 42,
+    "AvailableSeats": 40,
+    "FlightId": 7
+  },
+  {
+    "className": "FirstClass",
+    "Price": 590.84,
+    "Capacity": 15,
+    "AvailableSeats": 1,
+    "FlightId": 8
+  },
+  {
+    "className": "Economy",
+    "Price": 409.02,
+    "Capacity": 100,
+    "AvailableSeats": 9,
+    "FlightId": 8
+  },
+  {
+    "className": "Business",
+    "Price": 597.68,
+    "Capacity": 26,
+    "AvailableSeats": 19,
+    "FlightId": 8
+  },
+  {
+    "className": "VIP",
+    "Price": 761.08,
+    "Capacity": 65,
+    "AvailableSeats": 7,
+    "FlightId": 8
+  },
+  {
+    "className": "VIP",
+    "Price": 459.45,
+    "Capacity": 28,
+    "AvailableSeats": 26,
+    "FlightId": 9
+  },
+  {
+    "className": "Economy",
+    "Price": 324.08,
+    "Capacity": 43,
+    "AvailableSeats": 5,
+    "FlightId": 9
+  },
+  {
+    "className": "Business",
+    "Price": 681.25,
+    "Capacity": 57,
+    "AvailableSeats": 30,
+    "FlightId": 9
+  },
+  {
+    "className": "FirstClass",
+    "Price": 399.0,
+    "Capacity": 71,
+    "AvailableSeats": 60,
+    "FlightId": 9
+  },
+  {
+    "className": "Economy",
+    "Price": 619.63,
+    "Capacity": 72,
+    "AvailableSeats": 27,
+    "FlightId": 10
+  },
+  {
+    "className": "VIP",
+    "Price": 699.15,
+    "Capacity": 64,
+    "AvailableSeats": 2,
+    "FlightId": 10
+  },
+  {
+    "className": "FirstClass",
+    "Price": 690.14,
+    "Capacity": 75,
+    "AvailableSeats": 0,
+    "FlightId": 10
+  },
+  {
+    "className": "Business",
+    "Price": 785.35,
+    "Capacity": 48,
+    "AvailableSeats": 27,
+    "FlightId": 10
+  },
+  {
+    "className": "VIP",
+    "Price": 353.25,
+    "Capacity": 23,
+    "AvailableSeats": 23,
+    "FlightId": 11
+  },
+  {
+    "className": "FirstClass",
+    "Price": 506.3,
+    "Capacity": 60,
+    "AvailableSeats": 48,
+    "FlightId": 11
+  },
+  {
+    "className": "Business",
+    "Price": 570.64,
+    "Capacity": 99,
+    "AvailableSeats": 93,
+    "FlightId": 11
+  },
+  {
+    "className": "FirstClass",
+    "Price": 912.79,
+    "Capacity": 92,
+    "AvailableSeats": 49,
+    "FlightId": 12
+  },
+  {
+    "className": "VIP",
+    "Price": 276.62,
+    "Capacity": 10,
+    "AvailableSeats": 5,
+    "FlightId": 12
+  },
+  {
+    "className": "Economy",
+    "Price": 424.82,
+    "Capacity": 92,
+    "AvailableSeats": 47,
+    "FlightId": 12
+  },
+  {
+    "className": "Business",
+    "Price": 683.89,
+    "Capacity": 62,
+    "AvailableSeats": 29,
+    "FlightId": 12
+  },
+  {
+    "className": "Economy",
+    "Price": 185.06,
+    "Capacity": 31,
+    "AvailableSeats": 20,
+    "FlightId": 13
+  },
+  {
+    "className": "Business",
+    "Price": 227.54,
+    "Capacity": 64,
+    "AvailableSeats": 26,
+    "FlightId": 13
+  },
+  {
+    "className": "FirstClass",
+    "Price": 654.67,
+    "Capacity": 24,
+    "AvailableSeats": 4,
+    "FlightId": 13
+  },
+  {
+    "className": "Business",
+    "Price": 704.69,
+    "Capacity": 42,
+    "AvailableSeats": 28,
+    "FlightId": 14
+  },
+  {
+    "className": "VIP",
+    "Price": 478.73,
+    "Capacity": 23,
+    "AvailableSeats": 5,
+    "FlightId": 14
+  },
+  {
+    "className": "FirstClass",
+    "Price": 766.42,
+    "Capacity": 57,
+    "AvailableSeats": 10,
+    "FlightId": 14
+  },
+  {
+    "className": "FirstClass",
+    "Price": 714.99,
+    "Capacity": 30,
+    "AvailableSeats": 15,
+    "FlightId": 15
+  },
+  {
+    "className": "Business",
+    "Price": 129.56,
+    "Capacity": 76,
+    "AvailableSeats": 21,
+    "FlightId": 15
+  },
+  {
+    "className": "VIP",
+    "Price": 573.83,
+    "Capacity": 55,
+    "AvailableSeats": 20,
+    "FlightId": 15
+  },
+  {
+    "className": "Economy",
+    "Price": 340.66,
+    "Capacity": 33,
+    "AvailableSeats": 21,
+    "FlightId": 15
+  },
+  {
+    "className": "FirstClass",
+    "Price": 692.07,
+    "Capacity": 87,
+    "AvailableSeats": 1,
+    "FlightId": 16
+  },
+  {
+    "className": "Economy",
+    "Price": 341.21,
+    "Capacity": 51,
+    "AvailableSeats": 5,
+    "FlightId": 16
+  },
+  {
+    "className": "VIP",
+    "Price": 437.76,
+    "Capacity": 83,
+    "AvailableSeats": 35,
+    "FlightId": 16
+  },
+  {
+    "className": "Business",
+    "Price": 960.74,
+    "Capacity": 49,
+    "AvailableSeats": 45,
+    "FlightId": 17
+  },
+  {
+    "className": "VIP",
+    "Price": 795.19,
+    "Capacity": 69,
+    "AvailableSeats": 65,
+    "FlightId": 17
+  },
+  {
+    "className": "Economy",
+    "Price": 283.12,
+    "Capacity": 50,
+    "AvailableSeats": 38,
+    "FlightId": 17
+  },
+  {
+    "className": "Economy",
+    "Price": 813.78,
+    "Capacity": 60,
+    "AvailableSeats": 59,
+    "FlightId": 18
+  },
+  {
+    "className": "VIP",
+    "Price": 431.17,
+    "Capacity": 50,
+    "AvailableSeats": 27,
+    "FlightId": 18
+  },
+  {
+    "className": "Business",
+    "Price": 957.53,
+    "Capacity": 12,
+    "AvailableSeats": 0,
+    "FlightId": 18
+  },
+  {
+    "className": "FirstClass",
+    "Price": 955.07,
+    "Capacity": 17,
+    "AvailableSeats": 14,
+    "FlightId": 18
+  },
+  {
+    "className": "VIP",
+    "Price": 685.48,
+    "Capacity": 82,
+    "AvailableSeats": 33,
+    "FlightId": 19
+  },
+  {
+    "className": "Business",
+    "Price": 812.64,
+    "Capacity": 50,
+    "AvailableSeats": 16,
+    "FlightId": 19
+  },
+  {
+    "className": "FirstClass",
+    "Price": 437.31,
+    "Capacity": 35,
+    "AvailableSeats": 16,
+    "FlightId": 19
+  },
+  {
+    "className": "Economy",
+    "Price": 668.74,
+    "Capacity": 58,
+    "AvailableSeats": 37,
+    "FlightId": 19
+  },
+  {
+    "className": "FirstClass",
+    "Price": 232.45,
+    "Capacity": 89,
+    "AvailableSeats": 52,
+    "FlightId": 20
+  },
+  {
+    "className": "VIP",
+    "Price": 916.89,
+    "Capacity": 26,
+    "AvailableSeats": 18,
+    "FlightId": 20
+  },
+  {
+    "className": "Business",
+    "Price": 178.76,
+    "Capacity": 61,
+    "AvailableSeats": 10,
+    "FlightId": 20
+  },
+  {
+    "className": "Economy",
+    "Price": 656.32,
+    "Capacity": 49,
+    "AvailableSeats": 34,
+    "FlightId": 20
+  },
+  {
+    "className": "Business",
+    "Price": 470.23,
+    "Capacity": 29,
+    "AvailableSeats": 3,
+    "FlightId": 21
+  },
+  {
+    "className": "Economy",
+    "Price": 148.03,
+    "Capacity": 23,
+    "AvailableSeats": 15,
+    "FlightId": 21
+  },
+  {
+    "className": "FirstClass",
+    "Price": 210.78,
+    "Capacity": 83,
+    "AvailableSeats": 1,
+    "FlightId": 21
+  },
+  {
+    "className": "VIP",
+    "Price": 365.27,
+    "Capacity": 80,
+    "AvailableSeats": 5,
+    "FlightId": 21
+  },
+  {
+    "className": "VIP",
+    "Price": 120.24,
+    "Capacity": 40,
+    "AvailableSeats": 33,
+    "FlightId": 22
+  },
+  {
+    "className": "FirstClass",
+    "Price": 188.61,
+    "Capacity": 81,
+    "AvailableSeats": 31,
+    "FlightId": 22
+  },
+  {
+    "className": "Business",
+    "Price": 131.64,
+    "Capacity": 95,
+    "AvailableSeats": 19,
+    "FlightId": 22
+  },
+  {
+    "className": "Economy",
+    "Price": 203.16,
+    "Capacity": 64,
+    "AvailableSeats": 46,
+    "FlightId": 23
+  },
+  {
+    "className": "Business",
+    "Price": 186.48,
+    "Capacity": 80,
+    "AvailableSeats": 55,
+    "FlightId": 23
+  },
+  {
+    "className": "FirstClass",
+    "Price": 651.62,
+    "Capacity": 100,
+    "AvailableSeats": 30,
+    "FlightId": 23
+  },
+  {
+    "className": "FirstClass",
+    "Price": 366.95,
+    "Capacity": 32,
+    "AvailableSeats": 32,
+    "FlightId": 24
+  },
+  {
+    "className": "Business",
+    "Price": 737.75,
+    "Capacity": 78,
+    "AvailableSeats": 29,
+    "FlightId": 24
+  },
+  {
+    "className": "VIP",
+    "Price": 936.52,
+    "Capacity": 22,
+    "AvailableSeats": 9,
+    "FlightId": 24
+  },
+  {
+    "className": "Economy",
+    "Price": 811.29,
+    "Capacity": 58,
+    "AvailableSeats": 26,
+    "FlightId": 25
+  },
+  {
+    "className": "VIP",
+    "Price": 743.62,
+    "Capacity": 51,
+    "AvailableSeats": 51,
+    "FlightId": 25
+  },
+  {
+    "className": "FirstClass",
+    "Price": 934.4,
+    "Capacity": 89,
+    "AvailableSeats": 46,
+    "FlightId": 25
+  },
+  {
+    "className": "Business",
+    "Price": 928.12,
+    "Capacity": 84,
+    "AvailableSeats": 3,
+    "FlightId": 26
+  },
+  {
+    "className": "VIP",
+    "Price": 678.67,
+    "Capacity": 38,
+    "AvailableSeats": 5,
+    "FlightId": 26
+  },
+  {
+    "className": "Economy",
+    "Price": 319.39,
+    "Capacity": 66,
+    "AvailableSeats": 49,
+    "FlightId": 26
+  },
+  {
+    "className": "Economy",
+    "Price": 925.77,
+    "Capacity": 82,
+    "AvailableSeats": 46,
+    "FlightId": 27
+  },
+  {
+    "className": "Business",
+    "Price": 863.23,
+    "Capacity": 78,
+    "AvailableSeats": 69,
+    "FlightId": 27
+  },
+  {
+    "className": "FirstClass",
+    "Price": 805.79,
+    "Capacity": 26,
+    "AvailableSeats": 23,
+    "FlightId": 27
+  },
+  {
+    "className": "Business",
+    "Price": 999.54,
+    "Capacity": 43,
+    "AvailableSeats": 13,
+    "FlightId": 28
+  },
+  {
+    "className": "VIP",
+    "Price": 517.85,
+    "Capacity": 51,
+    "AvailableSeats": 29,
+    "FlightId": 28
+  },
+  {
+    "className": "Economy",
+    "Price": 666.39,
+    "Capacity": 73,
+    "AvailableSeats": 5,
+    "FlightId": 28
+  },
+  {
+    "className": "FirstClass",
+    "Price": 405.26,
+    "Capacity": 14,
+    "AvailableSeats": 6,
+    "FlightId": 28
+  },
+  {
+    "className": "Business",
+    "Price": 347.12,
+    "Capacity": 51,
+    "AvailableSeats": 40,
+    "FlightId": 29
+  },
+  {
+    "className": "Economy",
+    "Price": 990.57,
+    "Capacity": 63,
+    "AvailableSeats": 34,
+    "FlightId": 29
+  },
+  {
+    "className": "VIP",
+    "Price": 517.18,
+    "Capacity": 93,
+    "AvailableSeats": 38,
+    "FlightId": 29
+  },
+  {
+    "className": "Economy",
+    "Price": 890.63,
+    "Capacity": 34,
+    "AvailableSeats": 2,
+    "FlightId": 30
+  },
+  {
+    "className": "FirstClass",
+    "Price": 464.56,
+    "Capacity": 58,
+    "AvailableSeats": 54,
+    "FlightId": 30
+  },
+  {
+    "className": "Business",
+    "Price": 365.43,
+    "Capacity": 83,
+    "AvailableSeats": 78,
+    "FlightId": 30
+  },
+  {
+    "className": "Business",
+    "Price": 237.02,
+    "Capacity": 39,
+    "AvailableSeats": 30,
+    "FlightId": 31
+  },
+  {
+    "className": "VIP",
+    "Price": 401.99,
+    "Capacity": 96,
+    "AvailableSeats": 42,
+    "FlightId": 31
+  },
+  {
+    "className": "Economy",
+    "Price": 576.94,
+    "Capacity": 11,
+    "AvailableSeats": 1,
+    "FlightId": 31
+  },
+  {
+    "className": "FirstClass",
+    "Price": 825.99,
+    "Capacity": 40,
+    "AvailableSeats": 36,
+    "FlightId": 32
+  },
+  {
+    "className": "Business",
+    "Price": 108.92,
+    "Capacity": 52,
+    "AvailableSeats": 32,
+    "FlightId": 32
+  },
+  {
+    "className": "Economy",
+    "Price": 783.09,
+    "Capacity": 36,
+    "AvailableSeats": 25,
+    "FlightId": 32
+  },
+  {
+    "className": "VIP",
+    "Price": 748.85,
+    "Capacity": 85,
+    "AvailableSeats": 71,
+    "FlightId": 32
+  },
+  {
+    "className": "Economy",
+    "Price": 718.37,
+    "Capacity": 33,
+    "AvailableSeats": 28,
+    "FlightId": 33
+  },
+  {
+    "className": "Business",
+    "Price": 163.9,
+    "Capacity": 34,
+    "AvailableSeats": 30,
+    "FlightId": 33
+  },
+  {
+    "className": "VIP",
+    "Price": 852.97,
+    "Capacity": 68,
+    "AvailableSeats": 6,
+    "FlightId": 33
+  },
+  {
+    "className": "FirstClass",
+    "Price": 239.05,
+    "Capacity": 95,
+    "AvailableSeats": 94,
+    "FlightId": 33
+  },
+  {
+    "className": "Economy",
+    "Price": 423.17,
+    "Capacity": 95,
+    "AvailableSeats": 45,
+    "FlightId": 34
+  },
+  {
+    "className": "VIP",
+    "Price": 508.01,
+    "Capacity": 58,
+    "AvailableSeats": 26,
+    "FlightId": 34
+  },
+  {
+    "className": "FirstClass",
+    "Price": 513.6,
+    "Capacity": 64,
+    "AvailableSeats": 21,
+    "FlightId": 34
+  },
+  {
+    "className": "Business",
+    "Price": 413.06,
+    "Capacity": 91,
+    "AvailableSeats": 2,
+    "FlightId": 34
+  },
+  {
+    "className": "VIP",
+    "Price": 556.98,
+    "Capacity": 39,
+    "AvailableSeats": 6,
+    "FlightId": 35
+  },
+  {
+    "className": "Business",
+    "Price": 673.39,
+    "Capacity": 31,
+    "AvailableSeats": 9,
+    "FlightId": 35
+  },
+  {
+    "className": "Economy",
+    "Price": 865.68,
+    "Capacity": 84,
+    "AvailableSeats": 29,
+    "FlightId": 35
+  },
+  {
+    "className": "VIP",
+    "Price": 219.04,
+    "Capacity": 93,
+    "AvailableSeats": 29,
+    "FlightId": 36
+  },
+  {
+    "className": "Economy",
+    "Price": 995.52,
+    "Capacity": 48,
+    "AvailableSeats": 14,
+    "FlightId": 36
+  },
+  {
+    "className": "FirstClass",
+    "Price": 339.99,
+    "Capacity": 72,
+    "AvailableSeats": 26,
+    "FlightId": 36
+  },
+  {
+    "className": "Business",
+    "Price": 173.48,
+    "Capacity": 47,
+    "AvailableSeats": 23,
+    "FlightId": 36
+  },
+  {
+    "className": "Economy",
+    "Price": 763.4,
+    "Capacity": 43,
+    "AvailableSeats": 5,
+    "FlightId": 37
+  },
+  {
+    "className": "Business",
+    "Price": 900.14,
+    "Capacity": 92,
+    "AvailableSeats": 59,
+    "FlightId": 37
+  },
+  {
+    "className": "VIP",
+    "Price": 395.96,
+    "Capacity": 33,
+    "AvailableSeats": 21,
+    "FlightId": 37
+  },
+  {
+    "className": "FirstClass",
+    "Price": 392.19,
+    "Capacity": 17,
+    "AvailableSeats": 15,
+    "FlightId": 37
+  },
+  {
+    "className": "FirstClass",
+    "Price": 715.89,
+    "Capacity": 50,
+    "AvailableSeats": 31,
+    "FlightId": 38
+  },
+  {
+    "className": "Economy",
+    "Price": 103.64,
+    "Capacity": 13,
+    "AvailableSeats": 12,
+    "FlightId": 38
+  },
+  {
+    "className": "Business",
+    "Price": 782.42,
+    "Capacity": 98,
+    "AvailableSeats": 31,
+    "FlightId": 38
+  },
+  {
+    "className": "Business",
+    "Price": 422.44,
+    "Capacity": 50,
+    "AvailableSeats": 37,
+    "FlightId": 39
+  },
+  {
+    "className": "Economy",
+    "Price": 831.83,
+    "Capacity": 44,
+    "AvailableSeats": 22,
+    "FlightId": 39
+  },
+  {
+    "className": "FirstClass",
+    "Price": 638.79,
+    "Capacity": 62,
+    "AvailableSeats": 28,
+    "FlightId": 39
+  },
+  {
+    "className": "VIP",
+    "Price": 810.73,
+    "Capacity": 88,
+    "AvailableSeats": 49,
+    "FlightId": 39
+  },
+  {
+    "className": "VIP",
+    "Price": 659.98,
+    "Capacity": 16,
+    "AvailableSeats": 12,
+    "FlightId": 40
+  },
+  {
+    "className": "FirstClass",
+    "Price": 126.13,
+    "Capacity": 65,
+    "AvailableSeats": 24,
+    "FlightId": 40
+  },
+  {
+    "className": "Economy",
+    "Price": 809.65,
+    "Capacity": 75,
+    "AvailableSeats": 49,
+    "FlightId": 40
+  },
+  {
+    "className": "Business",
+    "Price": 536.31,
+    "Capacity": 61,
+    "AvailableSeats": 44,
+    "FlightId": 40
+  }
+]

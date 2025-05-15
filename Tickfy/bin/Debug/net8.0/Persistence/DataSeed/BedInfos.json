@@ -1,0 +1,7092 @@
+﻿[
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 1
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 2
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 3
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 4
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 4
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 5
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 5
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 6
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 7
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 8
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 9
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 10
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 10
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 11
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 11
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 11
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 12
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 12
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 12
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 13
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 14
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 15
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 16
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 17
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 18
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 18
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 19
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 20
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 21
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 22
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 23
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 24
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 25
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 26
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 26
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 27
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 28
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 29
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 29
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 30
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 30
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 31
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 31
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 32
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 33
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 33
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 34
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 35
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 36
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 36
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 37
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 37
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 38
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 39
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 40
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 41
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 42
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 43
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 44
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 45
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 45
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 46
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 47
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 47
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 48
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 49
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 50
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 51
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 52
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 52
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 53
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 54
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 55
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 56
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 57
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 58
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 58
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 59
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 60
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 61
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 61
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 62
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 62
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 62
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 63
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 63
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 63
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 64
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 64
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 65
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 65
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 66
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 67
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 67
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 67
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 68
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 69
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 70
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 70
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 71
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 72
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 73
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 74
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 75
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 76
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 76
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 77
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 78
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 78
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 78
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 79
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 80
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 81
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 82
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 83
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 83
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 84
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 85
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 85
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 85
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 86
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 87
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 88
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 88
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 88
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 89
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 89
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 89
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 90
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 91
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 92
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 93
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 94
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 95
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 96
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 97
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 98
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 99
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 99
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 100
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 101
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 101
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 102
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 102
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 102
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 103
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 104
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 105
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 106
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 106
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 107
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 108
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 109
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 110
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 110
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 111
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 112
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 112
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 113
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 114
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 114
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 115
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 115
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 115
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 116
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 117
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 118
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 119
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 119
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 119
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 120
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 121
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 121
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 121
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 122
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 122
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 123
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 124
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 125
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 125
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 125
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 126
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 127
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 128
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 129
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 129
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 130
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 131
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 132
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 133
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 134
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 134
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 135
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 135
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 135
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 136
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 137
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 138
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 139
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 139
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 139
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 140
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 140
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 141
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 141
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 142
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 143
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 144
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 145
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 146
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 147
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 148
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 149
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 150
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 151
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 151
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 152
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 153
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 154
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 155
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 155
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 155
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 156
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 157
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 158
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 158
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 159
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 160
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 161
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 162
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 163
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 164
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 165
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 165
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 166
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 166
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 167
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 167
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 167
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 168
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 169
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 170
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 171
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 172
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 173
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 174
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 175
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 176
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 177
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 177
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 178
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 179
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 179
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 179
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 180
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 181
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 182
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 183
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 184
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 185
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 186
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 187
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 188
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 188
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 188
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 189
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 189
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 190
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 191
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 191
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 192
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 193
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 193
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 194
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 195
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 196
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 197
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 198
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 198
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 199
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 199
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 199
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 200
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 200
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 200
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 201
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 202
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 203
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 204
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 204
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 205
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 206
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 206
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 207
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 208
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 208
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 208
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 209
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 209
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 210
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 211
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 212
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 213
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 214
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 214
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 215
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 216
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 217
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 218
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 219
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 219
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 220
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 221
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 222
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 222
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 223
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 224
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 224
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 225
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 225
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 226
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 226
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 227
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 228
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 228
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 229
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 229
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 230
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 230
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 230
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 231
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 232
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 232
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 232
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 233
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 234
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 234
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 235
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 236
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 237
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 238
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 239
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 240
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 240
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 241
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 242
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 242
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 242
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 243
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 244
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 245
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 245
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 246
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 247
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 248
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 248
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 249
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 250
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 251
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 251
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 252
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 253
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 253
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 253
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 254
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 255
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 256
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 256
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 256
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 257
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 258
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 259
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 259
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 260
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 261
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 262
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 262
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 263
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 264
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 265
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 266
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 267
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 268
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 269
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 270
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 270
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 271
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 272
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 273
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 273
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 273
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 274
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 274
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 275
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 276
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 277
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 277
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 278
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 279
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 279
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 280
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 280
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 280
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 281
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 282
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 283
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 284
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 284
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 285
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 286
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 286
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 287
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 288
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 289
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 290
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 291
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 291
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 292
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 293
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 293
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 294
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 295
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 296
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 297
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 297
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 297
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 298
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 299
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 300
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 301
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 301
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 302
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 303
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 303
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 304
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 305
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 306
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 306
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 306
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 307
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 308
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 309
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 309
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 310
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 311
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 311
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 312
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 313
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 314
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 314
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 315
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 316
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 316
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 317
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 317
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 318
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 319
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 320
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 321
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 321
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 322
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 323
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 324
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 324
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 324
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 325
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 325
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 326
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 327
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 327
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 327
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 328
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 329
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 330
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 331
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 331
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 332
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 332
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 333
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 334
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 334
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 334
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 335
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 336
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 336
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 337
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 338
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 338
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 339
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 340
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 341
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 342
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 343
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 344
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 345
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 346
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 346
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 346
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 347
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 347
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 347
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 348
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 348
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 349
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 349
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 349
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 350
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 350
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 351
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 352
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 353
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 353
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 354
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 355
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 355
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 356
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 357
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 358
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 359
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 359
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 360
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 361
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 362
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 363
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 364
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 365
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 366
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 366
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 367
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 368
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 368
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 369
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 370
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 371
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 371
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 372
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 373
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 373
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 374
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 375
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 376
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 377
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 377
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 378
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 378
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 379
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 380
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 381
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 382
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 382
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 383
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 383
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 384
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 385
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 386
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 387
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 388
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 388
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 389
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 390
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 390
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 390
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 391
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 392
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 393
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 394
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 395
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 396
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 397
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 398
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 399
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 400
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 401
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 401
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 401
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 402
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 403
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 403
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 403
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 404
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 404
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 405
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 406
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 407
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 408
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 409
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 409
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 409
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 410
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 410
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 411
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 411
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 412
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 412
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 413
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 414
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 415
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 416
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 417
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 418
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 419
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 419
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 419
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 420
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 420
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 421
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 422
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 422
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 422
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 423
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 424
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 425
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 426
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 427
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 428
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 428
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 428
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 429
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 430
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 430
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 431
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 432
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 432
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 433
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 433
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 433
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 434
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 435
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 435
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 436
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 436
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 436
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 437
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 437
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 438
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 438
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 439
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 440
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 441
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 441
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 441
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 442
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 442
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 443
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 444
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 445
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 445
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 445
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 446
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 447
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 447
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 447
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 448
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 449
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 449
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 450
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 451
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 452
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 452
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 453
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 454
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 454
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 455
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 456
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 457
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 458
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 458
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 459
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 459
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 460
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 460
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 461
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 462
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 462
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 463
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 464
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 465
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 466
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 466
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 467
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 468
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 469
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 470
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 470
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 470
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 471
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 472
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 472
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 473
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 474
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 474
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 474
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 475
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 476
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 477
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 478
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 478
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 479
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 480
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 481
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 482
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 482
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 483
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 484
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 485
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 486
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 487
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 488
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 489
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 490
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 491
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 492
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 492
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 492
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 493
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 493
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 494
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 494
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 495
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 496
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 497
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 498
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 498
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 499
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 499
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 500
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 501
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 502
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 503
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 504
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 505
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 506
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 506
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 507
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 508
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 509
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 509
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 510
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 511
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 511
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 512
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 513
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 513
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 514
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 515
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 516
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 517
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 518
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 519
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 520
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 521
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 522
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 523
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 524
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 525
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 526
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 527
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 528
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 529
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 530
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 531
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 532
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 533
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 534
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 535
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 536
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 536
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 536
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 537
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 538
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 539
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 540
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 540
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 541
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 542
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 543
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 544
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 545
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 546
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 547
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 548
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 548
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 549
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 550
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 551
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 551
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 552
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 553
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 554
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 555
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 555
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 556
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 557
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 558
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 559
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 560
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 561
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 562
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 563
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 563
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 564
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 565
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 566
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 567
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 567
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 568
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 568
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 569
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 570
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 571
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 572
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 573
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 573
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 574
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 575
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 576
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 577
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 578
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 578
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 578
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 579
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 580
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 581
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 581
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 582
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 582
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 583
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 583
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 584
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 584
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 584
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 585
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 586
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 587
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 587
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 588
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 589
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 590
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 590
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 591
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 592
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 593
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 594
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 595
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 595
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 596
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 597
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 597
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 598
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 599
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 599
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 599
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 600
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 601
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 601
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 602
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 603
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 604
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 605
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 605
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 606
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 606
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 607
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 608
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 609
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 609
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 609
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 610
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 611
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 612
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 612
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 613
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 614
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 614
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 615
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 615
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 616
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 617
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 618
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 619
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 620
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 621
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 621
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 621
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 622
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 623
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 624
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 625
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 625
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 626
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 627
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 627
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 628
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 629
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 629
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 630
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 631
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 631
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 632
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 632
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 633
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 633
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 634
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 635
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 636
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 637
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 637
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 638
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 638
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 639
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 640
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 641
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 642
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 643
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 644
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 645
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 645
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 646
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 647
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 648
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 648
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 649
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 650
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 651
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 652
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 653
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 654
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 654
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 655
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 656
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 657
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 657
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 658
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 659
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 660
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 661
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 661
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 662
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 663
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 663
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 664
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 665
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 666
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 667
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 668
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 669
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 670
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 671
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 672
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 672
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 673
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 674
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 675
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 676
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 677
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 677
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 678
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 679
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 680
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 681
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 682
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 683
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 684
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 684
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 685
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 685
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 686
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 687
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 687
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 688
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 689
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 690
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 691
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 691
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 692
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 692
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 693
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 694
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 694
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 695
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 695
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 696
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 696
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 697
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 698
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 698
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 698
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 699
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 699
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 699
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 700
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 700
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 701
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 702
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 703
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 704
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 705
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 706
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 707
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 708
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 709
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 710
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 710
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 711
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 712
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 713
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 714
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 715
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 716
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 717
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 718
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 719
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 720
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 720
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 721
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 721
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 722
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 722
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 723
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 724
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 725
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 726
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 727
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 728
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 728
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 729
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 729
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 730
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 731
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 732
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 733
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 734
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 735
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 736
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 737
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 738
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 739
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 740
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 740
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 741
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 741
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 741
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 742
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 743
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 743
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 743
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 744
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 745
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 745
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 746
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 747
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 748
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 749
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 750
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 750
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 751
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 751
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 752
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 753
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 754
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 755
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 756
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 756
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 757
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 758
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 758
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 758
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 759
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 759
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 760
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 761
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 762
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 762
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 763
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 764
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 764
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 765
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 766
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 767
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 768
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 768
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 769
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 770
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 771
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 771
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 771
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 772
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 772
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 773
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 774
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 775
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 776
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 776
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 777
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 777
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 778
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 779
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 779
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 780
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 781
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 782
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 783
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 784
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 784
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 784
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 785
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 786
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 787
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 787
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 788
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 788
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 789
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 789
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 790
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 791
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 792
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 793
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 794
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 795
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 796
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 797
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 798
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 799
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 800
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 801
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 802
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 803
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 804
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 805
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 806
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 806
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 807
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 808
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 808
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 809
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 809
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 810
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 811
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 811
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 812
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 813
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 813
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 813
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 814
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 815
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 816
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 816
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 816
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 817
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 818
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 819
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 819
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 820
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 821
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 822
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 822
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 822
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 823
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 823
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 823
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 824
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 824
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 825
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 826
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 827
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 827
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 828
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 829
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 830
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 831
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 831
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 832
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 833
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 834
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 835
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 835
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 835
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 836
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 837
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 838
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 838
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 839
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 840
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 840
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 841
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 842
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 843
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 843
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 844
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 845
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 846
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 847
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 848
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 848
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 848
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 849
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 849
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 849
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 850
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 851
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 852
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 852
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 853
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 854
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 854
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 855
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 856
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 857
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 858
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 858
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 859
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 859
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 859
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 860
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 860
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 860
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 861
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 861
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 862
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 863
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 864
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 864
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 865
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 865
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 865
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 866
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 866
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 866
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 867
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 868
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 869
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 870
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 871
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 872
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 872
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 873
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 873
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 874
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 875
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 876
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 877
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 877
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 878
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 878
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 879
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 879
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 880
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 880
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 881
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 881
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 881
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 882
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 882
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 883
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 883
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 884
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 885
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 886
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 886
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 887
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 887
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 887
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 888
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 889
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 889
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 890
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 891
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 892
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 892
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 892
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 893
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 894
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 894
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 895
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 895
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 896
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 897
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 898
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 899
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 899
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 899
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 900
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 901
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 901
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 902
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 903
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 904
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 905
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 905
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 906
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 907
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 908
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 909
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 910
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 911
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 911
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 912
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 912
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 913
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 914
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 915
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 916
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 917
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 918
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 919
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 920
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 920
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 921
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 922
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 922
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 923
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 924
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 925
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 925
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 925
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 926
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 927
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 927
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 927
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 928
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 929
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 930
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 931
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 932
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 932
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 932
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 933
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 934
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 935
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 936
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 936
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 937
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 938
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 939
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 940
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 941
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 941
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 942
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 943
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 944
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 945
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 946
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 947
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 947
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 948
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 948
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 949
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 950
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 951
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 952
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 953
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 954
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 955
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 956
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 957
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 958
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 959
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 959
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 959
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 960
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 961
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 961
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 961
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 962
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 962
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 963
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 964
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 965
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 965
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 966
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 967
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 968
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 968
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 968
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 969
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 969
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 970
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 971
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 971
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 972
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 972
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 973
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 974
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 975
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 976
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 976
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 977
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 978
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 979
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 980
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 981
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 982
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 982
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 983
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 983
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 984
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 985
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 985
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 986
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 986
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 987
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 987
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 988
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 989
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 990
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 991
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 992
+  },
+  {
+    "Type": "Double",
+    "Count": 1,
+    "RoomId": 993
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 994
+  },
+  {
+    "Type": "King",
+    "Count": 1,
+    "RoomId": 995
+  },
+  {
+    "Type": "Crib",
+    "Count": 1,
+    "RoomId": 995
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 996
+  },
+  {
+    "Type": "SofaBed",
+    "Count": 1,
+    "RoomId": 996
+  },
+  {
+    "Type": "Double",
+    "Count": 2,
+    "RoomId": 997
+  },
+  {
+    "Type": "Single",
+    "Count": 1,
+    "RoomId": 997
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 998
+  },
+  {
+    "Type": "Single",
+    "Count": 2,
+    "RoomId": 999
+  },
+  {
+    "Type": "Queen",
+    "Count": 1,
+    "RoomId": 1000
+  }
+]
